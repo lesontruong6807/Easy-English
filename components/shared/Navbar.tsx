@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { getCurrentUser, setCurrentUser, DEFAULT_USERS } from "@/lib/data/store";
 import { Profile } from "@/lib/types";
+import { InstallAppButton } from "@/components/shared/InstallAppButton";
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -84,8 +85,11 @@ export const Navbar: React.FC = () => {
         </Link>
 
         {/* Right Controls */}
-        <div className="flex items-center gap-3">
-          {/* User selector dropdown (for 2-3 students group + admin) */}
+        <div className="flex items-center gap-2 sm:gap-3">
+          {/* Nút Tải App trực tiếp */}
+          <InstallAppButton variant="navbar" />
+
+          {/* User selector dropdown */}
           <div className="relative">
             <button
               onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}

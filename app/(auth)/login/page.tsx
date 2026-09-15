@@ -6,6 +6,7 @@ import { GraduationCap, Lock, User, ArrowRight, Loader2, CheckCircle2, BookOpen 
 import { loginWithUsername, registerWithUsername } from "@/lib/supabase/auth";
 import { setCurrentUser } from "@/lib/data/store";
 import { cn } from "@/lib/utils";
+import { InstallAppButton } from "@/components/shared/InstallAppButton";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -240,6 +241,11 @@ export default function LoginPage() {
             Dữ liệu học tập, tiến độ Spaced Repetition và sổ tay lỗi sai được đồng bộ trực tiếp lên Supabase Cloud.
           </p>
         </div>
+      </div>
+
+      {/* Install App Quick Access */}
+      <div className="w-full max-w-md mt-4">
+        <InstallAppButton variant="card" />
       </div>
     </div>
   );

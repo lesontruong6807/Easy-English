@@ -18,6 +18,7 @@ import {
 import { cn } from "@/lib/utils";
 import { getCurrentUser } from "@/lib/data/store";
 import { Profile } from "@/lib/types";
+import { InstallAppButton } from "@/components/shared/InstallAppButton";
 
 export const Sidebar: React.FC = () => {
   const pathname = usePathname();
@@ -120,8 +121,10 @@ export const Sidebar: React.FC = () => {
         </div>
       )}
 
-      {/* Motivational Card */}
-      <div className="mt-auto pt-4">
+      {/* Install App Card */}
+      <div className="mt-auto pt-4 space-y-3">
+        <InstallAppButton variant="card" />
+
         <div className="rounded-2xl bg-gradient-to-br from-indigo-500/10 via-purple-500/10 to-pink-500/10 border border-indigo-200/40 dark:border-indigo-800/40 p-3.5">
           <div className="flex items-center gap-2 text-indigo-600 dark:text-indigo-400 font-bold text-xs mb-1">
             <Flame size={16} className="text-amber-500 fill-amber-500" />

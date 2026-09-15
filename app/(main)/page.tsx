@@ -10,6 +10,7 @@ import {
 } from "@/lib/data/store";
 import { Profile, Phase, TopicProgressStatus } from "@/lib/types";
 import { ProgressBar } from "@/components/shared/ProgressBar";
+import { InstallAppButton } from "@/components/shared/InstallAppButton";
 import {
   Map,
   BookOpen,
@@ -189,6 +190,9 @@ export default function DashboardPage() {
           </div>
         </div>
       </div>
+
+      {/* ================= INSTALL PWA PROMOTION BANNER ================= */}
+      <InstallAppButton variant="banner" />
 
       {/* ================= QUICK ACTION MODULES ================= */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
