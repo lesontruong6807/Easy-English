@@ -6,7 +6,8 @@
       "meaning_vi": "từ bỏ",
       "example_sentence": "Never give up on your dreams.",
       "phase_order": 3,
-      "theme": "Phrasal Verbs"
+      "theme": "Phrasal Verbs",
+      "example_vi": "Đừng bao giờ từ bỏ ước mơ của bạn."
     },
     {
       "word": "look after",
@@ -14,7 +15,8 @@
       "meaning_vi": "chăm sóc",
       "example_sentence": "She looks after her little brother.",
       "phase_order": 3,
-      "theme": "Phrasal Verbs"
+      "theme": "Phrasal Verbs",
+      "example_vi": "Cô ấy chăm sóc em trai nhỏ của mình."
     },
     {
       "word": "put off",
@@ -22,7 +24,8 @@
       "meaning_vi": "hoãn lại",
       "example_sentence": "They put off the meeting until next week.",
       "phase_order": 3,
-      "theme": "Phrasal Verbs"
+      "theme": "Phrasal Verbs",
+      "example_vi": "Họ đã hoãn cuộc họp cho đến tuần sau."
     },
     {
       "word": "carry out",
@@ -30,7 +33,8 @@
       "meaning_vi": "thực hiện",
       "example_sentence": "The team carried out the experiment successfully.",
       "phase_order": 3,
-      "theme": "Phrasal Verbs"
+      "theme": "Phrasal Verbs",
+      "example_vi": "Cả nhóm đã thực hiện thí nghiệm một cách thành công."
     },
     {
       "word": "come up with",
@@ -38,7 +42,8 @@
       "meaning_vi": "nghĩ ra",
       "example_sentence": "She came up with a great idea.",
       "phase_order": 3,
-      "theme": "Phrasal Verbs"
+      "theme": "Phrasal Verbs",
+      "example_vi": "Cô ấy vừa nghĩ ra một ý tưởng tuyệt vời."
     },
     {
       "word": "break the ice",
@@ -46,7 +51,8 @@
       "meaning_vi": "phá vỡ sự ngượng ngùng ban đầu",
       "example_sentence": "He told a joke to break the ice.",
       "phase_order": 3,
-      "theme": "Idioms"
+      "theme": "Idioms",
+      "example_vi": "Anh ấy đã kể một câu chuyện cười để phá vỡ sự ngượng ngùng ban đầu."
     },
     {
       "word": "once in a blue moon",
@@ -54,7 +60,8 @@
       "meaning_vi": "hiếm khi",
       "example_sentence": "We only meet once in a blue moon.",
       "phase_order": 3,
-      "theme": "Idioms"
+      "theme": "Idioms",
+      "example_vi": "Chúng tôi rất hiếm khi mới gặp nhau."
     },
     {
       "word": "hit the books",
@@ -62,7 +69,8 @@
       "meaning_vi": "học hành chăm chỉ",
       "example_sentence": "I need to hit the books before the exam.",
       "phase_order": 3,
-      "theme": "Idioms"
+      "theme": "Idioms",
+      "example_vi": "Tôi phải vùi đầu vào học bài cho kỳ thi ngày mai thôi."
     },
     {
       "word": "make a decision",
@@ -70,7 +78,8 @@
       "meaning_vi": "đưa ra quyết định",
       "example_sentence": "It's time to make a decision.",
       "phase_order": 3,
-      "theme": "Collocations"
+      "theme": "Collocations",
+      "example_vi": "Đã đến lúc chúng ta phải đưa ra quyết định rồi."
     },
     {
       "word": "take a photo",
@@ -78,7 +87,8 @@
       "meaning_vi": "chụp ảnh",
       "example_sentence": "Can you take a photo of us?",
       "phase_order": 3,
-      "theme": "Collocations"
+      "theme": "Collocations",
+      "example_vi": "Bạn có thể chụp giúp chúng tôi một bức ảnh được không?"
     },
     {
       "word": "pay attention",
@@ -86,7 +96,8 @@
       "meaning_vi": "chú ý",
       "example_sentence": "Please pay attention in class.",
       "phase_order": 3,
-      "theme": "Collocations"
+      "theme": "Collocations",
+      "example_vi": "Xin vui lòng hãy chú ý lắng nghe trong giờ học."
     },
     {
       "word": "do homework",
@@ -94,7 +105,8 @@
       "meaning_vi": "làm bài tập về nhà",
       "example_sentence": "I always do my homework after dinner.",
       "phase_order": 3,
-      "theme": "Collocations"
+      "theme": "Collocations",
+      "example_vi": "Tôi luôn luôn làm bài tập về nhà sau bữa ăn tối."
     },
     {
       "word": "interested in",
@@ -102,7 +114,8 @@
       "meaning_vi": "quan tâm đến, thích",
       "example_sentence": "I'm interested in learning English.",
       "phase_order": 3,
-      "theme": "Prepositions"
+      "theme": "Prepositions",
+      "example_vi": "Tôi rất có hứng thú với việc học tiếng Anh."
     },
     {
       "word": "good at",
@@ -110,7 +123,8 @@
       "meaning_vi": "giỏi về",
       "example_sentence": "He is good at math.",
       "phase_order": 3,
-      "theme": "Prepositions"
+      "theme": "Prepositions",
+      "example_vi": "Cậu ấy học rất giỏi môn toán."
     },
     {
       "word": "afraid of",
@@ -118,7 +132,8 @@
       "meaning_vi": "sợ",
       "example_sentence": "She is afraid of spiders.",
       "phase_order": 3,
-      "theme": "Prepositions"
+      "theme": "Prepositions",
+      "example_vi": "Cô ấy rất sợ những con nhện."
     },
     {
       "word": "depend on",
@@ -126,7 +141,8 @@
       "meaning_vi": "phụ thuộc vào",
       "example_sentence": "Success depends on hard work.",
       "phase_order": 3,
-      "theme": "Prepositions"
+      "theme": "Prepositions",
+      "example_vi": "Thành công luôn phụ thuộc vào sự chăm chỉ nỗ lực."
     },
     {
       "word": "rapid",
@@ -134,7 +150,8 @@
       "meaning_vi": "nhanh chóng (đồng nghĩa: fast)",
       "example_sentence": "The city has seen rapid growth in recent years.",
       "phase_order": 3,
-      "theme": "Synonyms & Antonyms"
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Thành phố đã chứng kiến sự phát triển nhanh chóng trong những năm gần đây."
     },
     {
       "word": "increase",
@@ -142,7 +159,8 @@
       "meaning_vi": "tăng (trái nghĩa: decrease)",
       "example_sentence": "The population has increased significantly.",
       "phase_order": 3,
-      "theme": "Synonyms & Antonyms"
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Dân số đã gia tăng một cách đáng kể."
     },
     {
       "word": "wise",
@@ -150,7 +168,8 @@
       "meaning_vi": "khôn ngoan",
       "example_sentence": "Her decision was very wise.",
       "phase_order": 3,
-      "theme": "Synonyms & Antonyms"
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Quyết định của cô ấy là vô cùng sáng suốt và khôn ngoan."
     },
     {
       "word": "admire",
@@ -158,7 +177,8 @@
       "meaning_vi": "ngưỡng mộ",
       "example_sentence": "Everyone admired her courage.",
       "phase_order": 3,
-      "theme": "Synonyms & Antonyms"
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Mọi người đều vô cùng ngưỡng mộ lòng dũng cảm của cô ấy."
     },
     {
       "word": "achieve",
@@ -166,7 +186,8 @@
       "meaning_vi": "đạt được",
       "example_sentence": "She worked hard to achieve her goals.",
       "phase_order": 4,
-      "theme": "Education"
+      "theme": "Education",
+      "example_vi": "Cô ấy đã nỗ lực làm việc chăm chỉ để đạt được những mục tiêu của mình."
     },
     {
       "word": "curriculum",
@@ -174,7 +195,8 @@
       "meaning_vi": "chương trình học",
       "example_sentence": "The school updated its curriculum this year.",
       "phase_order": 4,
-      "theme": "Education"
+      "theme": "Education",
+      "example_vi": "Chương trình giảng dạy của trường đã được đổi mới toàn diện."
     },
     {
       "word": "compulsory",
@@ -182,7 +204,8 @@
       "meaning_vi": "bắt buộc",
       "example_sentence": "English is a compulsory subject at school.",
       "phase_order": 4,
-      "theme": "Education"
+      "theme": "Education",
+      "example_vi": "Tiếng Anh là một môn học bắt buộc ở trường phổ thông."
     },
     {
       "word": "scholarship",
@@ -190,7 +213,8 @@
       "meaning_vi": "học bổng",
       "example_sentence": "He won a scholarship to study abroad.",
       "phase_order": 4,
-      "theme": "Education"
+      "theme": "Education",
+      "example_vi": "Anh ấy đã xuất sắc giành được học bổng toàn phần để đi du học."
     },
     {
       "word": "graduate",
@@ -198,7 +222,8 @@
       "meaning_vi": "tốt nghiệp",
       "example_sentence": "She will graduate from high school next year.",
       "phase_order": 4,
-      "theme": "Education"
+      "theme": "Education",
+      "example_vi": "Cô ấy sẽ tốt nghiệp trường trung học phổ thông vào năm tới."
     },
     {
       "word": "enroll",
@@ -206,7 +231,8 @@
       "meaning_vi": "ghi danh, đăng ký học",
       "example_sentence": "He enrolled in an English course.",
       "phase_order": 4,
-      "theme": "Education"
+      "theme": "Education",
+      "example_vi": "Anh ấy đã đăng ký tham gia một khóa học tiếng Anh."
     },
     {
       "word": "extracurricular",
@@ -214,7 +240,8 @@
       "meaning_vi": "ngoại khóa",
       "example_sentence": "The school offers many extracurricular activities.",
       "phase_order": 4,
-      "theme": "Education"
+      "theme": "Education",
+      "example_vi": "Nhà trường tổ chức rất nhiều hoạt động ngoại khóa bổ ích."
     },
     {
       "word": "pollution",
@@ -222,7 +249,8 @@
       "meaning_vi": "sự ô nhiễm",
       "example_sentence": "Air pollution is a serious problem in big cities.",
       "phase_order": 4,
-      "theme": "Environment"
+      "theme": "Environment",
+      "example_vi": "Ô nhiễm không khí là một vấn đề vô cùng nghiêm trọng ở các thành phố lớn."
     },
     {
       "word": "sustainable",
@@ -230,7 +258,8 @@
       "meaning_vi": "bền vững",
       "example_sentence": "We need sustainable energy sources.",
       "phase_order": 4,
-      "theme": "Environment"
+      "theme": "Environment",
+      "example_vi": "Phát triển bền vững là chìa khóa then chốt cho tương lai."
     },
     {
       "word": "recycle",
@@ -238,7 +267,8 @@
       "meaning_vi": "tái chế",
       "example_sentence": "We should recycle plastic bottles.",
       "phase_order": 4,
-      "theme": "Environment"
+      "theme": "Environment",
+      "example_vi": "Chúng ta nên tích cực tái chế các chai nhựa đã qua sử dụng."
     },
     {
       "word": "greenhouse effect",
@@ -246,7 +276,8 @@
       "meaning_vi": "hiệu ứng nhà kính",
       "example_sentence": "The greenhouse effect causes global warming.",
       "phase_order": 4,
-      "theme": "Environment"
+      "theme": "Environment",
+      "example_vi": "Hiệu ứng nhà kính là nguyên nhân chính gây ra hiện tượng nóng lên toàn cầu."
     },
     {
       "word": "drought",
@@ -254,7 +285,8 @@
       "meaning_vi": "hạn hán",
       "example_sentence": "The drought lasted for several months.",
       "phase_order": 4,
-      "theme": "Environment"
+      "theme": "Environment",
+      "example_vi": "Đợt hạn hán kéo dài dai dẳng suốt nhiều tháng liền."
     },
     {
       "word": "endangered",
@@ -262,7 +294,8 @@
       "meaning_vi": "có nguy cơ tuyệt chủng",
       "example_sentence": "Tigers are an endangered species.",
       "phase_order": 4,
-      "theme": "Environment"
+      "theme": "Environment",
+      "example_vi": "Hổ là một loài động vật quý hiếm đang đứng trước nguy cơ tuyệt chủng."
     },
     {
       "word": "device",
@@ -270,7 +303,8 @@
       "meaning_vi": "thiết bị",
       "example_sentence": "Smartphones are useful electronic devices.",
       "phase_order": 4,
-      "theme": "Technology"
+      "theme": "Technology",
+      "example_vi": "Điện thoại thông minh là những thiết bị điện tử vô cùng hữu ích."
     },
     {
       "word": "innovation",
@@ -278,7 +312,8 @@
       "meaning_vi": "sự đổi mới, sáng tạo",
       "example_sentence": "Technology innovation changes our daily lives.",
       "phase_order": 4,
-      "theme": "Technology"
+      "theme": "Technology",
+      "example_vi": "Sự đổi mới và sáng tạo là yếu tố sống còn cho thành công."
     },
     {
       "word": "artificial intelligence",
@@ -286,7 +321,8 @@
       "meaning_vi": "trí tuệ nhân tạo",
       "example_sentence": "Artificial intelligence is used in many industries.",
       "phase_order": 4,
-      "theme": "Technology"
+      "theme": "Technology",
+      "example_vi": "Trí tuệ nhân tạo đang phát triển với tốc độ chóng mặt."
     },
     {
       "word": "upgrade",
@@ -294,7 +330,8 @@
       "meaning_vi": "nâng cấp",
       "example_sentence": "I need to upgrade my computer.",
       "phase_order": 4,
-      "theme": "Technology"
+      "theme": "Technology",
+      "example_vi": "Tôi cần phải nâng cấp máy tính của mình để phục vụ công việc."
     },
     {
       "word": "malfunction",
@@ -302,7 +339,8 @@
       "meaning_vi": "trục trặc, hỏng hóc",
       "example_sentence": "The printer malfunctioned this morning.",
       "phase_order": 4,
-      "theme": "Technology"
+      "theme": "Technology",
+      "example_vi": "Chiếc máy in đã gặp sự cố trục trặc vào sáng nay."
     },
     {
       "word": "nutritious",
@@ -310,7 +348,8 @@
       "meaning_vi": "bổ dưỡng",
       "example_sentence": "Vegetables are very nutritious.",
       "phase_order": 4,
-      "theme": "Health"
+      "theme": "Health",
+      "example_vi": "Các loại rau xanh chứa rất nhiều chất dinh dưỡng tốt cho cơ thể."
     },
     {
       "word": "obesity",
@@ -318,7 +357,8 @@
       "meaning_vi": "bệnh béo phì",
       "example_sentence": "Obesity is becoming a common health issue.",
       "phase_order": 4,
-      "theme": "Health"
+      "theme": "Health",
+      "example_vi": "Béo phì đang dần trở thành một vấn đề sức khỏe phổ biến trong xã hội."
     },
     {
       "word": "immune system",
@@ -326,7 +366,8 @@
       "meaning_vi": "hệ miễn dịch",
       "example_sentence": "Exercise helps boost your immune system.",
       "phase_order": 4,
-      "theme": "Health"
+      "theme": "Health",
+      "example_vi": "Tập thể dục đều đặn giúp tăng cường hệ miễn dịch của bạn."
     },
     {
       "word": "symptom",
@@ -334,7 +375,8 @@
       "meaning_vi": "triệu chứng",
       "example_sentence": "Fever is a common symptom of the flu.",
       "phase_order": 4,
-      "theme": "Health"
+      "theme": "Health",
+      "example_vi": "Sốt cao là một triệu chứng thường gặp của bệnh cúm."
     },
     {
       "word": "well-being",
@@ -342,7 +384,8 @@
       "meaning_vi": "sự khỏe mạnh, hạnh phúc",
       "example_sentence": "Mental well-being is as important as physical health.",
       "phase_order": 4,
-      "theme": "Health"
+      "theme": "Health",
+      "example_vi": "Sức khỏe tinh thần cũng quan trọng không kém gì sức khỏe thể chất."
     },
     {
       "word": "generation gap",
@@ -350,7 +393,8 @@
       "meaning_vi": "khoảng cách thế hệ",
       "example_sentence": "There is often a generation gap between parents and children.",
       "phase_order": 4,
-      "theme": "Family & Society"
+      "theme": "Family & Society",
+      "example_vi": "Thường có một khoảng cách thế hệ nhất định giữa cha mẹ và con cái."
     },
     {
       "word": "household",
@@ -358,7 +402,8 @@
       "meaning_vi": "hộ gia đình",
       "example_sentence": "Each household should save water.",
       "phase_order": 4,
-      "theme": "Family & Society"
+      "theme": "Family & Society",
+      "example_vi": "Mỗi hộ gia đình đều nên thực hành tiết kiệm nguồn nước sạch."
     },
     {
       "word": "upbringing",
@@ -366,7 +411,8 @@
       "meaning_vi": "sự nuôi dạy",
       "example_sentence": "She had a strict upbringing.",
       "phase_order": 4,
-      "theme": "Family & Society"
+      "theme": "Family & Society",
+      "example_vi": "Cô ấy đã được gia đình nuôi dạy vô cùng nghiêm khắc từ nhỏ."
     },
     {
       "word": "extended family",
@@ -374,7 +420,8 @@
       "meaning_vi": "gia đình mở rộng (nhiều thế hệ)",
       "example_sentence": "They live in an extended family with grandparents.",
       "phase_order": 4,
-      "theme": "Family & Society"
+      "theme": "Family & Society",
+      "example_vi": "Họ sống quây quần trong một gia đình nhiều thế hệ cùng với ông bà."
     },
     {
       "word": "urbanization",
@@ -382,7 +429,8 @@
       "meaning_vi": "đô thị hóa",
       "example_sentence": "Urbanization has changed the landscape of the city.",
       "phase_order": 4,
-      "theme": "Family & Society"
+      "theme": "Family & Society",
+      "example_vi": "Quá trình đô thị hóa nhanh chóng đã thay đổi diện mạo của thành phố."
     },
     {
       "word": "convenient",
@@ -390,7 +438,8 @@
       "meaning_vi": "tiện lợi",
       "example_sentence": "Online shopping is very convenient.",
       "phase_order": 4,
-      "theme": "General"
+      "theme": "General",
+      "example_vi": "Mua sắm trực tuyến ngày nay rất tiện lợi và nhanh chóng."
     },
     {
       "word": "efficient",
@@ -398,7 +447,8 @@
       "meaning_vi": "hiệu quả",
       "example_sentence": "This is a more efficient way to study.",
       "phase_order": 4,
-      "theme": "General"
+      "theme": "General",
+      "example_vi": "Đây là một phương pháp học tập mang lại hiệu quả cao hơn nhiều."
     }
   ]
 }

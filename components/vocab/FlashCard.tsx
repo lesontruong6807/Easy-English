@@ -2,9 +2,10 @@
 
 import React, { useState, useEffect } from "react";
 import { VocabWithProgress } from "@/lib/types";
-import { SoundButton } from "@/components/shared/SoundButton";
+import { SoundButtonGroup } from "@/components/shared/SoundButton";
 import { SrsBadge } from "./SrsBadge";
-import { RotateCw, Check, X, Sparkles, Volume2 } from "lucide-react";
+import { HighlightedSentence } from "./HighlightedSentence";
+import { RotateCw, Check, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface FlashCardProps {
@@ -50,6 +51,11 @@ export const FlashCard: React.FC<FlashCardProps> = ({
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [onSuccess, onFail]);
 
+  // Clean formatted IPA display
+  const formattedIpa = vocab.ipa
+    ? `/${vocab.ipa.replace(/^\/|\/$/g, "")}/`
+    : null;
+
   return (
     <div className="w-full max-w-md mx-auto flex flex-col items-center">
       {/* Counter & Progress info */}
@@ -67,12 +73,12 @@ export const FlashCard: React.FC<FlashCardProps> = ({
 
       {/* 3D Flip Card Container */}
       <div
-        className="w-full h-80 sm:h-96 perspective-1000 cursor-pointer select-none"
+        className="w-full min-h-[360px] sm:min-h-[400px] perspective-1000 cursor-pointer select-none"
         onClick={() => setIsFlipped(!isFlipped)}
       >
         <div
           className={cn(
-            "relative w-full h-full rounded-3xl transition-transform duration-500 transform-style-3d shadow-xl border border-slate-200/80 dark:border-slate-800/80",
+            "relative w-full h-full min-h-[360px] sm:min-h-[400px] rounded-3xl transition-transform duration-500 transform-style-3d shadow-xl border border-slate-200/80 dark:border-slate-800/80",
             isFlipped && "rotate-y-180"
           )}
         >
@@ -90,60 +96,72 @@ export const FlashCard: React.FC<FlashCardProps> = ({
               )}
             </div>
 
-            {/* Center: Word + IPA + Audio Button */}
-            <div className="my-auto flex flex-col items-center">
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-2">
+            {/* Center: Word + IPA + Dual Speed Audio Buttons */}
+            <div className="my-auto flex flex-col items-center py-4">
+              <h2 className="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight mb-2">
                 {vocab.word}
               </h2>
-              {vocab.ipa && (
-                <p className="text-base sm:text-lg font-mono text-indigo-600 dark:text-indigo-400 font-medium mb-4">
-                  {vocab.ipa}
-                </p>
+
+              {formattedIpa && (
+                <div className="inline-flex items-center my-2">
+                  <span className="px-3 py-1 rounded-xl bg-indigo-50 dark:bg-indigo-950/80 text-indigo-700 dark:text-indigo-300 font-mono text-base font-semibold border border-indigo-200/60 dark:border-indigo-800/60 shadow-2xs tracking-wider">
+                    {formattedIpa}
+                  </span>
+                </div>
               )}
 
-              <SoundButton
-                word={vocab.word}
-                cachedAudioUrl={vocab.audio_url}
-                onAudioCached={onAudioCached}
-                size="lg"
-                variant="circle"
-                className="mt-2"
-              />
+              {/* 2 Chế độ nghe: Chuẩn 1x & Chậm 0.5x */}
+              <div className="mt-4" onClick={(e) => e.stopPropagation()}>
+                <SoundButtonGroup
+                  word={vocab.word}
+                  cachedAudioUrl={vocab.audio_url}
+                  onAudioCached={onAudioCached}
+                  size="md"
+                />
+              </div>
             </div>
 
             {/* Bottom: Hint to flip */}
             <div className="flex items-center gap-1.5 text-xs text-slate-400 dark:text-slate-500 font-medium animate-pulse">
               <RotateCw size={13} />
-              <span>Chạm thẻ để lật xem nghĩa (Phím Space)</span>
+              <span>Chạm thẻ để xem nghĩa & ví dụ (Phím Space)</span>
             </div>
           </div>
 
           {/* ================= BACK SIDE ================= */}
-          <div className="absolute inset-0 w-full h-full rounded-3xl bg-gradient-to-br from-indigo-900 via-slate-900 to-purple-950 text-white backface-hidden rotate-y-180 p-6 sm:p-8 flex flex-col justify-between items-center text-center">
+          <div className="absolute inset-0 w-full h-full rounded-3xl bg-gradient-to-br from-indigo-900 via-slate-900 to-purple-950 text-white backface-hidden rotate-y-180 p-6 sm:p-8 flex flex-col justify-between items-center text-center overflow-y-auto">
             {/* Top row */}
             <div className="w-full flex items-center justify-between">
               <span className="text-[11px] font-bold uppercase tracking-wider text-indigo-300">
-                Ý nghĩa tiếng Việt
+                Nghĩa & Ví dụ minh họa
               </span>
-              <SoundButton
-                word={vocab.word}
-                cachedAudioUrl={vocab.audio_url}
-                onAudioCached={onAudioCached}
-                size="sm"
-                variant="circle"
-                className="bg-white/10 text-white hover:bg-white/20 border-white/20"
-              />
+              <div onClick={(e) => e.stopPropagation()}>
+                <SoundButtonGroup
+                  word={vocab.word}
+                  cachedAudioUrl={vocab.audio_url}
+                  onAudioCached={onAudioCached}
+                  size="sm"
+                />
+              </div>
             </div>
 
-            {/* Center: Meaning & Example */}
-            <div className="my-auto flex flex-col items-center max-w-xs">
+            {/* Center: Meaning & Example with Highlight & Translation */}
+            <div className="my-auto flex flex-col items-center w-full max-w-sm py-3">
               <p className="text-2xl sm:text-3xl font-extrabold text-white mb-4 leading-snug">
                 {vocab.meaning_vi}
               </p>
 
               {vocab.example_sentence && (
-                <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15 text-xs sm:text-sm text-indigo-100 italic leading-relaxed text-left">
-                  &ldquo;{vocab.example_sentence}&rdquo;
+                <div className="w-full p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15 text-left">
+                  <div className="text-[11px] font-bold uppercase tracking-wider text-indigo-300 mb-1.5">
+                    Câu ví dụ trong đề thi:
+                  </div>
+                  <HighlightedSentence
+                    sentence={vocab.example_sentence}
+                    targetWord={vocab.word}
+                    translation={vocab.example_vi}
+                    isDarkTheme={true}
+                  />
                 </div>
               )}
             </div>

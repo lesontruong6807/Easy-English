@@ -51,6 +51,7 @@ export interface VocabWord {
   audio_url?: string | null;
   meaning_vi: string;
   example_sentence?: string | null;
+  example_vi?: string | null;
   phase_id: number;
   theme?: string | null;
   is_base: boolean;

@@ -5,6 +5,8 @@ import Link from "next/link";
 import confetti from "canvas-confetti";
 import {
   getDueVocabWords,
+  getDailyStudySet,
+  getVocabWithProgress,
   recordWordReview,
   cacheVocabAudioUrl,
   getCurrentUser,
@@ -20,6 +22,7 @@ import {
   Sparkles,
   Layers,
   BookOpen,
+  Calendar,
 } from "lucide-react";
 
 export default function FlashcardStudyPage() {
@@ -29,13 +32,29 @@ export default function FlashcardStudyPage() {
   const [stats, setStats] = useState({ remembered: 0, forgotten: 0 });
   const [selectedPhase, setSelectedPhase] = useState<number>(0);
   const [phases, setPhases] = useState<Phase[]>([]);
+  const [studyMode, setStudyMode] = useState<"daily" | "due" | "all">("daily");
 
-  const loadDeck = (phaseId = selectedPhase) => {
+  const loadDeck = (mode = studyMode, phaseId = selectedPhase) => {
     const user = getCurrentUser();
     setPhases(getAllPhases());
-    const words = getDueVocabWords(user.id, {
-      phaseId: phaseId > 0 ? phaseId : undefined,
-    });
+
+    let words: VocabWithProgress[] = [];
+    if (mode === "daily") {
+      const dailySet = getDailyStudySet(user.id);
+      words = dailySet.allWords;
+      if (phaseId > 0) {
+        words = words.filter((w) => w.phase_id === phaseId);
+      }
+    } else if (mode === "due") {
+      words = getDueVocabWords(user.id, {
+        phaseId: phaseId > 0 ? phaseId : undefined,
+      });
+    } else {
+      words = getVocabWithProgress(user.id, {
+        phaseId: phaseId > 0 ? phaseId : undefined,
+      });
+    }
+
     setDeck(words);
     setCurrentIndex(0);
     setIsFinished(false);
@@ -43,8 +62,8 @@ export default function FlashcardStudyPage() {
   };
 
   useEffect(() => {
-    loadDeck(selectedPhase);
-  }, [selectedPhase]);
+    loadDeck(studyMode, selectedPhase);
+  }, [studyMode, selectedPhase]);
 
   const handleNextCard = (isRemembered: boolean) => {
     if (deck.length === 0 || currentIndex >= deck.length) return;
@@ -99,13 +118,53 @@ export default function FlashcardStudyPage() {
           onChange={(e) => setSelectedPhase(Number(e.target.value))}
           className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
         >
-          <option value={0}>Tất cả từ cần ôn ({deck.length})</option>
+          <option value={0}>Tất cả giai đoạn ({deck.length})</option>
           {phases.map((p) => (
             <option key={p.id} value={p.id}>
               Giai đoạn {p.order_index}
             </option>
           ))}
         </select>
+      </div>
+
+      {/* Mode Selector */}
+      <div className="grid grid-cols-3 gap-1 p-1 rounded-2xl bg-slate-100 dark:bg-slate-800/80 text-xs font-bold">
+        <button
+          type="button"
+          onClick={() => setStudyMode("daily")}
+          className={`py-2 px-2 sm:px-3 rounded-xl transition-all flex items-center justify-center gap-1.5 ${
+            studyMode === "daily"
+              ? "bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm"
+              : "text-slate-500 hover:text-slate-900 dark:text-slate-400"
+          }`}
+        >
+          <Calendar size={14} />
+          <span>Hôm nay (10+)</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => setStudyMode("due")}
+          className={`py-2 px-2 sm:px-3 rounded-xl transition-all flex items-center justify-center gap-1.5 ${
+            studyMode === "due"
+              ? "bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm"
+              : "text-slate-500 hover:text-slate-900 dark:text-slate-400"
+          }`}
+        >
+          <Layers size={14} />
+          <span>Đến hạn ôn</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => setStudyMode("all")}
+          className={`py-2 px-2 sm:px-3 rounded-xl transition-all flex items-center justify-center gap-1.5 ${
+            studyMode === "all"
+              ? "bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm"
+              : "text-slate-500 hover:text-slate-900 dark:text-slate-400"
+          }`}
+        >
+          <BookOpen size={14} />
+          <span>Tất cả từ</span>
+        </button>
       </div>
 
       {!isFinished && deck.length > 0 && (
@@ -195,7 +254,7 @@ export default function FlashcardStudyPage() {
           <div className="flex flex-col gap-3">
             <button
               type="button"
-              onClick={() => loadDeck(selectedPhase)}
+              onClick={() => loadDeck(studyMode, selectedPhase)}
               className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-md shadow-indigo-600/20 active:scale-95 transition-all"
             >
               <RotateCcw size={16} />

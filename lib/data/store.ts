@@ -378,6 +378,76 @@ export function getDueVocabWords(
     });
 }
 
+export interface DailyStudySet {
+  date: string;
+  newWords: VocabWithProgress[];
+  reviewWords: VocabWithProgress[];
+  allWords: VocabWithProgress[];
+  totalCount: number;
+}
+
+/**
+ * Lọc bài học thông minh mỗi ngày:
+ * - 10 từ mới ngẫu nhiên (cố định trong ngày qua seed ngày)
+ * - Tích hợp các từ cũ đến hạn ôn tập (Spaced Repetition từ 2-3 hôm trước)
+ */
+export function getDailyStudySet(userId: string): DailyStudySet {
+  const allVocab = getVocabWithProgress(userId);
+  const today = getTodayString();
+
+  // 1. Phân loại từ mới (level 0 / status new) và từ cũ cần ôn (level >= 1)
+  const newPool = allVocab.filter(
+    (v) => !v.progress || v.progress.status === "new" || v.progress.srs_level === 0
+  );
+  const reviewPool = allVocab.filter(
+    (v) => v.progress && v.progress.srs_level > 0 && isDueForReview(v.progress.next_review_date)
+  );
+
+  // 2. Lấy 10 từ mới ngẫu nhiên (dùng seed ngày để danh sách nhất quán trong suốt cả ngày)
+  let seed = 0;
+  const seedStr = `${today}_${userId}`;
+  for (let i = 0; i < seedStr.length; i++) {
+    seed = (seed << 5) - seed + seedStr.charCodeAt(i);
+    seed |= 0;
+  }
+
+  const shuffledNew = [...newPool];
+  for (let i = shuffledNew.length - 1; i > 0; i--) {
+    seed = (seed * 9301 + 49297) % 233280;
+    const rnd = Math.abs(seed) / 233280;
+    const j = Math.floor(rnd * (i + 1));
+    [shuffledNew[i], shuffledNew[j]] = [shuffledNew[j], shuffledNew[i]];
+  }
+
+  const selectedNewWords = shuffledNew.slice(0, 10);
+
+  // 3. Kết hợp: Từ cần ôn tập trước + 10 từ mới hôm nay
+  const wordIdSet = new Set<number>();
+  const combined: VocabWithProgress[] = [];
+
+  reviewPool.forEach((w) => {
+    if (!wordIdSet.has(w.id)) {
+      wordIdSet.add(w.id);
+      combined.push(w);
+    }
+  });
+
+  selectedNewWords.forEach((w) => {
+    if (!wordIdSet.has(w.id)) {
+      wordIdSet.add(w.id);
+      combined.push(w);
+    }
+  });
+
+  return {
+    date: today,
+    newWords: selectedNewWords,
+    reviewWords: reviewPool,
+    allWords: combined,
+    totalCount: combined.length,
+  };
+}
+
 export function recordWordReview(
   userId: string,
   wordId: number,

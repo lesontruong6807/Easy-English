@@ -62,6 +62,7 @@ export const INITIAL_VOCAB: VocabWord[] = rawVocab.words.map((w, idx) => ({
   audio_url: null,
   meaning_vi: w.meaning_vi,
   example_sentence: w.example_sentence || null,
+  example_vi: (w as any).example_vi || null,
   phase_id: w.phase_order || (w.theme === "Phrasal Verbs" || w.theme === "Idioms" ? 3 : 4),
   theme: w.theme || "General",
   is_base: true,

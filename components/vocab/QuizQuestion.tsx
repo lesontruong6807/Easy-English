@@ -2,7 +2,8 @@
 
 import React from "react";
 import { VocabWithProgress } from "@/lib/types";
-import { SoundButton } from "@/components/shared/SoundButton";
+import { SoundButton, SoundButtonGroup } from "@/components/shared/SoundButton";
+import { HighlightedSentence } from "./HighlightedSentence";
 import { CheckCircle2, XCircle, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -45,22 +46,23 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
 
       {/* Word Prominent Display */}
       <div className="flex flex-col items-center justify-center py-6 px-4 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800 mb-6 text-center">
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center justify-center gap-3">
           <h2 className="text-3xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight">
             {questionWord.word}
           </h2>
-          <SoundButton
+          <SoundButtonGroup
             word={questionWord.word}
             cachedAudioUrl={questionWord.audio_url}
             onAudioCached={onAudioCached}
-            size="md"
-            variant="circle"
+            size="sm"
           />
         </div>
         {questionWord.ipa && (
-          <p className="text-sm font-mono text-indigo-600 dark:text-indigo-400 font-medium mt-1">
-            {questionWord.ipa}
-          </p>
+          <div className="mt-2">
+            <span className="px-2.5 py-0.5 rounded-lg bg-indigo-50/80 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 font-mono text-sm font-semibold border border-indigo-200/60 dark:border-indigo-800/60 tracking-wider">
+              /{questionWord.ipa.replace(/^\/|\/$/g, "")}/
+            </span>
+          </div>
         )}
         <p className="text-xs text-slate-500 dark:text-slate-400 mt-2">
           Chọn nghĩa tiếng Việt chính xác nhất:
@@ -132,9 +134,12 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
       {isAnswered && (
         <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 animate-fade-in">
           {questionWord.example_sentence && (
-            <div className="p-3 rounded-xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-900/40 text-xs text-indigo-900 dark:text-indigo-200 mb-4">
-              <span className="font-bold">Ví dụ: </span>
-              <em>&ldquo;{questionWord.example_sentence}&rdquo;</em>
+            <div className="p-3.5 rounded-2xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-900/50 mb-4 text-left">
+              <HighlightedSentence
+                sentence={questionWord.example_sentence}
+                targetWord={questionWord.word}
+                translation={questionWord.example_vi}
+              />
             </div>
           )}
 

@@ -7,6 +7,8 @@ import {
   getDashboardMetrics,
   getAllPhases,
   getTopicProgressMap,
+  getDailyStudySet,
+  DailyStudySet,
 } from "@/lib/data/store";
 import { Profile, Phase, TopicProgressStatus } from "@/lib/types";
 import { ProgressBar } from "@/components/shared/ProgressBar";
@@ -23,6 +25,7 @@ import {
   ArrowRight,
   Flame,
   Zap,
+  Calendar,
 } from "lucide-react";
 
 export default function DashboardPage() {
@@ -40,6 +43,7 @@ export default function DashboardPage() {
   });
   const [phases, setPhases] = useState<Phase[]>([]);
   const [progressMap, setProgressMap] = useState<Record<number, TopicProgressStatus>>({});
+  const [dailySet, setDailySet] = useState<DailyStudySet | null>(null);
 
   const loadData = () => {
     const user = getCurrentUser();
@@ -48,6 +52,7 @@ export default function DashboardPage() {
     setMetrics(m);
     setPhases(getAllPhases());
     setProgressMap(getTopicProgressMap(user.id));
+    setDailySet(getDailyStudySet(user.id));
   };
 
   useEffect(() => {
@@ -97,6 +102,40 @@ export default function DashboardPage() {
         <div className="absolute -right-12 -bottom-12 w-64 h-64 rounded-full bg-purple-500/20 blur-3xl pointer-events-none" />
         <div className="absolute right-12 -top-12 w-48 h-48 rounded-full bg-indigo-400/20 blur-2xl pointer-events-none" />
       </div>
+
+      {/* ================= BÀI HỌC HÔM NAY (10 TỪ MỚI + TỪ CẦN ÔN) ================= */}
+      {dailySet && (
+        <div className="rounded-3xl bg-white dark:bg-slate-900 border border-indigo-100 dark:border-indigo-950/80 p-5 sm:p-6 shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="flex items-start sm:items-center gap-3.5">
+            <div className="w-12 h-12 rounded-2xl bg-indigo-50 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0 shadow-2xs">
+              <Calendar size={24} />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <h3 className="font-extrabold text-base sm:text-lg text-slate-900 dark:text-white">
+                  Bài học từ vựng hôm nay
+                </h3>
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300">
+                  {dailySet.totalCount} từ
+                </span>
+              </div>
+              <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
+                Gồm <strong>{dailySet.newWords.length} từ mới ngẫu nhiên</strong> +{" "}
+                <strong>{dailySet.reviewWords.length} từ cũ cần ôn</strong> theo thuật toán Spaced Repetition từ 2-3 hôm trước.
+              </p>
+            </div>
+          </div>
+
+          <Link
+            href="/vocab/flashcard"
+            className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs sm:text-sm shadow-md shadow-indigo-600/25 flex items-center justify-center gap-2 active:scale-95 transition-all shrink-0"
+          >
+            <Layers size={16} />
+            <span>Học ngay ({dailySet.totalCount} từ)</span>
+            <ArrowRight size={14} />
+          </Link>
+        </div>
+      )}
 
       {/* ================= STATS OVERVIEW CARDS ================= */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

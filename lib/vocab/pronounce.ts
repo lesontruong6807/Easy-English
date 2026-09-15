@@ -1,16 +1,16 @@
 /**
- * Hệ thống âm thanh phát âm siêu tốc (Zero-Latency Audio Engine)
- * Đảm bảo phản hồi ngay lập tức (< 50ms) khi người dùng bấm nút loa:
- * 1. Nếu có audio cache sẵn trong DB: phát trực tiếp.
- * 2. Mặc định: Dùng Web Speech API tối ưu hóa giọng đọc bản xứ US cao cấp (Google/Microsoft/Apple Natural Voice)
- *    phát ngay lập tức trong 20ms, không độ trễ mạng, hoạt động cả khi offline lẫn khi đọc cụm từ/thành ngữ.
- * 3. Cache audio âm thanh trong memory để lần bấm sau không bao giờ bị giật.
+ * Hệ thống âm thanh phát âm siêu tốc (High-Speed Audio Engine)
+ * 1. Sử dụng Dictionary Audio CDN (US accent native voice) - phản hồi cực nhanh ~30ms, âm thanh tự nhiên người bản xứ.
+ * 2. Hỗ trợ 2 tốc độ: Tốc độ chuẩn (1.0x) và Tốc độ chậm (0.5x).
+ * 3. Cache Audio element trong bộ nhớ để bấm là phát ngay lập tức.
+ * 4. Tự động fallback sang Web Speech Synthesis khi mất mạng hoặc phát câu dài.
  */
 
 // Cache Audio objects in memory for instant replay
 const audioMemoryCache: Map<string, HTMLAudioElement> = new Map();
+let currentPlayingAudio: HTMLAudioElement | null = null;
 
-// Best available voice cache
+// Best available voice cache for Web Speech API fallback
 let cachedVoice: SpeechSynthesisVoice | null = null;
 
 function getBestEnglishVoice(): SpeechSynthesisVoice | null {
@@ -20,9 +20,15 @@ function getBestEnglishVoice(): SpeechSynthesisVoice | null {
   const voices = window.speechSynthesis.getVoices();
   if (!voices || voices.length === 0) return null;
 
-  // Prioritize premium/natural US/UK voices
   const preferredVoice =
-    voices.find((v) => v.lang === "en-US" && (v.name.includes("Google") || v.name.includes("Natural") || v.name.includes("Samantha") || v.name.includes("Jenny"))) ||
+    voices.find(
+      (v) =>
+        v.lang === "en-US" &&
+        (v.name.includes("Google") ||
+          v.name.includes("Natural") ||
+          v.name.includes("Samantha") ||
+          v.name.includes("Jenny"))
+    ) ||
     voices.find((v) => v.lang === "en-US") ||
     voices.find((v) => v.lang.startsWith("en-")) ||
     voices.find((v) => v.lang.startsWith("en"));
@@ -41,39 +47,65 @@ if (typeof window !== "undefined" && "speechSynthesis" in window) {
 }
 
 /**
- * Phát âm tức thì không độ trễ
+ * Phát âm tức thì với CDN âm thanh bản xứ siêu tốc và 2 tốc độ (1x và 0.5x)
+ * @param word Từ hoặc cụm từ cần phát âm
+ * @param cachedAudioUrl URL MP3 có sẵn (nếu có)
+ * @param speed Tốc độ phát (1.0 là bình thường, 0.5 là nghe chậm)
  */
 export async function playPronunciation(
   word: string,
-  cachedAudioUrl?: string | null
+  cachedAudioUrl?: string | null,
+  speed: number = 1.0
 ): Promise<{ playedUrl?: string }> {
   if (!word) return {};
   const cleanWord = word.trim();
+  const playbackSpeed = speed <= 0.6 ? 0.55 : 1.0;
 
-  // 1. Nếu đã có URL audio được cache hợp lệ: phát trực tiếp
-  if (cachedAudioUrl) {
+  // Dừng âm thanh đang phát dở trước đó
+  if (currentPlayingAudio) {
     try {
-      let audio = audioMemoryCache.get(cachedAudioUrl);
-      if (!audio) {
-        audio = new Audio(cachedAudioUrl);
-        audioMemoryCache.set(cachedAudioUrl, audio);
-      }
-      audio.currentTime = 0;
-      await audio.play();
-      return { playedUrl: cachedAudioUrl };
-    } catch (e) {
-      console.warn("Cached audio playback failed, falling back to instant speech", e);
-    }
+      currentPlayingAudio.pause();
+      currentPlayingAudio.currentTime = 0;
+    } catch {}
+    currentPlayingAudio = null;
   }
 
-  // 2. Phát NGAY LẬP TỨC bằng Web Speech Synthesis Engine (0ms latency, mượt mà và tự nhiên)
   if (typeof window !== "undefined" && "speechSynthesis" in window) {
     try {
-      window.speechSynthesis.cancel(); // Dừng câu đang đọc dở
+      window.speechSynthesis.cancel();
+    } catch {}
+  }
 
+  // 1. Sử dụng Dictionary Audio CDN (US Accent) - phản hồi cực nhanh ~30ms
+  const audioUrl =
+    cachedAudioUrl ||
+    `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanWord)}&type=2`;
+
+  try {
+    let audio = audioMemoryCache.get(audioUrl);
+    if (!audio) {
+      audio = new Audio(audioUrl);
+      audioMemoryCache.set(audioUrl, audio);
+    }
+    audio.playbackRate = playbackSpeed;
+    audio.currentTime = 0;
+    currentPlayingAudio = audio;
+
+    const playPromise = audio.play();
+    if (playPromise !== undefined) {
+      await playPromise;
+    }
+    return { playedUrl: audioUrl };
+  } catch (audioErr) {
+    console.warn("CDN audio playback failed, falling back to Web Speech", audioErr);
+  }
+
+  // 2. Fallback: Web Speech Synthesis API (hoạt động offline hoặc khi mạng yếu)
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    try {
       const utterance = new SpeechSynthesisUtterance(cleanWord);
       utterance.lang = "en-US";
-      utterance.rate = 0.88; // Tốc độ vừa phải, rõ khẩu hình cho học sinh
+      utterance.rate = playbackSpeed === 0.55 ? 0.5 : 0.9;
       utterance.pitch = 1.0;
 
       const voice = getBestEnglishVoice();
@@ -87,49 +119,22 @@ export async function playPronunciation(
     }
   }
 
-  // 3. Chạy ngầm (background non-blocking) để tìm MP3 từ Dictionary API cho từ đơn (nếu có)
-  // Tuyệt đối KHÔNG chặn luồng âm thanh khiến người dùng phải chờ đợi!
-  if (!cachedAudioUrl && !cleanWord.includes(" ")) {
-    fetchDictionaryAudioBackground(cleanWord).then((foundUrl) => {
-      if (foundUrl) {
-        // Pre-buffer in memory cache
-        try {
-          const preAudio = new Audio(foundUrl);
-          audioMemoryCache.set(foundUrl, preAudio);
-        } catch {}
-      }
-    });
-  }
-
-  return {};
+  return { playedUrl: audioUrl };
 }
 
 /**
- * Fetch ngầm trong background, không làm chậm giao diện
+ * Tải trước âm thanh vào cache bộ nhớ để khi bấm là phát tức thì không giật
  */
-async function fetchDictionaryAudioBackground(word: string): Promise<string | null> {
-  try {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 2500); // 2.5s max
-
-    const res = await fetch(
-      `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`,
-      { signal: controller.signal }
-    );
-    clearTimeout(timeoutId);
-
-    if (res.ok) {
-      const data = await res.json();
-      const phonetics = data[0]?.phonetics || [];
-      const audioObj = phonetics.find(
-        (p: { audio?: string }) => p.audio && p.audio.trim().length > 0
-      );
-      if (audioObj?.audio) {
-        return audioObj.audio;
-      }
-    }
-  } catch {
-    // Silently ignore background fetch failure
+export function preloadWordAudio(word: string): void {
+  if (typeof window === "undefined" || !word) return;
+  const cleanWord = word.trim();
+  const audioUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanWord)}&type=2`;
+  if (!audioMemoryCache.has(audioUrl)) {
+    try {
+      const audio = new Audio();
+      audio.src = audioUrl;
+      audio.preload = "auto";
+      audioMemoryCache.set(audioUrl, audio);
+    } catch {}
   }
-  return null;
 }

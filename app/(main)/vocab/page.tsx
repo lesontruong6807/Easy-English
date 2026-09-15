@@ -8,10 +8,13 @@ import {
   getAllPhases,
   getCurrentUser,
   cacheVocabAudioUrl,
+  getDailyStudySet,
+  DailyStudySet,
 } from "@/lib/data/store";
 import { VocabWithProgress, Phase } from "@/lib/types";
-import { SoundButton } from "@/components/shared/SoundButton";
+import { SoundButton, SoundButtonGroup } from "@/components/shared/SoundButton";
 import { SrsBadge } from "@/components/vocab/SrsBadge";
+import { HighlightedSentence } from "@/components/vocab/HighlightedSentence";
 import {
   BookOpen,
   Layers,
@@ -22,6 +25,8 @@ import {
   Volume2,
   Clock,
   Sparkles,
+  Calendar,
+  ArrowRight,
 } from "lucide-react";
 import { isDueForReview } from "@/lib/srs";
 
@@ -37,11 +42,13 @@ function VocabOverviewContent() {
   const [selectedTheme, setSelectedTheme] = useState<string>("all");
   const [selectedStatus, setSelectedStatus] = useState<string>("all");
   const [searchQuery, setSearchQuery] = useState<string>("");
+  const [dailySet, setDailySet] = useState<DailyStudySet | null>(null);
 
   const loadData = () => {
     const user = getCurrentUser();
     setPhases(getAllPhases());
     setVocabList(getVocabWithProgress(user.id));
+    setDailySet(getDailyStudySet(user.id));
   };
 
   useEffect(() => {
@@ -127,6 +134,36 @@ function VocabOverviewContent() {
           </Link>
         </div>
       </div>
+
+      {/* ================= BÀI HỌC HÔM NAY (10 TỪ MỚI + TỪ CẦN ÔN) ================= */}
+      {dailySet && (
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-indigo-600 via-indigo-700 to-purple-800 p-5 sm:p-6 text-white shadow-xl shadow-indigo-500/15 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div className="relative z-10 max-w-xl">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md text-xs font-bold text-indigo-100 mb-2.5 border border-white/15">
+              <Calendar size={14} className="text-amber-300" />
+              <span>Lộ trình thông minh hôm nay ({dailySet.date})</span>
+            </div>
+            <h3 className="text-lg sm:text-xl font-black tracking-tight mb-1">
+              Bài học hôm nay: {dailySet.totalCount} từ vựng
+            </h3>
+            <p className="text-xs sm:text-sm text-indigo-100/90 leading-relaxed">
+              Bao gồm <strong>{dailySet.newWords.length} từ mới ngẫu nhiên</strong> +{" "}
+              <strong>{dailySet.reviewWords.length} từ cũ cần ôn</strong> theo thuật toán Spaced Repetition từ 2-3 hôm trước.
+            </p>
+          </div>
+
+          <div className="relative z-10 flex flex-wrap items-center gap-2.5 shrink-0">
+            <Link
+              href="/vocab/flashcard"
+              className="px-5 py-2.5 rounded-2xl bg-white text-indigo-700 hover:bg-indigo-50 font-extrabold text-xs sm:text-sm shadow-md transition-all active:scale-95 flex items-center gap-2"
+            >
+              <Layers size={16} />
+              <span>Học Flashcard hôm nay ({dailySet.totalCount})</span>
+              <ArrowRight size={14} />
+            </Link>
+          </div>
+        </div>
+      )}
 
       {/* Filter and Search Bar */}
       <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/80 dark:border-slate-800/80 p-5 shadow-sm space-y-4">
@@ -227,16 +264,15 @@ function VocabOverviewContent() {
             <div>
               {/* Header row */}
               <div className="flex items-start justify-between gap-2 mb-2">
-                <div className="flex items-center gap-2">
+                <div className="flex flex-wrap items-center gap-2">
                   <h3 className="font-extrabold text-lg text-slate-900 dark:text-white tracking-tight">
                     {item.word}
                   </h3>
-                  <SoundButton
+                  <SoundButtonGroup
                     word={item.word}
                     cachedAudioUrl={item.audio_url}
                     onAudioCached={(url) => cacheVocabAudioUrl(item.id, url)}
                     size="sm"
-                    variant="circle"
                   />
                 </div>
                 <SrsBadge
@@ -246,9 +282,11 @@ function VocabOverviewContent() {
               </div>
 
               {item.ipa && (
-                <p className="text-xs font-mono text-indigo-600 dark:text-indigo-400 font-medium mb-2">
-                  {item.ipa}
-                </p>
+                <div className="inline-block mb-2">
+                  <span className="text-xs font-mono font-semibold text-indigo-700 dark:text-indigo-300 bg-indigo-50/80 dark:bg-indigo-950/70 px-2.5 py-0.5 rounded-lg border border-indigo-200/60 dark:border-indigo-800/60 shadow-2xs tracking-wider">
+                    /{item.ipa.replace(/^\/|\/$/g, "")}/
+                  </span>
+                </div>
               )}
 
               <p className="text-sm font-semibold text-slate-800 dark:text-slate-200 mb-3 leading-snug">
@@ -256,9 +294,13 @@ function VocabOverviewContent() {
               </p>
 
               {item.example_sentence && (
-                <p className="text-xs text-slate-500 dark:text-slate-400 italic bg-slate-50 dark:bg-slate-800/50 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800/60 leading-relaxed mb-3">
-                  &ldquo;{item.example_sentence}&rdquo;
-                </p>
+                <div className="bg-slate-50 dark:bg-slate-800/50 p-3 rounded-2xl border border-slate-100 dark:border-slate-800/60 mb-3">
+                  <HighlightedSentence
+                    sentence={item.example_sentence}
+                    targetWord={item.word}
+                    translation={item.example_vi}
+                  />
+                </div>
               )}
             </div>
 
