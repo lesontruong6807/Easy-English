@@ -1,0 +1,404 @@
+{
+  "words": [
+    {
+      "word": "give up",
+      "ipa": "/ɡɪv ʌp/",
+      "meaning_vi": "từ bỏ",
+      "example_sentence": "Never give up on your dreams.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs"
+    },
+    {
+      "word": "look after",
+      "ipa": "/lʊk ˈɑːftə(r)/",
+      "meaning_vi": "chăm sóc",
+      "example_sentence": "She looks after her little brother.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs"
+    },
+    {
+      "word": "put off",
+      "ipa": "/pʊt ɒf/",
+      "meaning_vi": "hoãn lại",
+      "example_sentence": "They put off the meeting until next week.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs"
+    },
+    {
+      "word": "carry out",
+      "ipa": "/ˈkæri aʊt/",
+      "meaning_vi": "thực hiện",
+      "example_sentence": "The team carried out the experiment successfully.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs"
+    },
+    {
+      "word": "come up with",
+      "ipa": "/kʌm ʌp wɪð/",
+      "meaning_vi": "nghĩ ra",
+      "example_sentence": "She came up with a great idea.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs"
+    },
+    {
+      "word": "break the ice",
+      "ipa": "/breɪk ði aɪs/",
+      "meaning_vi": "phá vỡ sự ngượng ngùng ban đầu",
+      "example_sentence": "He told a joke to break the ice.",
+      "phase_order": 3,
+      "theme": "Idioms"
+    },
+    {
+      "word": "once in a blue moon",
+      "ipa": "/wʌns ɪn ə bluː muːn/",
+      "meaning_vi": "hiếm khi",
+      "example_sentence": "We only meet once in a blue moon.",
+      "phase_order": 3,
+      "theme": "Idioms"
+    },
+    {
+      "word": "hit the books",
+      "ipa": "/hɪt ðə bʊks/",
+      "meaning_vi": "học hành chăm chỉ",
+      "example_sentence": "I need to hit the books before the exam.",
+      "phase_order": 3,
+      "theme": "Idioms"
+    },
+    {
+      "word": "make a decision",
+      "ipa": "/meɪk ə dɪˈsɪʒn/",
+      "meaning_vi": "đưa ra quyết định",
+      "example_sentence": "It's time to make a decision.",
+      "phase_order": 3,
+      "theme": "Collocations"
+    },
+    {
+      "word": "take a photo",
+      "ipa": "/teɪk ə ˈfəʊtəʊ/",
+      "meaning_vi": "chụp ảnh",
+      "example_sentence": "Can you take a photo of us?",
+      "phase_order": 3,
+      "theme": "Collocations"
+    },
+    {
+      "word": "pay attention",
+      "ipa": "/peɪ əˈtenʃn/",
+      "meaning_vi": "chú ý",
+      "example_sentence": "Please pay attention in class.",
+      "phase_order": 3,
+      "theme": "Collocations"
+    },
+    {
+      "word": "do homework",
+      "ipa": "/duː ˈhəʊmwɜːk/",
+      "meaning_vi": "làm bài tập về nhà",
+      "example_sentence": "I always do my homework after dinner.",
+      "phase_order": 3,
+      "theme": "Collocations"
+    },
+    {
+      "word": "interested in",
+      "ipa": "/ˈɪntrəstɪd ɪn/",
+      "meaning_vi": "quan tâm đến, thích",
+      "example_sentence": "I'm interested in learning English.",
+      "phase_order": 3,
+      "theme": "Prepositions"
+    },
+    {
+      "word": "good at",
+      "ipa": "/ɡʊd æt/",
+      "meaning_vi": "giỏi về",
+      "example_sentence": "He is good at math.",
+      "phase_order": 3,
+      "theme": "Prepositions"
+    },
+    {
+      "word": "afraid of",
+      "ipa": "/əˈfreɪd ɒv/",
+      "meaning_vi": "sợ",
+      "example_sentence": "She is afraid of spiders.",
+      "phase_order": 3,
+      "theme": "Prepositions"
+    },
+    {
+      "word": "depend on",
+      "ipa": "/dɪˈpend ɒn/",
+      "meaning_vi": "phụ thuộc vào",
+      "example_sentence": "Success depends on hard work.",
+      "phase_order": 3,
+      "theme": "Prepositions"
+    },
+    {
+      "word": "rapid",
+      "ipa": "/ˈræpɪd/",
+      "meaning_vi": "nhanh chóng (đồng nghĩa: fast)",
+      "example_sentence": "The city has seen rapid growth in recent years.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms"
+    },
+    {
+      "word": "increase",
+      "ipa": "/ɪnˈkriːs/",
+      "meaning_vi": "tăng (trái nghĩa: decrease)",
+      "example_sentence": "The population has increased significantly.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms"
+    },
+    {
+      "word": "wise",
+      "ipa": "/waɪz/",
+      "meaning_vi": "khôn ngoan",
+      "example_sentence": "Her decision was very wise.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms"
+    },
+    {
+      "word": "admire",
+      "ipa": "/ədˈmaɪə(r)/",
+      "meaning_vi": "ngưỡng mộ",
+      "example_sentence": "Everyone admired her courage.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms"
+    },
+    {
+      "word": "achieve",
+      "ipa": "/əˈtʃiːv/",
+      "meaning_vi": "đạt được",
+      "example_sentence": "She worked hard to achieve her goals.",
+      "phase_order": 4,
+      "theme": "Education"
+    },
+    {
+      "word": "curriculum",
+      "ipa": "/kəˈrɪkjələm/",
+      "meaning_vi": "chương trình học",
+      "example_sentence": "The school updated its curriculum this year.",
+      "phase_order": 4,
+      "theme": "Education"
+    },
+    {
+      "word": "compulsory",
+      "ipa": "/kəmˈpʌlsəri/",
+      "meaning_vi": "bắt buộc",
+      "example_sentence": "English is a compulsory subject at school.",
+      "phase_order": 4,
+      "theme": "Education"
+    },
+    {
+      "word": "scholarship",
+      "ipa": "/ˈskɒləʃɪp/",
+      "meaning_vi": "học bổng",
+      "example_sentence": "He won a scholarship to study abroad.",
+      "phase_order": 4,
+      "theme": "Education"
+    },
+    {
+      "word": "graduate",
+      "ipa": "/ˈɡrædʒueɪt/",
+      "meaning_vi": "tốt nghiệp",
+      "example_sentence": "She will graduate from high school next year.",
+      "phase_order": 4,
+      "theme": "Education"
+    },
+    {
+      "word": "enroll",
+      "ipa": "/ɪnˈrəʊl/",
+      "meaning_vi": "ghi danh, đăng ký học",
+      "example_sentence": "He enrolled in an English course.",
+      "phase_order": 4,
+      "theme": "Education"
+    },
+    {
+      "word": "extracurricular",
+      "ipa": "/ˌekstrəkəˈrɪkjələ(r)/",
+      "meaning_vi": "ngoại khóa",
+      "example_sentence": "The school offers many extracurricular activities.",
+      "phase_order": 4,
+      "theme": "Education"
+    },
+    {
+      "word": "pollution",
+      "ipa": "/pəˈluːʃn/",
+      "meaning_vi": "sự ô nhiễm",
+      "example_sentence": "Air pollution is a serious problem in big cities.",
+      "phase_order": 4,
+      "theme": "Environment"
+    },
+    {
+      "word": "sustainable",
+      "ipa": "/səˈsteɪnəbl/",
+      "meaning_vi": "bền vững",
+      "example_sentence": "We need sustainable energy sources.",
+      "phase_order": 4,
+      "theme": "Environment"
+    },
+    {
+      "word": "recycle",
+      "ipa": "/ˌriːˈsaɪkl/",
+      "meaning_vi": "tái chế",
+      "example_sentence": "We should recycle plastic bottles.",
+      "phase_order": 4,
+      "theme": "Environment"
+    },
+    {
+      "word": "greenhouse effect",
+      "ipa": "/ˈɡriːnhaʊs ɪˈfekt/",
+      "meaning_vi": "hiệu ứng nhà kính",
+      "example_sentence": "The greenhouse effect causes global warming.",
+      "phase_order": 4,
+      "theme": "Environment"
+    },
+    {
+      "word": "drought",
+      "ipa": "/draʊt/",
+      "meaning_vi": "hạn hán",
+      "example_sentence": "The drought lasted for several months.",
+      "phase_order": 4,
+      "theme": "Environment"
+    },
+    {
+      "word": "endangered",
+      "ipa": "/ɪnˈdeɪndʒəd/",
+      "meaning_vi": "có nguy cơ tuyệt chủng",
+      "example_sentence": "Tigers are an endangered species.",
+      "phase_order": 4,
+      "theme": "Environment"
+    },
+    {
+      "word": "device",
+      "ipa": "/dɪˈvaɪs/",
+      "meaning_vi": "thiết bị",
+      "example_sentence": "Smartphones are useful electronic devices.",
+      "phase_order": 4,
+      "theme": "Technology"
+    },
+    {
+      "word": "innovation",
+      "ipa": "/ˌɪnəˈveɪʃn/",
+      "meaning_vi": "sự đổi mới, sáng tạo",
+      "example_sentence": "Technology innovation changes our daily lives.",
+      "phase_order": 4,
+      "theme": "Technology"
+    },
+    {
+      "word": "artificial intelligence",
+      "ipa": "/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns/",
+      "meaning_vi": "trí tuệ nhân tạo",
+      "example_sentence": "Artificial intelligence is used in many industries.",
+      "phase_order": 4,
+      "theme": "Technology"
+    },
+    {
+      "word": "upgrade",
+      "ipa": "/ʌpˈɡreɪd/",
+      "meaning_vi": "nâng cấp",
+      "example_sentence": "I need to upgrade my computer.",
+      "phase_order": 4,
+      "theme": "Technology"
+    },
+    {
+      "word": "malfunction",
+      "ipa": "/mælˈfʌŋkʃn/",
+      "meaning_vi": "trục trặc, hỏng hóc",
+      "example_sentence": "The printer malfunctioned this morning.",
+      "phase_order": 4,
+      "theme": "Technology"
+    },
+    {
+      "word": "nutritious",
+      "ipa": "/njuˈtrɪʃəs/",
+      "meaning_vi": "bổ dưỡng",
+      "example_sentence": "Vegetables are very nutritious.",
+      "phase_order": 4,
+      "theme": "Health"
+    },
+    {
+      "word": "obesity",
+      "ipa": "/əʊˈbiːsəti/",
+      "meaning_vi": "bệnh béo phì",
+      "example_sentence": "Obesity is becoming a common health issue.",
+      "phase_order": 4,
+      "theme": "Health"
+    },
+    {
+      "word": "immune system",
+      "ipa": "/ɪˈmjuːn ˌsɪstəm/",
+      "meaning_vi": "hệ miễn dịch",
+      "example_sentence": "Exercise helps boost your immune system.",
+      "phase_order": 4,
+      "theme": "Health"
+    },
+    {
+      "word": "symptom",
+      "ipa": "/ˈsɪmptəm/",
+      "meaning_vi": "triệu chứng",
+      "example_sentence": "Fever is a common symptom of the flu.",
+      "phase_order": 4,
+      "theme": "Health"
+    },
+    {
+      "word": "well-being",
+      "ipa": "/ˌwelˈbiːɪŋ/",
+      "meaning_vi": "sự khỏe mạnh, hạnh phúc",
+      "example_sentence": "Mental well-being is as important as physical health.",
+      "phase_order": 4,
+      "theme": "Health"
+    },
+    {
+      "word": "generation gap",
+      "ipa": "/ˌdʒenəˈreɪʃn ɡæp/",
+      "meaning_vi": "khoảng cách thế hệ",
+      "example_sentence": "There is often a generation gap between parents and children.",
+      "phase_order": 4,
+      "theme": "Family & Society"
+    },
+    {
+      "word": "household",
+      "ipa": "/ˈhaʊshəʊld/",
+      "meaning_vi": "hộ gia đình",
+      "example_sentence": "Each household should save water.",
+      "phase_order": 4,
+      "theme": "Family & Society"
+    },
+    {
+      "word": "upbringing",
+      "ipa": "/ˈʌpbrɪŋɪŋ/",
+      "meaning_vi": "sự nuôi dạy",
+      "example_sentence": "She had a strict upbringing.",
+      "phase_order": 4,
+      "theme": "Family & Society"
+    },
+    {
+      "word": "extended family",
+      "ipa": "/ɪkˌstendɪd ˈfæməli/",
+      "meaning_vi": "gia đình mở rộng (nhiều thế hệ)",
+      "example_sentence": "They live in an extended family with grandparents.",
+      "phase_order": 4,
+      "theme": "Family & Society"
+    },
+    {
+      "word": "urbanization",
+      "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
+      "meaning_vi": "đô thị hóa",
+      "example_sentence": "Urbanization has changed the landscape of the city.",
+      "phase_order": 4,
+      "theme": "Family & Society"
+    },
+    {
+      "word": "convenient",
+      "ipa": "/kənˈviːniənt/",
+      "meaning_vi": "tiện lợi",
+      "example_sentence": "Online shopping is very convenient.",
+      "phase_order": 4,
+      "theme": "General"
+    },
+    {
+      "word": "efficient",
+      "ipa": "/ɪˈfɪʃnt/",
+      "meaning_vi": "hiệu quả",
+      "example_sentence": "This is a more efficient way to study.",
+      "phase_order": 4,
+      "theme": "General"
+    }
+  ]
+}

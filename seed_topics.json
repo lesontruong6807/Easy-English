@@ -1,0 +1,418 @@
+{
+  "phases": [
+    {
+      "order_index": 1,
+      "title": "Giai đoạn 1 — Ngữ âm & Từ loại nền tảng",
+      "topics": [
+        {
+          "order_index": 1,
+          "title": "Cách phát âm đuôi -ed",
+          "theory_md": "Đuôi *-ed* có 3 cách đọc tùy âm cuối động từ nguyên thể:\n- **/t/**: khi động từ tận cùng bằng âm vô thanh (p, k, f, s, sh, ch, x...)\n- **/id/**: khi động từ tận cùng bằng âm t hoặc d\n- **/d/**: các trường hợp còn lại (âm hữu thanh, nguyên âm)",
+          "book1_ref": "Chuyên đề 1, Phần 1, tr.7-12 (đáp án tr.210-230)",
+          "book2_p1_ref": "Phần I, Chuyên đề 1, tr.12-19",
+          "book2_p2_ref": "Phần II, Chuyên đề 1, tr.141-146",
+          "examples": [
+            "watched /wɒtʃt/ → đọc /t/ (ch là âm vô thanh)",
+            "wanted /ˈwɒntɪd/ → đọc /ɪd/ (tận cùng bằng t)",
+            "played /pleɪd/ → đọc /d/ (âm hữu thanh)"
+          ]
+        },
+        {
+          "order_index": 2,
+          "title": "Cách phát âm đuôi -s/-es",
+          "theory_md": "Áp dụng cho danh từ số nhiều và động từ chia ngôi thứ 3 số ít.\n- **/s/**: tận cùng bằng âm vô thanh (p, k, f, t...)\n- **/ɪz/**: tận cùng bằng âm rít (s, z, sh, ch, x, ge)\n- **/z/**: các trường hợp còn lại",
+          "book1_ref": "Chuyên đề 1, Phần 1, tr.7-12 (đáp án tr.210-230)",
+          "book2_p1_ref": "Phần I, Chuyên đề 1, tr.12-19",
+          "book2_p2_ref": "Phần II, Chuyên đề 1, tr.141-146",
+          "examples": [
+            "books /bʊks/ → /s/",
+            "watches /ˈwɒtʃɪz/ → /ɪz/",
+            "plays /pleɪz/ → /z/"
+          ]
+        },
+        {
+          "order_index": 3,
+          "title": "Nguyên âm & phụ âm khác biệt",
+          "theory_md": "Dạng bài: cho 4 từ, tìm từ có phần gạch chân đọc khác 3 từ còn lại. Không nhìn mặt chữ, phải nhớ cách đọc thật (nhiều từ viết giống nhưng đọc khác — đây là bẫy hay gặp).",
+          "book1_ref": "Chuyên đề 1, Phần 1, tr.7-12 (đáp án tr.210-230)",
+          "book2_p1_ref": "Phần I, Chuyên đề 1, tr.12-19",
+          "book2_p2_ref": "Phần II, Chuyên đề 1, tr.141-146",
+          "examples": [
+            "book, cook, food (khác, /uː/), look → đáp án: food",
+            "chair, chemistry (khác, /k/), teacher, watch → đáp án: chemistry",
+            "cat, class (khác), map, hand → đáp án: class"
+          ]
+        },
+        {
+          "order_index": 4,
+          "title": "Quy tắc trọng âm",
+          "theory_md": "Một số quy tắc dùng nhiều nhất:\n- Danh từ/tính từ 2 âm tiết → trọng âm rơi vào âm 1. Động từ 2 âm tiết → trọng âm rơi vào âm 2.\n- Hậu tố -tion, -sion, -ic, -ious, -ance... → trọng âm rơi vào âm ngay trước hậu tố.\n- Hậu tố -ee, -eer, -ese, -ique → trọng âm rơi vào chính hậu tố đó.\n(Xem đầy đủ 13 quy tắc trong file DOCX gốc.)",
+          "book1_ref": "Chuyên đề 1, Phần 2, tr.13-16 (đáp án tr.230)",
+          "book2_p1_ref": "Phần I, Chuyên đề 1, tr.12-19",
+          "book2_p2_ref": "Phần II, Chuyên đề 1, tr.141-146",
+          "examples": [
+            "'PRESENT (n.) – pre'SENT (v.) → trọng âm đổi theo từ loại",
+            "edu'CATION → trọng âm rơi ngay trước -tion",
+            "engi'NEER → trọng âm rơi vào chính hậu tố -eer"
+          ]
+        },
+        {
+          "order_index": 5,
+          "title": "Danh từ & Đại từ",
+          "theory_md": "Danh từ: chỉ người/vật/sự việc; đếm được (a book, books) hoặc không đếm được (water, information — không thêm s). Đại từ thay cho danh từ: chủ ngữ (I, he, they), tân ngữ (me, him, them), sở hữu (my/mine), phản thân (myself).",
+          "book1_ref": "Chuyên đề 2, Phần 1 & 12, tr.18-22, 72-76",
+          "book2_p1_ref": "Phần I, Chuyên đề 7, tr.43-46",
+          "book2_p2_ref": "Phần II, Chuyên đề 13, tr.195-198",
+          "examples": [
+            "Lan is smart. She studies hard.",
+            "This book is mine, not yours.",
+            "He hurt himself while playing football."
+          ]
+        },
+        {
+          "order_index": 6,
+          "title": "Từ hạn định & Lượng từ",
+          "theory_md": "many + danh từ đếm được số nhiều; much + danh từ không đếm được. 'a few' (một ít, vẫn đủ) khác 'few' (rất ít, gần như không có), tương tự a little/little.",
+          "book1_ref": "Chuyên đề 2, Phần 10, tr.62-66",
+          "book2_p1_ref": "Phần I, Chuyên đề 12, tr.62-63",
+          "book2_p2_ref": "Phần II, các chuyên đề liên quan đến danh từ/lượng từ",
+          "examples": [
+            "There are many books on the shelf.",
+            "I don't have much time today.",
+            "She has a few friends here, so she isn't lonely."
+          ]
+        },
+        {
+          "order_index": 7,
+          "title": "Tiền tố & Hậu tố",
+          "theory_md": "Tiền tố thường đổi NGHĨA, không đổi từ loại: un-, im-, dis-, re-, mis-. Hậu tố thường đổi TỪ LOẠI: -tion/-ment (danh từ), -ful/-ous/-al (tính từ), -ly (trạng từ), -ize/-en (động từ).",
+          "book1_ref": "Chuyên đề 2, Phần 11, tr.67-71",
+          "book2_p1_ref": "Phần I, Chuyên đề 20, tr.93",
+          "book2_p2_ref": "Phần II, Chuyên đề 24, tr.237-242",
+          "examples": [
+            "happy → unhappy",
+            "develop (v.) → development (n.)",
+            "care (n./v.) → careful (adj.) → carefully (adv.)"
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 2,
+      "title": "Giai đoạn 2 — Ngữ pháp cốt lõi",
+      "topics": [
+        {
+          "order_index": 1,
+          "title": "Các thì trong tiếng Anh",
+          "theory_md": "4 thì hay thi nhất:\n- Hiện tại đơn: S+V(s/es) — thói quen, sự thật.\n- Hiện tại tiếp diễn: S+am/is/are+V-ing — đang xảy ra.\n- Quá khứ đơn: S+V2/ed — đã xảy ra, đã xong.\n- Hiện tại hoàn thành: S+have/has+V3 — xảy ra trong quá khứ, còn liên quan hiện tại.",
+          "book1_ref": "Chuyên đề 3, Phần 1, tr.78-81 (đáp án tr.303)",
+          "book2_p1_ref": "Phần I, Chuyên đề 2, tr.20-26",
+          "book2_p2_ref": "Phần II, Chuyên đề 3, tr.147-152",
+          "examples": [
+            "She usually goes to school by bike. (hiện tại đơn)",
+            "They are watching TV right now. (hiện tại tiếp diễn)",
+            "I have lived here since 2015. (hiện tại hoàn thành)"
+          ]
+        },
+        {
+          "order_index": 2,
+          "title": "Sự hòa hợp chủ ngữ – động từ",
+          "theory_md": "Chủ ngữ số ít → động từ chia số ít; số nhiều → động từ nguyên mẫu. Từ 'bẫy': news, physics, mathematics (số ít dù có s); police, people, cattle (luôn số nhiều). 'each of/one of + N số nhiều' → động từ chia số ít.",
+          "book1_ref": "Chuyên đề 3, Phần 9, tr.130-134",
+          "book2_p1_ref": "Phần I, Chuyên đề 18, tr.86-90",
+          "book2_p2_ref": "Phần II, Chuyên đề 16, tr.199-201",
+          "examples": [
+            "Each of the students has a laptop.",
+            "The news is very good today.",
+            "The police are investigating the case."
+          ]
+        },
+        {
+          "order_index": 3,
+          "title": "To V vs V-ing",
+          "theory_md": "Một số động từ chỉ theo sau bởi to V: want, decide, plan, hope, promise. Một số chỉ theo sau bởi V-ing: enjoy, avoid, finish, suggest, mind. Một số đổi nghĩa tùy to V hay V-ing: remember to V (nhớ sẽ làm) khác remember V-ing (nhớ đã làm).",
+          "book1_ref": "Chuyên đề 3, Phần 2, tr.82-87",
+          "book2_p1_ref": "Phần I, Chuyên đề 4, tr.30-36",
+          "book2_p2_ref": "Phần II, Chuyên đề 5, tr.156-160",
+          "examples": [
+            "I want to go home now.",
+            "She enjoys reading books in her free time.",
+            "He remembered to lock the door / He remembered locking the door."
+          ]
+        },
+        {
+          "order_index": 4,
+          "title": "Động từ khuyết thiếu (Modal Verbs)",
+          "theory_md": "can/could (khả năng), must/have to (bắt buộc), should (nên), may/might (phỏng đoán). Sau modal verb luôn là V nguyên mẫu không 'to'. 'must have V3': chắc chắn đã. 'should have V3': lẽ ra nên (tiếc nuối).",
+          "book1_ref": "Chuyên đề 3 (gộp trong phần thì)",
+          "book2_p1_ref": "Phần I, Chuyên đề 5, tr.37-39",
+          "book2_p2_ref": "Phần II, Chuyên đề 4, tr.153-155",
+          "examples": [
+            "You must finish your homework before playing games.",
+            "The light is on, so he must have forgotten to turn it off.",
+            "You should have studied harder for the test."
+          ]
+        },
+        {
+          "order_index": 5,
+          "title": "Câu bị động",
+          "theory_md": "Công thức chung: S + be + V3 (+ by O). Thì của 'be' đổi theo thì của câu chủ động. Tân ngữ của câu chủ động → trở thành chủ ngữ câu bị động.",
+          "book1_ref": "Chuyên đề 3 (kết hợp Chuyên đề 5, Phần 2/3)",
+          "book2_p1_ref": "Phần I, Chuyên đề 3, tr.27-29",
+          "book2_p2_ref": "Phần II, Chuyên đề 6, tr.161-166",
+          "examples": [
+            "They build this house. → This house is built (by them).",
+            "She wrote the letter. → The letter was written by her.",
+            "People have used this method for years. → This method has been used for years."
+          ]
+        },
+        {
+          "order_index": 6,
+          "title": "Câu trực tiếp – gián tiếp",
+          "theory_md": "Lùi thì 1 bậc khi chuyển gián tiếp, đổi đại từ/tính từ sở hữu phù hợp, đổi trạng từ thời gian/nơi chốn (now→then, here→there, today→that day).",
+          "book1_ref": "Chuyên đề 3, Phần 3, tr.88-92 (đáp án tr.308)",
+          "book2_p1_ref": "Phần I, Chuyên đề 17, tr.82-85",
+          "book2_p2_ref": "Phần II, Chuyên đề 8, tr.174-181",
+          "examples": [
+            "\"I am tired,\" she said. → She said (that) she was tired.",
+            "He said, \"I will call you tomorrow.\" → He said (that) he would call me the next day.",
+            "\"Did you finish it?\" he asked. → He asked if/whether I had finished it."
+          ]
+        },
+        {
+          "order_index": 7,
+          "title": "Mệnh đề quan hệ",
+          "theory_md": "who (người, chủ ngữ), whom (người, tân ngữ), which (vật), that (người/vật, không dùng sau dấu phẩy), whose (sở hữu). Mệnh đề không xác định (có dấu phẩy) → thông tin thêm, không dùng that.",
+          "book1_ref": "Chuyên đề 3, Phần 4, tr.93-109",
+          "book2_p1_ref": "Phần I, Chuyên đề 13, tr.64-70",
+          "book2_p2_ref": "Phần II, Chuyên đề 9, tr.182-189",
+          "examples": [
+            "The man who is standing there is my teacher.",
+            "This is the book which/that I bought yesterday.",
+            "My brother, who lives in Hanoi, is a doctor."
+          ]
+        },
+        {
+          "order_index": 8,
+          "title": "Mệnh đề trạng ngữ & Liên từ",
+          "theory_md": "Nguyên nhân: because, since, as. Nhượng bộ: although, though, even though. Kết quả: so. Mục đích: so that, in order to. Phân biệt giới từ+N (because of, despite) với liên từ+mệnh đề (because, although).",
+          "book1_ref": "Chuyên đề 2, Phần 6, tr.42-46; Chuyên đề 3, Phần 4 (còn lại)",
+          "book2_p1_ref": "Phần I, Chuyên đề 12, 13, 15, tr.62-78",
+          "book2_p2_ref": "Phần II, Chuyên đề 12, 15, tr.73-78, 193",
+          "examples": [
+            "Although it rained heavily, they still went out.",
+            "Despite the rain, they still went out.",
+            "She studied hard so that she could pass the exam."
+          ]
+        },
+        {
+          "order_index": 9,
+          "title": "So sánh",
+          "theory_md": "So sánh hơn: adj/adv+-er (ngắn) / more+adj/adv (dài) + than. So sánh nhất: the+adj/adv+-est / the most+adj/adv. So sánh kép: The+so sánh hơn+S+V, the+so sánh hơn+S+V.",
+          "book1_ref": "Chuyên đề 2 (tính từ/trạng từ)",
+          "book2_p1_ref": "Phần I, Chuyên đề 9, tr.51-55",
+          "book2_p2_ref": "Phần II, Chuyên đề 19, tr.204-209",
+          "examples": [
+            "This book is more interesting than that one.",
+            "Lan is the tallest student in her class.",
+            "The more you practice, the better you get."
+          ]
+        },
+        {
+          "order_index": 10,
+          "title": "Câu giả định & Câu điều kiện",
+          "theory_md": "Loại 1: If+hiện tại đơn, S+will+V. Loại 2: If+quá khứ đơn (were), S+would+V. Loại 3: If+had+V3, S+would have+V3. Wish: wish+quá khứ đơn (ước hiện tại), wish+had V3 (ước quá khứ).",
+          "book1_ref": "Chuyên đề 3, Phần 6, tr.113-118",
+          "book2_p1_ref": "Phần I, Chuyên đề 16, tr.79-81",
+          "book2_p2_ref": "Phần II, Chuyên đề 2 & 7, tr.143-146, 167-173",
+          "examples": [
+            "If it rains tomorrow, we will stay home.",
+            "If I were you, I would apologize.",
+            "If she had studied harder, she would have passed the exam."
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 3,
+      "title": "Giai đoạn 3 — Cấu trúc nâng cao & Từ vựng chuyên sâu",
+      "topics": [
+        {
+          "order_index": 1,
+          "title": "Đảo ngữ",
+          "theory_md": "Đưa trạng từ phủ định/giới hạn ra đầu câu → đảo trợ động từ lên trước chủ ngữ để nhấn mạnh. Từ hay dùng: Never, Not only...but also, No sooner...than, Hardly...when.",
+          "book1_ref": "Chuyên đề 3, Phần 7-8, tr.119-129",
+          "book2_p1_ref": "Phần I, Chuyên đề 19, tr.91-92",
+          "book2_p2_ref": "Phần II, Chuyên đề 23, tr.233-236",
+          "examples": [
+            "Never have I seen such a beautiful sunset.",
+            "Not only did she win the race, but she also broke the record.",
+            "Hardly had he arrived when it started to rain."
+          ]
+        },
+        {
+          "order_index": 2,
+          "title": "Câu chẻ",
+          "theory_md": "Dùng để nhấn mạnh 1 thành phần trong câu: It is/was + thành phần muốn nhấn mạnh + that/who + phần còn lại.",
+          "book1_ref": "Chuyên đề 3, Phần 7, tr.119-125",
+          "book2_p1_ref": "—",
+          "book2_p2_ref": "Phần II, Chuyên đề 11, tr.192",
+          "examples": [
+            "It was Lan who broke the window.",
+            "It is on Monday that the meeting will take place.",
+            "What I need is a good rest."
+          ]
+        },
+        {
+          "order_index": 3,
+          "title": "Rút gọn mệnh đề",
+          "theory_md": "Rút gọn mệnh đề quan hệ chủ động → V-ing; bị động → V3/P2. Rút gọn mệnh đề trạng ngữ khi 2 chủ ngữ giống nhau → bỏ chủ ngữ+liên từ, động từ thành V-ing.",
+          "book1_ref": "Chuyên đề 3, Phần 8, tr.126-129",
+          "book2_p1_ref": "Phần I, Chuyên đề 14, tr.71-72",
+          "book2_p2_ref": "Phần II, Chuyên đề 10, tr.190-191",
+          "examples": [
+            "The girl who is standing there → The girl standing there.",
+            "The book which was written by him → The book written by him.",
+            "Because she was tired, she went to bed early → Being tired, she went to bed early."
+          ]
+        },
+        {
+          "order_index": 4,
+          "title": "Mệnh lệnh thức & Câu hỏi đuôi",
+          "theory_md": "Mệnh lệnh: V nguyên mẫu đầu câu; Don't + V (phủ định). Câu hỏi đuôi: câu chính khẳng định → đuôi phủ định và ngược lại; động từ đuôi chia theo động từ chính.",
+          "book1_ref": "Chuyên đề 3, Phần 10 & 12, tr.135-138, 144-148",
+          "book2_p1_ref": "—",
+          "book2_p2_ref": "Phần II, Chuyên đề 17, tr.201-203",
+          "examples": [
+            "Close the door, please. / Don't be late.",
+            "You are a student, aren't you?",
+            "She doesn't like coffee, does she?"
+          ]
+        },
+        {
+          "order_index": 5,
+          "title": "Cụm động từ (Phrasal Verbs)",
+          "theory_md": "Động từ + giới từ/trạng từ tạo nghĩa mới, khác nghĩa gốc. Cần học theo cụm, không dịch từng từ.",
+          "book1_ref": "Chuyên đề 2, Phần 3, tr.28-32",
+          "book2_p1_ref": "Phần I, Chuyên đề 6, tr.40-42",
+          "book2_p2_ref": "Phần II, Chuyên đề 21, tr.222-229",
+          "examples": [
+            "give up = từ bỏ → He never gives up.",
+            "look after = chăm sóc → She looks after her little brother.",
+            "put off = hoãn lại → They put off the meeting."
+          ]
+        },
+        {
+          "order_index": 6,
+          "title": "Collocations & Idioms",
+          "theory_md": "Collocation: từ hay đi cùng nhau theo thói quen (make a decision, không phải do a decision). Idiom: cụm từ nghĩa bóng, không suy nghĩa từng từ.",
+          "book1_ref": "Chuyên đề 2, Phần 2 & 9, tr.23-27, 57-61",
+          "book2_p1_ref": "—",
+          "book2_p2_ref": "Phần II, Chuyên đề 22, tr.230-232",
+          "examples": [
+            "make a mistake / do homework / take a photo",
+            "once in a blue moon = hiếm khi",
+            "break the ice = phá vỡ sự ngượng ngùng ban đầu"
+          ]
+        },
+        {
+          "order_index": 7,
+          "title": "Giới từ",
+          "theory_md": "Thời gian: in (tháng/năm/mùa), on (ngày/thứ), at (giờ). Giới từ cố định đi kèm tính từ/động từ cần học thuộc: interested in, good at, afraid of...",
+          "book1_ref": "Chuyên đề 2, Phần 7-8, tr.47-56",
+          "book2_p1_ref": "Phần I, Chuyên đề 10, tr.56-58",
+          "book2_p2_ref": "Phần II, Chuyên đề 20, tr.210-221",
+          "examples": [
+            "She was born in 2005, on the 5th of May, at 3 p.m.",
+            "He is very good at math.",
+            "I'm interested in learning English."
+          ]
+        },
+        {
+          "order_index": 8,
+          "title": "Cấu tạo từ & Đồng nghĩa - Trái nghĩa",
+          "theory_md": "Đề thường cho từ gốc, yêu cầu điền đúng dạng từ loại phù hợp vị trí trong câu. Từ đồng nghĩa/trái nghĩa: đoán nghĩa qua ngữ cảnh câu trước khi chọn từ.",
+          "book1_ref": "Chuyên đề 2, Phần 11, tr.67-71",
+          "book2_p1_ref": "Phần I, Chuyên đề 20-21, tr.93-96",
+          "book2_p2_ref": "Phần II, Chuyên đề 24-26, tr.237-259",
+          "examples": [
+            "Her decision (n.) was very wise (adj.), so everyone admired (v.) her.",
+            "\"Rapid\" đồng nghĩa với \"fast\".",
+            "\"Increase\" trái nghĩa với \"decrease\"."
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 4,
+      "title": "Giai đoạn 4 — Kỹ năng Đọc hiểu & Viết",
+      "topics": [
+        {
+          "order_index": 1,
+          "title": "Điền từ vào đoạn văn (Cloze Test)",
+          "theory_md": "Đọc lướt cả đoạn trước để nắm ý chính, không điền ngay câu đầu. Chỗ trống thường kiểm tra: giới từ cố định, liên từ nối ý, từ vựng theo ngữ cảnh, dạng từ.",
+          "book1_ref": "Chuyên đề 4, Phần 1, tr.151-153",
+          "book2_p1_ref": "Phần I, Chuyên đề 27, tr.115-123",
+          "book2_p2_ref": "Phần II, Chuyên đề 28, tr.264-294",
+          "examples": [
+            "\"Reading is good ___ your brain.\" → for (collocation cố định)",
+            "\"___, many students don't have time to read.\" → However (liên từ tương phản)",
+            "Đọc hết đoạn để nắm chủ đề trước khi điền câu đầu tiên"
+          ]
+        },
+        {
+          "order_index": 2,
+          "title": "Đọc hiểu (Reading Comprehension)",
+          "theory_md": "Main idea/title: đọc câu chủ đề (đầu đoạn). True/False/Not Given: Not Given nghĩa là bài không nhắc tới, không phải sai. Chi tiết cụ thể: tìm từ khóa câu hỏi rồi dò đúng đoạn. Từ vựng trong ngữ cảnh: đoán nghĩa qua câu xung quanh.",
+          "book1_ref": "Chuyên đề 4, Phần 2-3, tr.154-180",
+          "book2_p1_ref": "Phần I, Chuyên đề 26, tr.111-114",
+          "book2_p2_ref": "Phần II, Chuyên đề 28, tr.264-294",
+          "examples": [
+            "\"What is the main idea of paragraph 1?\" → đọc kỹ câu đầu/cuối đoạn 1",
+            "Câu hỏi có từ NOT/EXCEPT → tìm ý sai/khác biệt",
+            "\"The word 'it' in line 5 refers to...\" → đọc lùi lại câu trước để tìm danh từ"
+          ]
+        },
+        {
+          "order_index": 3,
+          "title": "Tìm lỗi sai",
+          "theory_md": "Kiểm tra theo thứ tự ưu tiên: (1) thì động từ có hợp thời gian không, (2) hòa hợp chủ ngữ-động từ, (3) từ loại đúng vị trí, (4) giới từ cố định, (5) cấu trúc song song.",
+          "book1_ref": "Chuyên đề 4, Phần 4, tr.181-190",
+          "book2_p1_ref": "Phần I, Chuyên đề 23, tr.102-103",
+          "book2_p2_ref": "Phần II (rải rác trong các chuyên đề ngữ pháp)",
+          "examples": [
+            "\"She go to school every day.\" → sai: go → goes",
+            "\"He is interested on football.\" → sai: on → in",
+            "\"I like swimming, running and to play football.\" → sai: to play → playing"
+          ]
+        },
+        {
+          "order_index": 4,
+          "title": "Nối câu & Viết lại câu",
+          "theory_md": "Giữ nguyên nghĩa gốc, chỉ đổi cấu trúc ngữ pháp (chủ động↔bị động, trực tiếp↔gián tiếp, dùng liên từ khác). Đọc kỹ từ gợi ý cho sẵn để chọn đúng cấu trúc cần dùng.",
+          "book1_ref": "Chuyên đề 5, Phần 1-2, tr.192-204",
+          "book2_p1_ref": "Phần I, Chuyên đề 24-25, tr.104-110",
+          "book2_p2_ref": "Phần II, Chuyên đề 29, tr.295-359",
+          "examples": [
+            "He is tall. He can't reach the shelf. → Although he is tall, he can't reach the shelf.",
+            "They built this bridge in 1990. → This bridge was built in 1990.",
+            "I haven't seen him for 2 years. → The last time I saw him was 2 years ago."
+          ]
+        },
+        {
+          "order_index": 5,
+          "title": "Chức năng giao tiếp",
+          "theory_md": "Học theo mẫu câu tình huống cố định (không cần dịch từng từ): mời/nhận lời, xin lỗi, cảm ơn, đồng ý/từ chối.",
+          "book1_ref": "Chuyên đề 5, Phần 3, tr.205-209",
+          "book2_p1_ref": "Phần I, Chuyên đề 22, tr.97-101",
+          "book2_p2_ref": "Phần II, Chuyên đề 27, tr.260-263",
+          "examples": [
+            "A: \"Would you like some tea?\" B: \"Yes, please. Thank you.\"",
+            "A: \"I'm sorry I'm late.\" B: \"That's all right. Don't worry.\"",
+            "A: \"Congratulations on your success!\" B: \"Thank you very much.\""
+          ]
+        }
+      ]
+    }
+  ]
+}
