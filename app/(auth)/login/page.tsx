@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { GraduationCap, Lock, Mail, User, ArrowRight, Loader2, CheckCircle2, ShieldCheck } from "lucide-react";
-import { loginWithEmail, registerWithEmail } from "@/lib/supabase/auth";
+import { GraduationCap, Lock, User, ArrowRight, Loader2, CheckCircle2, BookOpen } from "lucide-react";
+import { loginWithUsername, registerWithUsername } from "@/lib/supabase/auth";
 import { setCurrentUser } from "@/lib/data/store";
 import { cn } from "@/lib/utils";
 
@@ -12,10 +12,9 @@ export default function LoginPage() {
   const [tab, setTab] = useState<"signin" | "signup">("signin");
 
   // Form states
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [fullName, setFullName] = useState("");
-  const [role, setRole] = useState<"student" | "admin">("student");
 
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
@@ -29,7 +28,13 @@ export default function LoginPage() {
 
     try {
       if (tab === "signin") {
-        const res = await loginWithEmail(email.trim(), password);
+        if (!username.trim()) {
+          setErrorMsg("Vui lòng nhập tên đăng nhập");
+          setLoading(false);
+          return;
+        }
+
+        const res = await loginWithUsername(username.trim(), password);
         if (res.error) {
           setErrorMsg(res.error);
         } else if (res.user) {
@@ -43,23 +48,29 @@ export default function LoginPage() {
           return;
         }
 
-        const res = await registerWithEmail(
-          email.trim(),
+        const cleanUsername = username.trim().toLowerCase().replace(/[^a-z0-9_.-]/g, "");
+        if (!cleanUsername || cleanUsername.length < 3) {
+          setErrorMsg("Tên đăng nhập cần ít nhất 3 ký tự (chỉ bao gồm chữ cái, chữ số, dấu gạch dưới)");
+          setLoading(false);
+          return;
+        }
+
+        const res = await registerWithUsername(
+          cleanUsername,
           password,
-          fullName.trim(),
-          role
+          fullName.trim()
         );
 
         if (res.error) {
           setErrorMsg(res.error);
         } else {
-          setSuccessMsg("Đăng ký thành công! Đang tự động đăng nhập...");
+          setSuccessMsg("Đăng ký tài khoản thành công! Đang vào lớp học...");
           if (res.user) {
             setCurrentUser(res.user);
           }
           setTimeout(() => {
             router.push("/");
-          }, 1200);
+          }, 1000);
         }
       }
     } catch (err: any) {
@@ -115,7 +126,7 @@ export default function LoginPage() {
                 : "text-slate-500 hover:text-slate-800 dark:text-slate-400"
             )}
           >
-            Đăng ký mới
+            Đăng ký học viên
           </button>
         </div>
 
@@ -159,19 +170,19 @@ export default function LoginPage() {
 
           <div>
             <label className="block text-xs font-bold uppercase text-slate-600 dark:text-slate-400 mb-1">
-              Email đăng nhập <span className="text-rose-500">*</span>
+              Tên đăng nhập <span className="text-rose-500">*</span>
             </label>
             <div className="relative">
-              <Mail
+              <User
                 size={16}
                 className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"
               />
               <input
-                type="email"
+                type="text"
                 required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="name@example.com"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                placeholder={tab === "signin" ? "Ví dụ: truongleson687" : "Ví dụ: nguyenvana (viết liền không dấu)"}
                 className="w-full pl-10 pr-4 py-2.5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500 text-slate-900 dark:text-slate-100"
               />
             </div>
@@ -199,18 +210,11 @@ export default function LoginPage() {
           </div>
 
           {tab === "signup" && (
-            <div>
-              <label className="block text-xs font-bold uppercase text-slate-600 dark:text-slate-400 mb-1">
-                Vai trò của bạn
-              </label>
-              <select
-                value={role}
-                onChange={(e) => setRole(e.target.value as any)}
-                className="w-full px-3.5 py-2.5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500 text-slate-900 dark:text-slate-100"
-              >
-                <option value="student">Học viên (Ôn thi)</option>
-                <option value="admin">Giáo viên / Quản trị nội dung (Admin)</option>
-              </select>
+            <div className="p-3 rounded-2xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-900/50 flex items-center gap-2.5 text-indigo-700 dark:text-indigo-300">
+              <BookOpen size={16} className="shrink-0" />
+              <div className="text-[11px] leading-tight font-medium">
+                Tài khoản đăng ký mới sẽ mặc định là <strong>Học viên</strong> để đồng bộ tiến độ ôn thi THPTQG.
+              </div>
             </div>
           )}
 
@@ -223,7 +227,7 @@ export default function LoginPage() {
               <Loader2 size={16} className="animate-spin" />
             ) : (
               <>
-                <span>{tab === "signin" ? "Đăng nhập ngay" : "Tạo tài khoản & Đăng nhập"}</span>
+                <span>{tab === "signin" ? "Đăng nhập ngay" : "Tạo tài khoản & Bắt đầu học"}</span>
                 <ArrowRight size={16} />
               </>
             )}
@@ -233,7 +237,7 @@ export default function LoginPage() {
         {/* Security Note */}
         <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 text-center">
           <p className="text-[11px] text-slate-400 leading-relaxed">
-            Dữ liệu học tập, tiến độ Spaced Repetition và sổ tay lỗi sai được mã hóa và lưu trữ trên cơ sở dữ liệu Supabase Cloud.
+            Dữ liệu học tập, tiến độ Spaced Repetition và sổ tay lỗi sai được đồng bộ trực tiếp lên Supabase Cloud.
           </p>
         </div>
       </div>

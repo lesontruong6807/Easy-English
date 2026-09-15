@@ -4,6 +4,7 @@ export interface Profile {
   id: string;
   full_name: string;
   role: UserRole;
+  username?: string;
   created_at?: string;
 }
 

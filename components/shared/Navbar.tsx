@@ -104,47 +104,58 @@ export const Navbar: React.FC = () => {
                   className="fixed inset-0 z-40"
                   onClick={() => setIsUserMenuOpen(false)}
                 />
-                <div className="absolute right-0 mt-2 w-56 rounded-2xl bg-white dark:bg-slate-900 shadow-xl border border-slate-200 dark:border-slate-800 py-2 z-50 animate-fade-in">
-                  <div className="px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400">
-                    Đổi người học (Nhóm nhỏ)
+                <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-white dark:bg-slate-900 shadow-2xl border border-slate-200/80 dark:border-slate-800/80 py-2.5 z-50 animate-fade-in">
+                  <div className="px-4 py-2 border-b border-slate-100 dark:border-slate-800">
+                    <div className="text-xs font-bold text-slate-900 dark:text-white truncate">
+                      {currentUser.full_name}
+                    </div>
+                    <div className="flex items-center gap-1.5 mt-0.5">
+                      <span className="text-[11px] text-slate-500 dark:text-slate-400">
+                        {currentUser.username ? `@${currentUser.username}` : "Tài khoản Supabase"}
+                      </span>
+                      <span className={`inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-bold ${
+                        currentUser.role === "admin"
+                          ? "bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400"
+                          : "bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-400"
+                      }`}>
+                        {currentUser.role === "admin" ? "Admin" : "Học viên"}
+                      </span>
+                    </div>
                   </div>
-                  {DEFAULT_USERS.map((u) => (
-                    <button
-                      key={u.id}
-                      onClick={() => handleSelectUser(u)}
-                      className={`w-full px-3 py-2 text-left text-xs flex items-center justify-between hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors ${
-                        currentUser.id === u.id
-                          ? "text-indigo-600 dark:text-indigo-400 font-bold bg-indigo-50/50 dark:bg-indigo-950/40"
-                          : "text-slate-700 dark:text-slate-300"
-                      }`}
-                    >
-                      <div className="flex items-center gap-2">
-                        {u.role === "admin" ? (
-                          <ShieldCheck size={14} className="text-amber-500" />
-                        ) : (
-                          <User size={14} className="text-indigo-500" />
-                        )}
-                        <span>{u.full_name}</span>
-                      </div>
-                      {currentUser.id === u.id && (
-                        <span className="w-1.5 h-1.5 rounded-full bg-indigo-600"></span>
-                      )}
-                    </button>
-                  ))}
+
                   {currentUser.role === "admin" && (
-                    <div className="border-t border-slate-100 dark:border-slate-800 mt-1 pt-1">
+                    <div className="py-1 border-b border-slate-100 dark:border-slate-800">
+                      <div className="px-4 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-400">
+                        Khu vực Quản trị
+                      </div>
                       <Link
                         href="/admin/progress"
                         onClick={() => setIsUserMenuOpen(false)}
-                        className="w-full px-3 py-2 text-left text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 flex items-center gap-2"
+                        className="w-full px-4 py-2 text-left text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-2 transition-colors"
                       >
-                        <ShieldCheck size={14} />
-                        <span>Bảng quản trị nhóm</span>
+                        <ShieldCheck size={15} className="text-indigo-500" />
+                        <span>Bảng theo dõi tiến độ nhóm</span>
+                      </Link>
+                      <Link
+                        href="/admin/topics"
+                        onClick={() => setIsUserMenuOpen(false)}
+                        className="w-full px-4 py-2 text-left text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-2 transition-colors"
+                      >
+                        <GraduationCap size={15} className="text-indigo-500" />
+                        <span>Quản lý chủ đề lý thuyết</span>
+                      </Link>
+                      <Link
+                        href="/admin/vocab"
+                        onClick={() => setIsUserMenuOpen(false)}
+                        className="w-full px-4 py-2 text-left text-xs font-semibold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-2 transition-colors"
+                      >
+                        <Sparkles size={15} className="text-indigo-500" />
+                        <span>Quản lý kho từ vựng</span>
                       </Link>
                     </div>
                   )}
 
-                  <div className="border-t border-slate-100 dark:border-slate-800 mt-1 pt-1">
+                  <div className="pt-1">
                     <button
                       type="button"
                       onClick={async () => {
@@ -152,10 +163,10 @@ export const Navbar: React.FC = () => {
                         const { logoutUser } = await import("@/lib/supabase/auth");
                         await logoutUser();
                       }}
-                      className="w-full px-3 py-2 text-left text-xs font-semibold text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 flex items-center gap-2 transition-colors"
+                      className="w-full px-4 py-2 text-left text-xs font-semibold text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 flex items-center gap-2 transition-colors"
                     >
-                      <LogOut size={14} />
-                      <span>Đăng xuất</span>
+                      <LogOut size={15} />
+                      <span>Đăng xuất tài khoản</span>
                     </button>
                   </div>
                 </div>
