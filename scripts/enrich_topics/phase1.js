@@ -27,16 +27,19 @@ Tại sao lại có 3 cách đọc?
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết từng trường hợp
 
-* **Ví dụ 1:** *watched* /wɒtʃt/ $\\rightarrow$ Động từ gốc là *watch*, kết thúc bằng âm bật hơi /tʃ/ (âm vô thanh, cổ họng không rung), do đó đuôi -ed phát âm là **/t/**.
-* **Ví dụ 2:** *wanted* /ˈwɒntɪd/ $\\rightarrow$ Động từ gốc là *want*, kết thúc bằng chữ "t" (âm /t/), do đó đuôi -ed bắt buộc phát âm là **/ɪd/**.
-* **Ví dụ 3:** *played* /pleɪd/ $\\rightarrow$ Động từ gốc là *play*, kết thúc bằng nguyên âm đôi /eɪ/ (nguyên âm luôn rung cổ họng), do đó đuôi -ed phát âm là **/d/**.
+* **Ví dụ 1:** *watched* /wɒtʃt/ $\→$ Động từ gốc là *watch*, kết thúc bằng âm bật hơi /tʃ/ (âm vô thanh, cổ họng không rung), do đó đuôi -ed phát âm là **/t/**.
+* **Ví dụ 2:** *wanted* /ˈwɒntɪd/ $\→$ Động từ gốc là *want*, kết thúc bằng chữ "t" (âm /t/), do đó đuôi -ed bắt buộc phát âm là **/ɪd/**.
+* **Ví dụ 3:** *played* /pleɪd/ $\→$ Động từ gốc là *play*, kết thúc bằng nguyên âm đôi /eɪ/ (nguyên âm luôn rung cổ họng), do đó đuôi -ed phát âm là **/d/**.
 
 ---
 
 > 💡 **THẦN CHÚ HACK NÃO NHỚ TRONG 5 GIÂY:**
-> 1. Đọc là **/ɪd/**: Nhớ câu **"Tiền - Đô"** (T - D). Cứ thấy tận cùng bằng **T** hoặc **D** là đọc **/ɪd/** ngay!
-> 2. Đọc là **/t/**: Nhớ câu thần chú bất hủ **"Chính Phủ Phát Sách Không Cho Thuê"** (tương ứng với các âm: **ch, p, f/gh/ph, s/x/ce, k, ch, th**).
-> 3. Đọc là **/d/**: Toàn bộ các từ còn lại không thuộc 2 nhóm trên!
+> 1. Đọc là **/ɪd/**: Nhớ câu **"Tiền - Đô"** hoặc **"Tình - Đầu"** (T - D). Cứ thấy tận cùng bằng **T** hoặc **D** là đọc **/ɪd/** ngay!
+> 2. Đọc là **/t/** (các từ tận cùng bằng: ch, p, f/ph/gh, s, k, sh, x, th):
+>    - **"Chúng phải phục sẵn khi shiết xích"**
+>    - **"Sáng sớm chạy khắp phố phường sau xem"**
+>    - Hoặc: **"Chính Phủ Phát Sách Không Cho Thuê"**
+> 3. Đọc là **/d/**: Toàn bộ các từ còn lại (âm hữu thanh)!
 
 ---
 
@@ -99,22 +102,28 @@ Khi thêm **-s** hoặc **-es** vào danh từ số nhiều (ví dụ: *cats, bo
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *books* /bʊks/ $\\rightarrow$ Từ gốc *book* kết thúc bằng âm /k/ (âm vô thanh - "Kiến" trong "Thời Phong Kiến..."), nên đuôi -s đọc là **/s/**.
-* **Ví dụ 2:** *watches* /ˈwɒtʃɪz/ $\\rightarrow$ Từ gốc *watch* kết thúc bằng âm rít /tʃ/, bản thân đã xì gió nên khi thêm -es phải chèn âm /ɪ/ vào giữa thành **/ɪz/** để phát âm được.
-* **Ví dụ 3:** *plays* /pleɪz/ $\\rightarrow$ Từ gốc *play* kết thúc bằng nguyên âm /eɪ/ hữu thanh, nên đuôi -s đọc là **/z/**.
+* **Ví dụ 1:** *books* /bʊks/ $\→$ Từ gốc *book* kết thúc bằng âm /k/ (âm vô thanh - "Kiến" trong "Thời Phong Kiến..."), nên đuôi -s đọc là **/s/**.
+* **Ví dụ 2:** *watches* /ˈwɒtʃɪz/ $\→$ Từ gốc *watch* kết thúc bằng âm rít /tʃ/, bản thân đã xì gió nên khi thêm -es phải chèn âm /ɪ/ vào giữa thành **/ɪz/** để phát âm được.
+* **Ví dụ 3:** *plays* /pleɪz/ $\→$ Từ gốc *play* kết thúc bằng nguyên âm /eɪ/ hữu thanh, nên đuôi -s đọc là **/z/**.
 
 ---
 
 > 💡 **CÂU THẦN CHÚ "BẤT BẠI" DÀNH CHO HỌC SINH:**
-> 1. Đọc là **/ɪz/**: Nhớ câu **"Sáu Chạy Xe Sh Zui Zẻ"** (tương ứng chữ cái cuối: **s, ch, x, sh, z, ge/ce**).
-> 2. Đọc là **/s/**: Nhớ câu **"Thời Phong Kiến Phương Tây"** (tương ứng các âm: **/θ/ (th), /p/, /k/, /f/ (gh/ph), /t/**).
-> 3. Đọc là **/z/**: Toàn bộ các trường hợp còn lại!
+> 1. Đọc là **/ɪz/** (Các từ tận cùng bằng: s, ss, ch, sh, x, z, ce, ge):
+>    - **"Sẵn sàng chiều shững xong zứt chân giày"**
+>    - **"Sóng zữ chỉ sợ xiên cá già"**
+>    - Hoặc: **"Sáu Chạy Xe Sh Zui Zẻ"**
+> 2. Đọc là **/s/** (Các từ tận cùng bằng: f/ph/gh, t, k, p, th):
+>    - **"Phải thắp kính phù thủy"**
+>    - **"Chính phủ phát sách không cho thuê"**
+>    - Hoặc: **"Thời phong kiến phương tây"**
+> 3. Đọc là **/z/**: Toàn bộ các trường hợp còn lại (âm hữu thanh)!
 
 ---
 
 > ⚠️ **CẠM BẪY ĐỀ THI HAY GẶP:**
-> - Chữ cái tận cùng là **-gh** hay **-ph** nhưng phát âm là **/f/** (như *laughs* /lɑːfs/, *photographs* /ˈfəʊtəɡrɑːfs/) $\\rightarrow$ đuôi 's' phát âm là **/s/**.
-> - Chữ cái tận cùng là **-ce**, **-se** như *places*, *houses*, *promises* $\\rightarrow$ phát âm đuôi là **/ɪz/**.
+> - Chữ cái tận cùng là **-gh** hay **-ph** nhưng phát âm là **/f/** (như *laughs* /lɑːfs/, *photographs* /ˈfəʊtəɡrɑːfs/) $\→$ đuôi 's' phát âm là **/s/**.
+> - Chữ cái tận cùng là **-ce**, **-se** như *places*, *houses*, *promises* $\→$ phát âm đuôi là **/ɪz/**.
 > - Từ *clothes* (quần áo) phát âm là /kləʊðz/ hoặc /kləʊz/ (âm **/z/**, không đọc là /ɪz/).`,
     examples: [
       "books /bʊks/ → đọc /s/ vì kết thúc là âm /k/ (Thời phong kiến...)",
@@ -169,12 +178,18 @@ Tiếng Anh không giống tiếng Việt; cùng một chữ viết có thể ph
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *chemistry* /ˈkemɪstri/ vs *chair* /tʃeə/ $\\rightarrow$ Cùng viết là "ch" nhưng *chemistry* là từ mượn Hy Lạp nên đọc là **/k/**, trong khi *chair* đọc là **/tʃ/**.
-* **Ví dụ 2:** *blood* /blʌd/ vs *book* /bʊk/ $\\rightarrow$ Đa số chữ "oo" đọc là /uː/ hoặc /ʊ/, nhưng *blood* (máu) và *flood* (lũ lụt) lại đọc là âm **/ʌ/** (như chữ 'á' tiếng Việt).
-* **Ví dụ 3:** *climb* /klaɪm/ $\\rightarrow$ Chữ "b" đứng sau "m" ở cuối từ là **âm câm**, hoàn toàn không phát âm ra tiếng.
+* **Ví dụ 1:** *chemistry* /ˈkemɪstri/ vs *chair* /tʃeə/ $\→$ Cùng viết là "ch" nhưng *chemistry* là từ mượn Hy Lạp nên đọc là **/k/**, trong khi *chair* đọc là **/tʃ/**.
+* **Ví dụ 2:** *blood* /blʌd/ vs *book* /bʊk/ $\→$ Đa số chữ "oo" đọc là /uː/ hoặc /ʊ/, nhưng *blood* (máu) và *flood* (lũ lụt) lại đọc là âm **/ʌ/** (như chữ 'á' tiếng Việt).
+* **Ví dụ 3:** *climb* /klaɪm/ $\→$ Chữ "b" đứng sau "m" ở cuối từ là **âm câm**, hoàn toàn không phát âm ra tiếng.
 
 ---
 
+> 💡 **THẦN CHÚ NHỚ 5 NGUYÊN ÂM (QUY TẮC DÙNG MẠO TỪ AN / A):**
+> 5 nguyên âm (vowels) trong tiếng Anh gồm: **A, E, I, O, U**.
+> - **Thần chú 1:** **"UỂ OẢI"** (U - E - O - A - I)
+> - **Thần chú 2:** **"Anh Em Ít Ở Không"** (A - E - I - O - U)
+> 👉 Cứ từ nào bắt đầu phát âm bằng 5 nguyên âm này thì dùng mạo từ **AN** (*an apple, an elephant, an orange*).
+>
 > 💡 **CHIẾN THUẬT LÀM BÀI CHO NGƯỜI MẤT GỐC:**
 > 1. Không cần biết phát âm cả 4 từ! Bạn chỉ cần chắc chắn phát âm của **3 từ**, so sánh xem 2 từ nào giống nhau thì từ thứ 3 khác biệt chính là đáp án.
 > 2. Chú ý các từ "quen mắt nhưng đọc lạ":
@@ -249,16 +264,16 @@ Trong đề thi THPTQG luôn có **2 câu trọng âm** (1 câu từ 2 âm tiế
 
 ## 💬 4. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *'present* (danh từ: món quà) $\\rightarrow$ Danh từ 2 âm tiết nhấn âm 1. Nhưng *pre'sent* (động từ: thuyết trình) $\\rightarrow$ Động từ 2 âm tiết nhấn âm 2.
-* **Ví dụ 2:** *edu'cation* $\\rightarrow$ Đuôi *-tion* kéo trọng âm về âm tiết ngay trước nó là âm "ca".
-* **Ví dụ 3:** *engi'neer* $\\rightarrow$ Hậu tố *-eer* nhận luôn trọng âm trên chính đuôi.
+* **Ví dụ 1:** *'present* (danh từ: món quà) $\→$ Danh từ 2 âm tiết nhấn âm 1. Nhưng *pre'sent* (động từ: thuyết trình) $\→$ Động từ 2 âm tiết nhấn âm 2.
+* **Ví dụ 2:** *edu'cation* $\→$ Đuôi *-tion* kéo trọng âm về âm tiết ngay trước nó là âm "ca".
+* **Ví dụ 3:** *engi'neer* $\→$ Hậu tố *-eer* nhận luôn trọng âm trên chính đuôi.
 
 ---
 
 > 💡 **THẦN CHÚ VÀNG: NẮM NGUYÊN TẮC ÂM YẾU /ə/**
 > Trọng âm **KHÔNG BAO GIỜ** rơi vào âm /ə/ (âm "ơ" ngắn) hoặc /i/ ngắn.
-> - *mother* /ˈmʌðər/ $\\rightarrow$ âm 2 là /ə/ nên trọng âm chắc chắn rơi vào âm 1.
-> - *contain* /kənˈteɪn/ $\\rightarrow$ âm 1 là /kən/ (chứa /ə/) nên trọng âm phải nhảy sang âm 2.`,
+> - *mother* /ˈmʌðər/ $\→$ âm 2 là /ə/ nên trọng âm chắc chắn rơi vào âm 1.
+> - *contain* /kənˈteɪn/ $\→$ âm 1 là /kən/ (chứa /ə/) nên trọng âm phải nhảy sang âm 2.`,
     examples: [
       "'present (danh từ: món quà) vs pre'sent (động từ: thuyết trình) → trọng âm đổi nghĩa",
       "edu'cation → đuôi -tion kéo trọng âm về ngay trước nó (âm 'ca')",
@@ -312,12 +327,25 @@ Trong đề thi THPTQG luôn có **2 câu trọng âm** (1 câu từ 2 âm tiế
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *Lan is smart. She studies hard.* $\\rightarrow$ "She" là đại từ nhân xưng chủ ngữ thay thế cho danh từ "Lan" đứng trước để tránh lặp từ.
-* **Ví dụ 2:** *This book is mine, not yours.* $\\rightarrow$ "mine" là đại từ sở hữu (= my book), đứng độc lập một mình mà không cần danh từ đi sau.
-* **Ví dụ 3:** *The news was very surprising to everyone.* $\\rightarrow$ "News" (tin tức) dù có đuôi 's' nhưng là danh từ không đếm được, động từ phải chia số ít là *was*.
+* **Ví dụ 1:** *Lan is smart. She studies hard.* $\→$ "She" là đại từ nhân xưng chủ ngữ thay thế cho danh từ "Lan" đứng trước để tránh lặp từ.
+* **Ví dụ 2:** *This book is mine, not yours.* $\→$ "mine" là đại từ sở hữu (= my book), đứng độc lập một mình mà không cần danh từ đi sau.
+* **Ví dụ 3:** *The news was very surprising to everyone.* $\→$ "News" (tin tức) dù có đuôi 's' nhưng là danh từ không đếm được, động từ phải chia số ít là *was*.
 
 ---
 
+> 💡 **THẦN CHÚ TRẬT TỰ TÍNH TỪ TRƯỚC DANH TỪ (OSASCOMP):**
+> Khi có nhiều tính từ đứng trước một danh từ, thứ tự chuẩn quy định theo cụm **OSASCOMP**:
+> - **O**pinion (Quan điểm): *beautiful, nice, lovely*
+> - **S**ize (Kích cỡ): *big, small, tall*
+> - **A**ge (Tuổi tác): *old, young, new*
+> - **S**hape (Hình dáng): *round, square*
+> - **C**olor (Màu sắc): *red, blue, black*
+> - **O**rigin (Nguồn gốc): *Vietnamese, Japanese*
+> - **M**aterial (Chất liệu): *leather, wooden, silk*
+> - **P**urpose (Mục đích): *running (shoes), sleeping (bag)*
+> 👉 **CÂU THẦN CHÚ BẤT HỦ:** **"Ông Sáu Ăn Súp Cua Ông Mập Phì"**
+> *(Ví dụ: a beautiful small new round black Vietnamese leather bag)*
+>
 > 💡 **MẸO PHÂN BIỆT NHANH TÍNH TỪ SỞ HỮU VS ĐẠI TỪ SỞ HỮU:**
 > - **Tính từ sở hữu** (*my, your, his, her, their*) luôn cần **Danh từ đi kèm** (*my phone, her car*).
 > - **Đại từ sở hữu** (*mine, yours, hers, theirs*) đứng **ĐỘC LẬP 1 MÌNH**, thay thế cho cả cụm (Tính từ sở hữu + N).
@@ -384,15 +412,15 @@ Người mất gốc cần nhớ nguyên tắc cốt lõi: Phân biệt từ nà
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *I have a few questions to ask.* $\\rightarrow$ "questions" là danh từ đếm được số nhiều, "a few" nghĩa là có một vài câu hỏi (đủ dùng, tích cực).
-* **Ví dụ 2:** *He has little patience with children.* $\\rightarrow$ "patience" (sự kiên nhẫn) là danh từ không đếm được, "little" không có 'a' nghĩa là hầu như không có (tiêu cực).
-* **Ví dụ 3:** *Would you like some coffee?* $\\rightarrow$ Mặc dù là câu hỏi nhưng đây là lời mời lịch sự nên dùng *some* thay vì *any*.
+* **Ví dụ 1:** *I have a few questions to ask.* $\→$ "questions" là danh từ đếm được số nhiều, "a few" nghĩa là có một vài câu hỏi (đủ dùng, tích cực).
+* **Ví dụ 2:** *He has little patience with children.* $\→$ "patience" (sự kiên nhẫn) là danh từ không đếm được, "little" không có 'a' nghĩa là hầu như không có (tiêu cực).
+* **Ví dụ 3:** *Would you like some coffee?* $\→$ Mặc dù là câu hỏi nhưng đây là lời mời lịch sự nên dùng *some* thay vì *any*.
 
 ---
 
 > 💡 **TUYỆT CHIÊU PHÂN BIỆT: CÓ 'A' LÀ CÒN - MẤT 'A' LÀ MẤT:**
-> - **A few / A little (CÓ 'A'):** Một ít, một vài $\\rightarrow$ **VẪN CÒN ĐỦ DÙNG (Tích cực 😊)**.
-> - **Few / Little (MẤT 'A'):** Rất ít $\\rightarrow$ **HẦU NHƯ HẾT SẠCH, THIẾU THỐN (Tiêu cực 😢)**.`,
+> - **A few / A little (CÓ 'A'):** Một ít, một vài $\→$ **VẪN CÒN ĐỦ DÙNG (Tích cực 😊)**.
+> - **Few / Little (MẤT 'A'):** Rất ít $\→$ **HẦU NHƯ HẾT SẠCH, THIẾU THỐN (Tiêu cực 😢)**.`,
     examples: [
       "I have a few questions to ask the teacher. (Một vài câu hỏi - đếm được)",
       "He has little patience with children. (Hầu như không có kiên nhẫn - không đếm được)",
@@ -428,8 +456,8 @@ Người mất gốc cần nhớ nguyên tắc cốt lõi: Phân biệt từ nà
     theory_md: `## 🌟 1. Bản chất: Cỗ máy sản xuất từ vựng của tiếng Anh
 
 Chỉ cần biết **gốc từ (root)** kết hợp với **Tiền tố (Prefix)** và **Hậu tố (Suffix)**, bạn có thể đoán nghĩa và dạng từ của hàng ngàn từ mới:
-- **Tiền tố (Prefix):** Thêm vào **ĐẦU** từ $\\rightarrow$ Thay đổi **NGHĨA** của từ (tạo từ trái nghĩa).
-- **Hậu tố (Suffix):** Thêm vào **CUỐI** từ $\\rightarrow$ Thay đổi **TỪ LOẠI** (biến Động từ thành Danh từ, Tính từ thành Trạng từ).
+- **Tiền tố (Prefix):** Thêm vào **ĐẦU** từ $\→$ Thay đổi **NGHĨA** của từ (tạo từ trái nghĩa).
+- **Hậu tố (Suffix):** Thêm vào **CUỐI** từ $\→$ Thay đổi **TỪ LOẠI** (biến Động từ thành Danh từ, Tính từ thành Trạng từ).
 
 ---
 
@@ -446,9 +474,9 @@ Chỉ cần biết **gốc từ (root)** kết hợp với **Tiền tố (Prefix
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *happy (adj: vui vẻ) $\\rightarrow$ unhappy (adj: buồn) $\\rightarrow$ happiness (n: niềm hạnh phúc)*. Thêm tiền tố *un-* đổi nghĩa; thêm hậu tố *-ness* đổi thành danh từ.
-* **Ví dụ 2:** *care $\\rightarrow$ careful (cẩn thận) $\\rightarrow$ careless (bất cẩn)*. Đuôi *-ful* là có, đuôi *-less* là không có.
-* **Ví dụ 3:** *friendly* (thân thiện) $\\rightarrow$ Đây là **Tính từ** (Danh từ friend + ly), KHÔNG phải trạng từ!
+* **Ví dụ 1:** *happy (adj: vui vẻ) $\→$ unhappy (adj: buồn) $\→$ happiness (n: niềm hạnh phúc)*. Thêm tiền tố *un-* đổi nghĩa; thêm hậu tố *-ness* đổi thành danh từ.
+* **Ví dụ 2:** *care $\→$ careful (cẩn thận) $\→$ careless (bất cẩn)*. Đuôi *-ful* là có, đuôi *-less* là không có.
+* **Ví dụ 3:** *friendly* (thân thiện) $\→$ Đây là **Tính từ** (Danh từ friend + ly), KHÔNG phải trạng từ!
 
 ---
 

@@ -29,9 +29,9 @@ Bài điền từ gồm 1 đoạn văn với **5 chỗ trống** theo ma trận:
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *I need another pen because this one is broken.* $\\rightarrow$ "pen" là danh từ số ít nên dùng *another*.
-* **Ví dụ 2:** *Some people agreed, but others disagreed.* $\\rightarrow$ *others* đứng độc lập một mình làm chủ ngữ cho động từ *disagreed*.
-* **Ví dụ 3:** *She held a book in one hand and a flower in the other.* $\\rightarrow$ Con người có 2 tay, một tay cầm sách thì tay còn lại dùng *the other*.`,
+* **Ví dụ 1:** *I need another pen because this one is broken.* $\→$ "pen" là danh từ số ít nên dùng *another*.
+* **Ví dụ 2:** *Some people agreed, but others disagreed.* $\→$ *others* đứng độc lập một mình làm chủ ngữ cho động từ *disagreed*.
+* **Ví dụ 3:** *She held a book in one hand and a flower in the other.* $\→$ Con người có 2 tay, một tay cầm sách thì tay còn lại dùng *the other*.`,
     examples: [
       "I need another pen because this one is broken. (Another + Danh từ số ít)",
       "Some people agreed, but others disagreed. (Others đứng một mình làm chủ ngữ)",
@@ -74,9 +74,9 @@ Không dịch từng từ! Áp dụng **2 kỹ thuật đọc: Skimming & Scanni
 
 ## 💬 2. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *What is the main topic of the passage?* $\\rightarrow$ Đọc câu đầu tiên của từng đoạn văn để tổng hợp ý chính nhanh nhất.
-* **Ví dụ 2:** *The word 'they' in paragraph 2 refers to...* $\\rightarrow$ Đọc câu văn đứng ngay trước nó, tìm danh từ số nhiều để thay thế.
-* **Ví dụ 3:** *Avoid answers with extreme words like 'always', 'never', 'only'.* $\\rightarrow$ Các đáp án mang tính tuyệt đối hóa thường là đáp án bẫy sai.
+* **Ví dụ 1:** *What is the main topic of the passage?* $\→$ Đọc câu đầu tiên của từng đoạn văn để tổng hợp ý chính nhanh nhất.
+* **Ví dụ 2:** *The word 'they' in paragraph 2 refers to...* $\→$ Đọc câu văn đứng ngay trước nó, tìm danh từ số nhiều để thay thế.
+* **Ví dụ 3:** *Avoid answers with extreme words like 'always', 'never', 'only'.* $\→$ Các đáp án mang tính tuyệt đối hóa thường là đáp án bẫy sai.
 
 ---
 
@@ -126,8 +126,8 @@ Không dịch từng từ! Áp dụng **2 kỹ thuật đọc: Skimming & Scanni
 
 ## 💬 2. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *Last night he goes (sai $\\rightarrow$ went) to the movies.* $\\rightarrow$ Có "last night" thì động từ phải chia quá khứ đơn *went*.
-* **Ví dụ 2:** *Elephants use its (sai $\\rightarrow$ their) trunks.* $\\rightarrow$ "Elephants" là số nhiều nên đại từ sở hữu phải là *their*.
+* **Ví dụ 1:** *Last night he goes (sai $\→$ went) to the movies.* $\→$ Có "last night" thì động từ phải chia quá khứ đơn *went*.
+* **Ví dụ 2:** *Elephants use its (sai $\→$ their) trunks.* $\→$ "Elephants" là số nhiều nên đại từ sở hữu phải là *their*.
 * **Ví dụ 3:** *He made a sensible decision (quyết định khôn ngoan), not sensitive (nhạy cảm).*`,
     examples: [
       "Last night he goes (sai → went) to the movies with his classmates.",
@@ -163,23 +163,23 @@ Không dịch từng từ! Áp dụng **2 kỹ thuật đọc: Skimming & Scanni
     book2_p2_ref: "Phần II, Chuyên đề 28, tr.343-356",
     theory_md: `## 🌟 1. Top 4 cấu trúc chuyển đổi câu hay thi nhất
 
-1. **Hiện tại hoàn thành $\\leftrightarrow$ Quá khứ đơn:**
-   *I haven't seen him for 3 years $\\leftrightarrow$ The last time I saw him was 3 years ago.*
-2. **Modal Verb $\\leftrightarrow$ Động từ chỉ mức độ:**
-   - *It is compulsory... $\\leftrightarrow$ must*
-   - *You are not allowed to... $\\leftrightarrow$ mustn't*
-   - *It is a good idea to... $\\leftrightarrow$ should*
-3. **So sánh hơn $\\leftrightarrow$ So sánh bằng phủ định:**
-   *Nam is taller than Huy $\\leftrightarrow$ Huy is not as tall as Nam.*
-4. **Câu điều kiện $\\leftrightarrow$ Thực tế đối lập.**
+1. **Hiện tại hoàn thành $↔$ Quá khứ đơn:**
+   *I haven't seen him for 3 years $↔$ The last time I saw him was 3 years ago.*
+2. **Modal Verb $↔$ Động từ chỉ mức độ:**
+   - *It is compulsory... $↔$ must*
+   - *You are not allowed to... $↔$ mustn't*
+   - *It is a good idea to... $↔$ should*
+3. **So sánh hơn $↔$ So sánh bằng phủ định:**
+   *Nam is taller than Huy $↔$ Huy is not as tall as Nam.*
+4. **Câu điều kiện $↔$ Thực tế đối lập.**
 
 ---
 
 ## 💬 2. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *I haven't eaten pizza for months $\\rightarrow$ The last time I ate pizza was months ago.*
-* **Ví dụ 2:** *It is forbidden to take photos $\\rightarrow$ You mustn't take photos.*
-* **Ví dụ 3:** *She is smarter than me $\\rightarrow$ I am not as smart as her.*`,
+* **Ví dụ 1:** *I haven't eaten pizza for months $\→$ The last time I ate pizza was months ago.*
+* **Ví dụ 2:** *It is forbidden to take photos $\→$ You mustn't take photos.*
+* **Ví dụ 3:** *She is smarter than me $\→$ I am not as smart as her.*`,
     examples: [
       "I haven't eaten pizza for months = The last time I ate pizza was months ago.",
       "It is forbidden to take photos = You mustn't take photos.",
@@ -223,9 +223,9 @@ Người phương Tây luôn ưu tiên sự **lịch sự, khiêm tốn và tíc
 
 ## 💬 2. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *- 'Thank you for the ride!' - 'You're welcome!'* $\\rightarrow$ Lời đáp lại cảm ơn thân thiện.
-* **Ví dụ 2:** *- 'You look gorgeous today!' - 'Thank you. That's very kind of you.'* $\\rightarrow$ Đáp lại lời khen một cách lịch sự.
-* **Ví dụ 3:** *- 'Traffic is terrible.' - 'You can say that again!'* $\\rightarrow$ Thành ngữ thể hiện sự hoàn toàn đồng ý 100%.
+* **Ví dụ 1:** *- 'Thank you for the ride!' - 'You're welcome!'* $\→$ Lời đáp lại cảm ơn thân thiện.
+* **Ví dụ 2:** *- 'You look gorgeous today!' - 'Thank you. That's very kind of you.'* $\→$ Đáp lại lời khen một cách lịch sự.
+* **Ví dụ 3:** *- 'Traffic is terrible.' - 'You can say that again!'* $\→$ Thành ngữ thể hiện sự hoàn toàn đồng ý 100%.
 
 ---
 

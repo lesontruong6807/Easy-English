@@ -9,7 +9,7 @@ module.exports = [
     theory_md: `## 🌟 1. Bản chất của "Thì" (Tenses) cho người mất gốc
 
 Trong tiếng Việt: *"Hôm qua tôi ăn, bây giờ tôi ăn, ngày mai tôi cũng ăn"*. Từ "ăn" giữ nguyên.
-Nhưng trong tiếng Anh: **Mỗi mốc thời gian, động từ bắt buộc phải BIẾN HÌNH** (*eat $\\rightarrow$ ate $\\rightarrow$ will eat*).
+Nhưng trong tiếng Anh: **Mỗi mốc thời gian, động từ bắt buộc phải BIẾN HÌNH** (*eat $\→$ ate $\→$ will eat*).
 Tiếng Anh có 12 thì, nhưng đề thi THPTQG chỉ xoay quanh **5 thì cốt lõi nhất** sau đây.
 
 ---
@@ -28,12 +28,17 @@ Tiếng Anh có 12 thì, nhưng đề thi THPTQG chỉ xoay quanh **5 thì cốt
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết từng trường hợp
 
-* **Ví dụ 1:** *She usually walks to school, but today she is cycling.* $\\rightarrow$ "usually walks" diễn tả thói quen thường nhật (Hiện tại đơn), còn "today she is cycling" diễn tả hành động khác lạ đang diễn ra hôm nay (Hiện tại tiếp diễn).
-* **Ví dụ 2:** *When I arrived at the party, they were dancing.* $\\rightarrow$ Hành động họ đang khiêu vũ (*were dancing* - QKTD) thì tôi bất chợt bước vào (*arrived* - QKĐ xen vào).
-* **Ví dụ 3:** *We have studied English for 5 years.* $\\rightarrow$ Việc học tiếng Anh bắt đầu từ 5 năm trước và hiện tại vẫn đang tiếp tục học (Hiện tại hoàn thành).
+* **Ví dụ 1:** *She usually walks to school, but today she is cycling.* $\→$ "usually walks" diễn tả thói quen thường nhật (Hiện tại đơn), còn "today she is cycling" diễn tả hành động khác lạ đang diễn ra hôm nay (Hiện tại tiếp diễn).
+* **Ví dụ 2:** *When I arrived at the party, they were dancing.* $\→$ Hành động họ đang khiêu vũ (*were dancing* - QKTD) thì tôi bất chợt bước vào (*arrived* - QKĐ xen vào).
+* **Ví dụ 3:** *We have studied English for 5 years.* $\→$ Việc học tiếng Anh bắt đầu từ 5 năm trước và hiện tại vẫn đang tiếp tục học (Hiện tại hoàn thành).
 
 ---
 
+> 💡 **THẦN CHÚ NHỚ CÁC TRẠNG TỪ TẦN SUẤT (TỪ CAO XUỐNG THẤP):**
+> Thứ tự các trạng từ tần suất từ 100% đến 0%:
+> **Always (100%) → Usually (80%) → Often (60%) → Sometimes (30%) → Never (0%)**
+> 👉 **THẦN CHÚ TIẾNG VIỆT:** **"Anh Uống Oẳn Tù Tì Sẽ Ngã"** (tương ứng: **A - U - O - S - N**)
+>
 > 💡 **THẦN CHÚ PHỐI THÌ: HÀNH ĐỘNG ĐANG LÀM THÌ CÓ HÀNH ĐỘNG KHÁC XEN VÀO**
 > - **Khi một hành động ĐANG XẢY RA (QKTD: was/were + V-ing)**
 > - Thì một hành động khác **BẤT CHỢT XEN VÀO (QKĐ: V2/ed)**
@@ -81,8 +86,8 @@ Tiếng Anh có 12 thì, nhưng đề thi THPTQG chỉ xoay quanh **5 thì cốt
     theory_md: `## 🌟 1. Bản chất cốt lõi: "Chủ ngữ nào - Động từ nấy"
 
 Nguyên tắc cơ bản:
-- **Chủ ngữ số ÍT $\\rightarrow$ Động từ số ÍT** (*He plays, The cat is*).
-- **Chủ ngữ số NHIỀU $\\rightarrow$ Động từ số NHIỀU** (*They play, Cats are*).
+- **Chủ ngữ số ÍT $\→$ Động từ số ÍT** (*He plays, The cat is*).
+- **Chủ ngữ số NHIỀU $\→$ Động từ số NHIỀU** (*They play, Cats are*).
 Tuy nhiên, trong đề thi THPTQG, người ra đề sẽ "kéo dài" chủ ngữ bằng các cụm chêm xen để bạn nhìn nhầm danh từ đứng gần động từ nhất!
 
 ---
@@ -101,9 +106,9 @@ Tuy nhiên, trong đề thi THPTQG, người ra đề sẽ "kéo dài" chủ ng�
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *The teacher, together with her students, is visiting the museum.* $\\rightarrow$ Cụm "together with her students" là phần bổ nghĩa chêm vào. Chủ ngữ chính là "The teacher" (số ít) nên động từ là *is*.
-* **Ví dụ 2:** *Fifty dollars is too much for this shirt.* $\\rightarrow$ "Fifty dollars" là một khoản tiền được coi là 1 khối tổng thể duy nhất nên chia động từ số ít *is*.
-* **Ví dụ 3:** *The poor in this region need urgent help.* $\\rightarrow$ "The poor" = những người nghèo (tập hợp nhiều người), động từ chia số nhiều nguyên mẫu *need*.
+* **Ví dụ 1:** *The teacher, together with her students, is visiting the museum.* $\→$ Cụm "together with her students" là phần bổ nghĩa chêm vào. Chủ ngữ chính là "The teacher" (số ít) nên động từ là *is*.
+* **Ví dụ 2:** *Fifty dollars is too much for this shirt.* $\→$ "Fifty dollars" là một khoản tiền được coi là 1 khối tổng thể duy nhất nên chia động từ số ít *is*.
+* **Ví dụ 3:** *The poor in this region need urgent help.* $\→$ "The poor" = những người nghèo (tập hợp nhiều người), động từ chia số nhiều nguyên mẫu *need*.
 
 ---
 
@@ -114,9 +119,9 @@ Tuy nhiên, trong đề thi THPTQG, người ra đề sẽ "kéo dài" chủ ng�
 ---
 
 > ⚠️ **CẠM BẪY ĐỀ THI: "A NUMBER OF" VS "THE NUMBER OF":**
-> - **A number of + N số nhiều $\\rightarrow$ ĐỘNG TỪ SỐ NHIỀU** (*A number of students **are** absent*).
-> - **The number of + N số nhiều $\\rightarrow$ ĐỘNG TỪ SỐ ÍT** (*The number of students **is** increasing*).
-> 👉 *Mẹo nhớ:* **A** (viết tắt của **A**LL $\\rightarrow$ Số nhiều) / **THE** (viết tắt của **THIỂU** $\\rightarrow$ Số ít).`,
+> - **A number of + N số nhiều $\→$ ĐỘNG TỪ SỐ NHIỀU** (*A number of students **are** absent*).
+> - **The number of + N số nhiều $\→$ ĐỘNG TỪ SỐ ÍT** (*The number of students **is** increasing*).
+> 👉 *Mẹo nhớ:* **A** (viết tắt của **A**LL $\→$ Số nhiều) / **THE** (viết tắt của **THIỂU** $\→$ Số ít).`,
     examples: [
       "The teacher, together with her students, is (số ít) visiting the museum.",
       "A number of cars were parked outside vs The number of cars is increasing.",
@@ -168,9 +173,9 @@ Ví dụ: Ta không nói "I enjoy read", mà phải nói "I enjoy **reading**".
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *I avoided meeting him at the supermarket.* $\\rightarrow$ Động từ *avoid* (tránh né) bắt buộc theo sau là V-ing (*meeting*).
-* **Ví dụ 2:** *He stopped smoking because it was bad for his health.* $\\rightarrow$ *Stop + V-ing* nghĩa là dừng hẳn, cai hẳn một hành động/thói quen.
-* **Ví dụ 3:** *I am looking forward to hearing from you.* $\\rightarrow$ Sau cụm *look forward to*, chữ "to" là giới từ nên bắt buộc cộng V-ing (*hearing*).
+* **Ví dụ 1:** *I avoided meeting him at the supermarket.* $\→$ Động từ *avoid* (tránh né) bắt buộc theo sau là V-ing (*meeting*).
+* **Ví dụ 2:** *He stopped smoking because it was bad for his health.* $\→$ *Stop + V-ing* nghĩa là dừng hẳn, cai hẳn một hành động/thói quen.
+* **Ví dụ 3:** *I am looking forward to hearing from you.* $\→$ Sau cụm *look forward to*, chữ "to" là giới từ nên bắt buộc cộng V-ing (*hearing*).
 
 ---
 
@@ -242,9 +247,9 @@ Ví dụ: Ta không nói "I enjoy read", mà phải nói "I enjoy **reading**".
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *You mustn't park your car here; it's illegal.* $\\rightarrow$ *Mustn't* mang nghĩa cấm đoán hoàn toàn, vi phạm luật pháp.
-* **Ví dụ 2:** *The streets are wet; it must have rained last night.* $\\rightarrow$ *Must have + V3* dùng để suy đoán chắc chắn 99% một việc đã xảy ra trong quá khứ dựa trên bằng chứng cụ thể.
-* **Ví dụ 3:** *You should have studied harder for the exam.* $\\rightarrow$ *Should have + V3* diễn tả sự nuối tiếc, lẽ ra nên làm gì trong quá khứ nhưng đã không làm.
+* **Ví dụ 1:** *You mustn't park your car here; it's illegal.* $\→$ *Mustn't* mang nghĩa cấm đoán hoàn toàn, vi phạm luật pháp.
+* **Ví dụ 2:** *The streets are wet; it must have rained last night.* $\→$ *Must have + V3* dùng để suy đoán chắc chắn 99% một việc đã xảy ra trong quá khứ dựa trên bằng chứng cụ thể.
+* **Ví dụ 3:** *You should have studied harder for the exam.* $\→$ *Should have + V3* diễn tả sự nuối tiếc, lẽ ra nên làm gì trong quá khứ nhưng đã không làm.
 
 ---
 
@@ -254,7 +259,7 @@ Ví dụ: Ta không nói "I enjoy read", mà phải nói "I enjoy **reading**".
 | :--- | :--- | :--- |
 | **Must have + V3** | **Chắc hẳn là đã** (Suy đoán 99% dựa trên bằng chứng ở quá khứ) | *The ground is wet. It **must have rained**.* |
 | **Can't have + V3** | **Không thể nào đã** (Khẳng định việc không thể xảy ra) | *He **can't have stolen** it; he was with me.* |
-| **Should have + V3** | **Lẽ ra nên làm** (nhưng thực tế đã không làm $\\rightarrow$ tiếc nuối) | *I **should have listened** to you.* |`,
+| **Should have + V3** | **Lẽ ra nên làm** (nhưng thực tế đã không làm $\→$ tiếc nuối) | *I **should have listened** to you.* |`,
     examples: [
       "You mustn't park your car here; it's illegal. (Mustn't = Cấm đỗ xe)",
       "The streets are wet; it must have rained last night. (Must have V3 = Chắc hẳn là đã)",
@@ -310,16 +315,16 @@ Khi ta muốn **nhấn mạnh vào đối tượng bị tác động** (thay vì
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *The house was built in 1995.* $\\rightarrow$ Ngôi nhà được xây trong quá khứ nên to be chia là *was* + V3 *built*.
-* **Ví dụ 2:** *I had my hair cut yesterday.* $\\rightarrow$ Cấu trúc nhờ vả: *have something done (V3)*, tôi nhờ thợ cắt tóc cho mình chứ không tự cắt.
-* **Ví dụ 3:** *It is said that he is very rich.* $\\rightarrow$ Bị động của động từ quan điểm ý kiến (*People say that...*).
+* **Ví dụ 1:** *The house was built in 1995.* $\→$ Ngôi nhà được xây trong quá khứ nên to be chia là *was* + V3 *built*.
+* **Ví dụ 2:** *I had my hair cut yesterday.* $\→$ Cấu trúc nhờ vả: *have something done (V3)*, tôi nhờ thợ cắt tóc cho mình chứ không tự cắt.
+* **Ví dụ 3:** *It is said that he is very rich.* $\→$ Bị động của động từ quan điểm ý kiến (*People say that...*).
 
 ---
 
 ## 💡 4. Cấu trúc Nhờ vả (Causative Form: Have / Get)
 
-- **HAVE somebody DO something $\\rightarrow$ HAVE something DONE (V3)** (Nhờ ai làm gì $\\rightarrow$ Có cái gì được làm).
-- **GET somebody TO DO something $\\rightarrow$ GET something DONE (V3)**.`,
+- **HAVE somebody DO something $\→$ HAVE something DONE (V3)** (Nhờ ai làm gì $\→$ Có cái gì được làm).
+- **GET somebody TO DO something $\→$ GET something DONE (V3)**.`,
     examples: [
       "The house was built in 1995. (Bị động quá khứ đơn)",
       "I had my hair cut yesterday. (Cấu trúc nhờ vả: have something done)",
@@ -365,19 +370,19 @@ Khi ta muốn **nhấn mạnh vào đối tượng bị tác động** (thay vì
 
 | Trực tiếp | Gián tiếp (Lùi 1 thì) | Trạng từ trực tiếp | Trạng từ gián tiếp |
 | :--- | :--- | :--- | :--- |
-| Hiện tại đơn (V1) | $\\rightarrow$ **Quá khứ đơn (V2)** | **now** | $\\rightarrow$ **then** |
-| Hiện tại tiếp diễn | $\\rightarrow$ **Quá khứ tiếp diễn** | **today** | $\\rightarrow$ **that day** |
-| Quá khứ đơn (V2) | $\\rightarrow$ **Quá khứ hoàn thành (had V3)** | **yesterday** | $\\rightarrow$ **the previous day** |
-| Hiện tại hoàn thành | $\\rightarrow$ **Quá khứ hoàn thành (had V3)** | **tomorrow** | $\\rightarrow$ **the following day** |
-| **will** | $\\rightarrow$ **would** | **this / here** | $\\rightarrow$ **that / there** |
+| Hiện tại đơn (V1) | $\→$ **Quá khứ đơn (V2)** | **now** | $\→$ **then** |
+| Hiện tại tiếp diễn | $\→$ **Quá khứ tiếp diễn** | **today** | $\→$ **that day** |
+| Quá khứ đơn (V2) | $\→$ **Quá khứ hoàn thành (had V3)** | **yesterday** | $\→$ **the previous day** |
+| Hiện tại hoàn thành | $\→$ **Quá khứ hoàn thành (had V3)** | **tomorrow** | $\→$ **the following day** |
+| **will** | $\→$ **would** | **this / here** | $\→$ **that / there** |
 
 ---
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *Nam said: "I am tired." $\\rightarrow$ Nam said that he was tired.* Đổi ngôi "I" thành "he", lùi thì "am" thành "was".
-* **Ví dụ 2:** *She asked me: "Do you like coffee?" $\\rightarrow$ She asked me if I liked coffee.* Câu hỏi Yes/No mượn liên từ "if/whether", lùi thì "like" thành "liked".
-* **Ví dụ 3:** *He asked: "Where do you live?" $\\rightarrow$ He asked me where I lived.* Giữ nguyên từ để hỏi "where", đưa về dạng trần thuật S + V.
+* **Ví dụ 1:** *Nam said: "I am tired." $\→$ Nam said that he was tired.* Đổi ngôi "I" thành "he", lùi thì "am" thành "was".
+* **Ví dụ 2:** *She asked me: "Do you like coffee?" $\→$ She asked me if I liked coffee.* Câu hỏi Yes/No mượn liên từ "if/whether", lùi thì "like" thành "liked".
+* **Ví dụ 3:** *He asked: "Where do you live?" $\→$ He asked me where I lived.* Giữ nguyên từ để hỏi "where", đưa về dạng trần thuật S + V.
 
 ---
 
@@ -418,7 +423,7 @@ Khi ta muốn **nhấn mạnh vào đối tượng bị tác động** (thay vì
     theory_md: `## 🌟 1. Bản chất: Mệnh đề quan hệ dùng để làm gì?
 
 Mệnh đề quan hệ sinh ra để **bổ nghĩa, làm rõ cho một danh từ** đứng ngay trước nó.
-- *Tôi thích cô gái.* + *Cô gái ngồi cạnh tôi.* $\\rightarrow$ Tôi thích cô gái **người mà** ngồi cạnh tôi (*I like the girl **who** sits next to me*).
+- *Tôi thích cô gái.* + *Cô gái ngồi cạnh tôi.* $\→$ Tôi thích cô gái **người mà** ngồi cạnh tôi (*I like the girl **who** sits next to me*).
 
 ---
 
@@ -436,15 +441,15 @@ Mệnh đề quan hệ sinh ra để **bổ nghĩa, làm rõ cho một danh từ
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *The girl who is singing on stage is my sister.* $\\rightarrow$ "who" thay cho danh từ người "The girl" và làm chủ ngữ cho động từ *is singing*.
-* **Ví dụ 2:** *The house which has a blue door belongs to Mr. Nam.* $\\rightarrow$ "which" thay cho danh từ chỉ vật "The house".
-* **Ví dụ 3:** *Mr. Nam, whose son won the scholarship, is proud.* $\\rightarrow$ Giữa "Mr. Nam" và "son" là quan hệ sở hữu (con trai của ông Nam) nên dùng *whose*.
+* **Ví dụ 1:** *The girl who is singing on stage is my sister.* $\→$ "who" thay cho danh từ người "The girl" và làm chủ ngữ cho động từ *is singing*.
+* **Ví dụ 2:** *The house which has a blue door belongs to Mr. Nam.* $\→$ "which" thay cho danh từ chỉ vật "The house".
+* **Ví dụ 3:** *Mr. Nam, whose son won the scholarship, is proud.* $\→$ Giữa "Mr. Nam" và "son" là quan hệ sở hữu (con trai của ông Nam) nên dùng *whose*.
 
 ---
 
 > ⚠️ **2 NGUYÊN TẮC BẤT DI BẤT DỊCH VỚI CHỮ "THAT":**
 > 1. **KHÔNG DÙNG THAT sau DẤU PHẨY** (,).
-> 2. **KHÔNG DÙNG THAT sau GIỚI TỪ** (*in that, of that* $\\rightarrow$ SAI).`,
+> 2. **KHÔNG DÙNG THAT sau GIỚI TỪ** (*in that, of that* $\→$ SAI).`,
     examples: [
       "The girl who is singing on stage is my sister. (Who thay thế cho người làm chủ ngữ)",
       "The house which has a blue door belongs to Mr. Brown. (Which thay thế cho vật)",
@@ -496,9 +501,9 @@ Quy tắc sống còn:
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *Although he was sick, he went to school.* $\\rightarrow$ "he was sick" có chủ ngữ và vị ngữ nên dùng liên từ *Although*.
-* **Ví dụ 2:** *Because of the heavy rain, we cancelled the match.* $\\rightarrow$ "the heavy rain" là một cụm danh từ nên dùng giới từ *Because of*.
-* **Ví dụ 3:** *The film was so boring that I fell asleep.* $\\rightarrow$ Cấu trúc: *so + Adj + that* (quá đến nỗi mà).
+* **Ví dụ 1:** *Although he was sick, he went to school.* $\→$ "he was sick" có chủ ngữ và vị ngữ nên dùng liên từ *Although*.
+* **Ví dụ 2:** *Because of the heavy rain, we cancelled the match.* $\→$ "the heavy rain" là một cụm danh từ nên dùng giới từ *Because of*.
+* **Ví dụ 3:** *The film was so boring that I fell asleep.* $\→$ Cấu trúc: *so + Adj + that* (quá đến nỗi mà).
 
 ---
 
@@ -555,9 +560,9 @@ Quy tắc sống còn:
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *My brother is taller than me.* $\\rightarrow$ "tall" là tính từ ngắn nên thêm đuôi -er thành *taller than*.
-* **Ví dụ 2:** *This phone is more expensive than that one.* $\\rightarrow$ "expensive" là tính từ dài nên dùng *more + Adj + than*.
-* **Ví dụ 3:** *The more you practice, the better you become.* $\\rightarrow$ Cấu trúc so sánh kép "Càng... càng": *The + so sánh hơn..., The + so sánh hơn...*
+* **Ví dụ 1:** *My brother is taller than me.* $\→$ "tall" là tính từ ngắn nên thêm đuôi -er thành *taller than*.
+* **Ví dụ 2:** *This phone is more expensive than that one.* $\→$ "expensive" là tính từ dài nên dùng *more + Adj + than*.
+* **Ví dụ 3:** *The more you practice, the better you become.* $\→$ Cấu trúc so sánh kép "Càng... càng": *The + so sánh hơn..., The + so sánh hơn...*
 
 ---
 
@@ -616,9 +621,9 @@ Càng giả định điều **phi thực tế**, động từ càng phải **lù
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *If it rains tomorrow, I will stay at home.* $\\rightarrow$ Điều kiện loại 1 có thể xảy ra ở tương lai.
-* **Ví dụ 2:** *If I were you, I would accept this job.* $\\rightarrow$ Điều kiện loại 2 giả định trái ngược hiện tại (tôi không thể là bạn), to be luôn dùng *were*.
-* **Ví dụ 3:** *If she had caught the bus, she wouldn't have been late.* $\\rightarrow$ Điều kiện loại 3 tiếc nuối việc trong quá khứ (thực tế quá khứ cô ấy đã lỡ xe).
+* **Ví dụ 1:** *If it rains tomorrow, I will stay at home.* $\→$ Điều kiện loại 1 có thể xảy ra ở tương lai.
+* **Ví dụ 2:** *If I were you, I would accept this job.* $\→$ Điều kiện loại 2 giả định trái ngược hiện tại (tôi không thể là bạn), to be luôn dùng *were*.
+* **Ví dụ 3:** *If she had caught the bus, she wouldn't have been late.* $\→$ Điều kiện loại 3 tiếc nuối việc trong quá khứ (thực tế quá khứ cô ấy đã lỡ xe).
 
 ---
 

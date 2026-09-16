@@ -28,14 +28,14 @@ module.exports = [
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *Never have I witnessed such courage.* $\\rightarrow$ Từ phủ định "Never" đứng đầu câu, trợ động từ "have" đảo lên trước chủ ngữ "I".
-* **Ví dụ 2:** *No sooner had the bell rung than the students rushed out.* $\\rightarrow$ Vừa mới rung chuông thì học sinh ùa ra: *No sooner had S V3 than S V2/ed*.
-* **Ví dụ 3:** *Had you told me earlier, I could have helped you.* $\\rightarrow$ Đảo ngữ câu điều kiện loại 3 (bỏ If, đảo *Had* lên trước chủ ngữ).
+* **Ví dụ 1:** *Never have I witnessed such courage.* $\→$ Từ phủ định "Never" đứng đầu câu, trợ động từ "have" đảo lên trước chủ ngữ "I".
+* **Ví dụ 2:** *No sooner had the bell rung than the students rushed out.* $\→$ Vừa mới rung chuông thì học sinh ùa ra: *No sooner had S V3 than S V2/ed*.
+* **Ví dụ 3:** *Had you told me earlier, I could have helped you.* $\→$ Đảo ngữ câu điều kiện loại 3 (bỏ If, đảo *Had* lên trước chủ ngữ).
 
 ---
 
 > 💡 **THẦN CHÚ "NO SOONER ĐI VỚI THAN - HARDLY ĐI VỚI WHEN":**
-> Chữ **No sooner** có đuôi so sánh hơn "-er" $\\rightarrow$ so sánh hơn thì phải đi với **THAN**!
+> Chữ **No sooner** có đuôi so sánh hơn "-er" $\→$ so sánh hơn thì phải đi với **THAN**!
 
 ---
 
@@ -96,14 +96,14 @@ Câu chẻ (Cleft Sentence) dùng để **nhấn mạnh một đối tượng c�
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *It is my mother who always supports me.* $\\rightarrow$ Nhấn mạnh chủ ngữ chỉ người: Chính là mẹ tôi, người luôn ủng hộ tôi.
-* **Ví dụ 2:** *It was English that I found most challenging.* $\\rightarrow$ Nhấn mạnh tân ngữ chỉ vật: Chính là môn tiếng Anh mà tôi thấy thử thách nhất.
-* **Ví dụ 3:** *It was in this small town that he was born.* $\\rightarrow$ Nhấn mạnh trạng từ nơi chốn: Bắt buộc dùng **THAT**, không dùng *where*.
+* **Ví dụ 1:** *It is my mother who always supports me.* $\→$ Nhấn mạnh chủ ngữ chỉ người: Chính là mẹ tôi, người luôn ủng hộ tôi.
+* **Ví dụ 2:** *It was English that I found most challenging.* $\→$ Nhấn mạnh tân ngữ chỉ vật: Chính là môn tiếng Anh mà tôi thấy thử thách nhất.
+* **Ví dụ 3:** *It was in this small town that he was born.* $\→$ Nhấn mạnh trạng từ nơi chốn: Bắt buộc dùng **THAT**, không dùng *where*.
 
 ---
 
 > ⚠️ **CẠM BẪY: NHẤN MẠNH NƠI CHỐN DÙNG THAT, KHÔNG DÙNG WHERE:**
-> Rất nhiều bạn thấy nơi chốn như *in Paris, in Hanoi* liền chọn WHERE $\\rightarrow$ **SAI**. Công thức câu chẻ luôn luôn dùng **THAT**!`,
+> Rất nhiều bạn thấy nơi chốn như *in Paris, in Hanoi* liền chọn WHERE $\→$ **SAI**. Công thức câu chẻ luôn luôn dùng **THAT**!`,
     examples: [
       "It is my mother who always supports me. (Nhấn mạnh chủ ngữ chỉ người)",
       "It was English that I found most challenging. (Nhấn mạnh tân ngữ)",
@@ -146,19 +146,19 @@ Rút gọn mệnh đề biến một mệnh đề phụ dài dòng thành một 
 
 ## 📊 2. Bảng quy tắc rút gọn Mệnh đề quan hệ
 
-| Thể của động từ | Cách rút gọn | Ví dụ gốc $\\rightarrow$ Rút gọn |
+| Thể của động từ | Cách rút gọn | Ví dụ gốc $\→$ Rút gọn |
 | :--- | :--- | :--- |
-| **Chủ động** | Bỏ đại từ & to be $\\rightarrow$ **V-ING** | *The man who is standing $\\rightarrow$ The man **standing**.* |
-| **Bị động** | Bỏ đại từ & to be $\\rightarrow$ **V3/ED** | *The car which was made $\\rightarrow$ The car **made**.* |
-| **Có số thứ tự:** *the first, the second, the only, the best* | Rút gọn thành **TO V** | *The first man who walked $\\rightarrow$ The first man **to walk**.* |
+| **Chủ động** | Bỏ đại từ & to be $\→$ **V-ING** | *The man who is standing $\→$ The man **standing**.* |
+| **Bị động** | Bỏ đại từ & to be $\→$ **V3/ED** | *The car which was made $\→$ The car **made**.* |
+| **Có số thứ tự:** *the first, the second, the only, the best* | Rút gọn thành **TO V** | *The first man who walked $\→$ The first man **to walk**.* |
 
 ---
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *The boy playing the guitar is my cousin.* $\\rightarrow$ Rút gọn từ câu chủ động: *The boy who is playing...* $\\rightarrow$ *playing*.
-* **Ví dụ 2:** *The book written by Nam Cao is famous.* $\\rightarrow$ Rút gọn từ câu bị động: *The book which was written...* $\\rightarrow$ *written*.
-* **Ví dụ 3:** *Having passed the exam, she felt relieved.* $\\rightarrow$ Rút gọn 2 mệnh đề cùng chủ ngữ, hành động "đỗ kỳ thi" xảy ra xong xuôi trước nên dùng *Having + V3*.
+* **Ví dụ 1:** *The boy playing the guitar is my cousin.* $\→$ Rút gọn từ câu chủ động: *The boy who is playing...* $\→$ *playing*.
+* **Ví dụ 2:** *The book written by Nam Cao is famous.* $\→$ Rút gọn từ câu bị động: *The book which was written...* $\→$ *written*.
+* **Ví dụ 3:** *Having passed the exam, she felt relieved.* $\→$ Rút gọn 2 mệnh đề cùng chủ ngữ, hành động "đỗ kỳ thi" xảy ra xong xuôi trước nên dùng *Having + V3*.
 
 ---
 
@@ -202,8 +202,8 @@ Rút gọn mệnh đề biến một mệnh đề phụ dài dòng thành một 
     theory_md: `## 🌟 1. Bản chất câu hỏi đuôi: Quy tắc Âm - Dương
 
 > 💡 **QUY TẮC ĐỐI XỨNG CỐT LÕI:**
-> - Vế trước **KHẲNG ĐỊNH (+)** $\\rightarrow$ Đuôi **PHỦ ĐỊNH (-)**.
-> - Vế trước **PHỦ ĐỊNH (-)** $\\rightarrow$ Đuôi **KHẲNG ĐỊNH (+)**.
+> - Vế trước **KHẲNG ĐỊNH (+)** $\→$ Đuôi **PHỦ ĐỊNH (-)**.
+> - Vế trước **PHỦ ĐỊNH (-)** $\→$ Đuôi **KHẲNG ĐỊNH (+)**.
 
 ---
 
@@ -211,9 +211,9 @@ Rút gọn mệnh đề biến một mệnh đề phụ dài dòng thành một 
 
 | Vế trước xuất hiện | Đuôi tương ứng bắt buộc |
 | :--- | :--- |
-| **I am...** | $\\rightarrow$ **aren't I?** |
-| **Let's + V...** (rủ rê) | $\\rightarrow$ **shall we?** |
-| **Câu mệnh lệnh:** *Open the door!* | $\\rightarrow$ **will you?** |
+| **I am...** | $\→$ **aren't I?** |
+| **Let's + V...** (rủ rê) | $\→$ **shall we?** |
+| **Câu mệnh lệnh:** *Open the door!* | $\→$ **will you?** |
 | **Chủ ngữ là:** *Everyone, Nobody, Somebody* | Đại từ thay thế ở đuôi là **THEY** |
 | **Chủ ngữ là:** *Everything, Nothing* | Đại từ thay thế ở đuôi là **IT** |
 | **Có từ bán phủ định:** *never, rarely, seldom, hardly* | Đuôi phải ở dạng **KHẲNG ĐỊNH (+)** |
@@ -223,9 +223,9 @@ Rút gọn mệnh đề biến một mệnh đề phụ dài dòng thành một 
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *I am right, aren't I?* $\\rightarrow$ Không có dạng "amn't I", bắt buộc dùng *aren't I*.
-* **Ví dụ 2:** *Let's play football, shall we?* $\\rightarrow$ Lời rủ rê *Let's* luôn có đuôi là *shall we*.
-* **Ví dụ 3:** *Nobody came to the party, did they?* $\\rightarrow$ *Nobody* mang nghĩa phủ định nên đuôi phải là khẳng định *did they*.`,
+* **Ví dụ 1:** *I am right, aren't I?* $\→$ Không có dạng "amn't I", bắt buộc dùng *aren't I*.
+* **Ví dụ 2:** *Let's play football, shall we?* $\→$ Lời rủ rê *Let's* luôn có đuôi là *shall we*.
+* **Ví dụ 3:** *Nobody came to the party, did they?* $\→$ *Nobody* mang nghĩa phủ định nên đuôi phải là khẳng định *did they*.`,
     examples: [
       "I am right, aren't I? (I am chuyển thành aren't I)",
       "Let's play football, shall we? (Let's luôn đi với shall we)",
@@ -262,7 +262,7 @@ Rút gọn mệnh đề biến một mệnh đề phụ dài dòng thành một 
 
 **Phrasal Verb = Động từ (Verb) + Giới từ/Tiểu từ (Particle)**.
 Khi ghép thêm giới từ, nghĩa của nó hoàn toàn biến đổi!
-- *Look* = Nhìn $\\rightarrow$ *Look for* = Tìm kiếm $\\rightarrow$ *Look after* = Chăm sóc $\\rightarrow$ *Look up* = Tra từ điển.
+- *Look* = Nhìn $\→$ *Look for* = Tìm kiếm $\→$ *Look after* = Chăm sóc $\→$ *Look up* = Tra từ điển.
 
 ---
 
@@ -282,9 +282,9 @@ Khi ghép thêm giới từ, nghĩa của nó hoàn toàn biến đổi!
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *She decided to give up smoking.* $\\rightarrow$ *Give up* mang nghĩa từ bỏ một thói quen.
-* **Ví dụ 2:** *The plane took off smoothly.* $\\rightarrow$ *Take off* dùng cho máy bay mang nghĩa cất cánh rời mặt đất.
-* **Ví dụ 3:** *My alarm didn't go off this morning.* $\\rightarrow$ *Go off* dùng cho đồng hồ báo thức mang nghĩa reo chuông.
+* **Ví dụ 1:** *She decided to give up smoking.* $\→$ *Give up* mang nghĩa từ bỏ một thói quen.
+* **Ví dụ 2:** *The plane took off smoothly.* $\→$ *Take off* dùng cho máy bay mang nghĩa cất cánh rời mặt đất.
+* **Ví dụ 3:** *My alarm didn't go off this morning.* $\→$ *Go off* dùng cho đồng hồ báo thức mang nghĩa reo chuông.
 
 ---
 
@@ -346,9 +346,9 @@ Khi ghép thêm giới từ, nghĩa của nó hoàn toàn biến đổi!
 
 ## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *She made a difficult decision.* $\\rightarrow$ Dùng động từ *make* đi với *decision*.
-* **Ví dụ 2:** *Don't worry, the exam is a piece of cake!* $\\rightarrow$ *A piece of cake* là thành ngữ chỉ việc cực kỳ dễ.
-* **Ví dụ 3:** *I am feeling a bit under the weather today.* $\\rightarrow$ *Under the weather* nghĩa là cảm thấy trong người không được khỏe.`,
+* **Ví dụ 1:** *She made a difficult decision.* $\→$ Dùng động từ *make* đi với *decision*.
+* **Ví dụ 2:** *Don't worry, the exam is a piece of cake!* $\→$ *A piece of cake* là thành ngữ chỉ việc cực kỳ dễ.
+* **Ví dụ 3:** *I am feeling a bit under the weather today.* $\→$ *Under the weather* nghĩa là cảm thấy trong người không được khỏe.`,
     examples: [
       "She made a difficult decision to leave her hometown. (Make a decision = ra quyết định)",
       "Don't worry, the interview is a piece of cake! (A piece of cake = rất dễ)",
@@ -391,9 +391,9 @@ Khi ghép thêm giới từ, nghĩa của nó hoàn toàn biến đổi!
 
 ## 💬 2. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *We usually have lunch at 12:00 PM.* $\\rightarrow$ Đi với giờ giấc chính xác dùng *at*.
-* **Ví dụ 2:** *She was born on Monday, June 1st.* $\\rightarrow$ Có ngày cụ thể trong tuần hoặc ngày trong tháng dùng *on*.
-* **Ví dụ 3:** *He is very good at playing chess.* $\\rightarrow$ Tính từ đi kèm giới từ: *good at* (giỏi về cái gì).
+* **Ví dụ 1:** *We usually have lunch at 12:00 PM.* $\→$ Đi với giờ giấc chính xác dùng *at*.
+* **Ví dụ 2:** *She was born on Monday, June 1st.* $\→$ Có ngày cụ thể trong tuần hoặc ngày trong tháng dùng *on*.
+* **Ví dụ 3:** *He is very good at playing chess.* $\→$ Tính từ đi kèm giới từ: *good at* (giỏi về cái gì).
 
 ---
 
@@ -447,9 +447,9 @@ Cảnh báo: Đề yêu cầu tìm TRÁI NGHĨA nhưng người học hay chọn
 
 ## 💬 2. Ví dụ minh họa & Phân tích chi tiết
 
-* **Ví dụ 1:** *Generous (hào phóng) $\\leftrightarrow$ Mean (keo kiệt, bủn xỉn)* $\\rightarrow$ Cặp từ trái nghĩa kinh điển.
-* **Ví dụ 2:** *Intelligent (= smart / clever)* $\\rightarrow$ Các từ đồng nghĩa mang nghĩa thông minh.
-* **Ví dụ 3:** *Although the task was arduous, we finished it easily.* $\\rightarrow$ Dựa vào từ nối "although" và vế "easily", ta đoán được *arduous* nghĩa là khó khăn gian nan.
+* **Ví dụ 1:** *Generous (hào phóng) $↔$ Mean (keo kiệt, bủn xỉn)* $\→$ Cặp từ trái nghĩa kinh điển.
+* **Ví dụ 2:** *Intelligent (= smart / clever)* $\→$ Các từ đồng nghĩa mang nghĩa thông minh.
+* **Ví dụ 3:** *Although the task was arduous, we finished it easily.* $\→$ Dựa vào từ nối "although" và vế "easily", ta đoán được *arduous* nghĩa là khó khăn gian nan.
 
 ---
 

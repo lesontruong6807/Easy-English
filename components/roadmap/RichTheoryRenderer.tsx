@@ -20,6 +20,11 @@ interface RichTheoryRendererProps {
 }
 
 export const RichTheoryRenderer: React.FC<RichTheoryRendererProps> = ({ content }) => {
+  // Clean up any remaining LaTeX arrow syntax to proper unicode arrows
+  const sanitizedContent = content
+    .replace(/\$\\rightarrow\$/g, "→")
+    .replace(/\\rightarrow/g, "→");
+
   return (
     <div className="theory-content max-w-none text-[#332e29] dark:text-[#ded7cc] text-sm sm:text-base leading-relaxed">
       <ReactMarkdown
@@ -36,7 +41,6 @@ export const RichTheoryRenderer: React.FC<RichTheoryRendererProps> = ({ content 
             const isTip = textContent.includes("💡") || textContent.toLowerCase().includes("thần chú") || textContent.toLowerCase().includes("mẹo nhớ");
             const isWarning = textContent.includes("⚠️") || textContent.toLowerCase().includes("cạm bẫy") || textContent.toLowerCase().includes("lỗi sai");
             const isNature = textContent.includes("🌟") || textContent.toLowerCase().includes("bản chất");
-            const isExample = textContent.includes("💬") || textContent.toLowerCase().includes("ví dụ");
 
             if (isTip) {
               return (
@@ -93,23 +97,23 @@ export const RichTheoryRenderer: React.FC<RichTheoryRendererProps> = ({ content 
             );
           },
 
-          // Tables styled with eye-care warm paper tones
+          // Tables styled with stable non-flickering zebra striping
           table: ({ children }) => (
-            <div className="my-6 overflow-hidden rounded-2xl border border-[#ded5c2] dark:border-[#38332d] shadow-xs bg-[#fdfcf9] dark:bg-[#1f1d1b]">
-              <div className="overflow-x-auto">
-                <table className="w-full text-left border-collapse text-xs sm:text-sm">
+            <div className="my-6 rounded-2xl border border-[#ded5c2] dark:border-[#38332d] shadow-xs bg-[#fdfcf9] dark:bg-[#1f1d1b] overflow-hidden">
+              <div className="w-full overflow-x-auto overscroll-x-contain">
+                <table className="min-w-full text-left border-separate border-spacing-0 text-xs sm:text-sm">
                   {children}
                 </table>
               </div>
             </div>
           ),
           thead: ({ children }) => (
-            <thead className="bg-[#eee6d6] dark:bg-[#292521] border-b border-[#ded5c2] dark:border-[#38332d] text-[#3d3731] dark:text-[#dfd7cc] font-bold uppercase tracking-wider text-[11px] sm:text-xs">
+            <thead className="bg-[#eee6d6] dark:bg-[#292521] text-[#3d3731] dark:text-[#dfd7cc] font-bold uppercase tracking-wider text-[11px] sm:text-xs select-none">
               {children}
             </thead>
           ),
           th: ({ children }) => (
-            <th className="p-3 sm:p-3.5 font-bold border-r border-[#ded5c2]/70 dark:border-[#38332d] last:border-r-0">
+            <th className="p-3 sm:p-3.5 font-bold border-b border-[#ded5c2] dark:border-[#38332d] border-r border-[#ded5c2]/70 dark:border-[#38332d] last:border-r-0">
               {children}
             </th>
           ),
@@ -119,7 +123,7 @@ export const RichTheoryRenderer: React.FC<RichTheoryRendererProps> = ({ content 
             </td>
           ),
           tr: ({ children }) => (
-            <tr className="hover:bg-[#f6f0e3]/60 dark:hover:bg-[#25221e] transition-colors">
+            <tr className="odd:bg-[#fdfcf9] even:bg-[#f7f2e5]/60 dark:odd:bg-[#1f1d1b] dark:even:bg-[#24211d]">
               {children}
             </tr>
           ),
@@ -193,7 +197,7 @@ export const RichTheoryRenderer: React.FC<RichTheoryRendererProps> = ({ content 
           ),
         }}
       >
-        {content}
+        {sanitizedContent}
       </ReactMarkdown>
     </div>
   );
