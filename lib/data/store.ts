@@ -644,7 +644,7 @@ export async function getLiveGroupProgressOverview() {
               totalTopics,
               roadmapPercent: totalTopics > 0 ? Math.round((done / totalTopics) * 100) : 0,
               masteredVocab: masteredCount || 0,
-              totalVocab: 50,
+              totalVocab: getAllVocabWords().length,
               dueTodayVocab: dueCount || 0,
               errorCount: errorCount || 0,
               lastActive: "Gần đây",

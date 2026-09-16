@@ -449,6 +449,636 @@
       "phase_order": 4,
       "theme": "General",
       "example_vi": "Đây là một phương pháp học tập mang lại hiệu quả cao hơn nhiều."
+    },
+    {
+      "word": "find out",
+      "ipa": "/faɪnd aʊt/",
+      "meaning_vi": "tìm ra, khám phá",
+      "example_sentence": "I want to find out the truth.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs",
+      "example_vi": "Tôi muốn tìm ra sự thật."
+    },
+    {
+      "word": "get over",
+      "ipa": "/ɡet ˈəʊvə(r)/",
+      "meaning_vi": "vượt qua (khó khăn, bệnh tật)",
+      "example_sentence": "It took her a week to get over the flu.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs",
+      "example_vi": "Cô ấy mất một tuần để hồi phục sau cơn cúm."
+    },
+    {
+      "word": "look forward to",
+      "ipa": "/lʊk ˈfɔːwəd tuː/",
+      "meaning_vi": "mong chờ, mong đợi",
+      "example_sentence": "I look forward to seeing you soon.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs",
+      "example_vi": "Tôi rất mong sớm được gặp bạn."
+    },
+    {
+      "word": "run out of",
+      "ipa": "/rʌn aʊt ɒv/",
+      "meaning_vi": "hết (cái gì đó)",
+      "example_sentence": "We ran out of milk this morning.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs",
+      "example_vi": "Sáng nay nhà tôi hết sữa rồi."
+    },
+    {
+      "word": "set up",
+      "ipa": "/set ʌp/",
+      "meaning_vi": "thành lập, thiết lập",
+      "example_sentence": "They set up a new club at school.",
+      "phase_order": 3,
+      "theme": "Phrasal Verbs",
+      "example_vi": "Họ đã thành lập một câu lạc bộ mới ở trường."
+    },
+    {
+      "word": "under the weather",
+      "ipa": "/ˈʌndə ðə ˈweðə(r)/",
+      "meaning_vi": "cảm thấy không khỏe",
+      "example_sentence": "I'm feeling a bit under the weather today.",
+      "phase_order": 3,
+      "theme": "Idioms",
+      "example_vi": "Hôm nay tôi cảm thấy hơi không được khỏe."
+    },
+    {
+      "word": "a piece of cake",
+      "ipa": "/ə piːs əv keɪk/",
+      "meaning_vi": "việc dễ như trở bàn tay",
+      "example_sentence": "Don't worry, the test is a piece of cake.",
+      "phase_order": 3,
+      "theme": "Idioms",
+      "example_vi": "Đừng lo, bài kiểm tra dễ như ăn kẹo thôi."
+    },
+    {
+      "word": "get cold feet",
+      "ipa": "/ɡet kəʊld fiːt/",
+      "meaning_vi": "trở nên lo sợ, chùn bước",
+      "example_sentence": "He got cold feet before his speech.",
+      "phase_order": 3,
+      "theme": "Idioms",
+      "example_vi": "Anh ấy đã trở nên lo sợ trước khi thuyết trình."
+    },
+    {
+      "word": "kill two birds with one stone",
+      "ipa": "/kɪl tuː bɜːdz wɪð wʌn stəʊn/",
+      "meaning_vi": "một công đôi việc",
+      "example_sentence": "Cycling to school lets me exercise and save money.",
+      "phase_order": 3,
+      "theme": "Idioms",
+      "example_vi": "Đạp xe đến trường vừa giúp tôi tập thể dục vừa tiết kiệm tiền — một công đôi việc."
+    },
+    {
+      "word": "the last straw",
+      "ipa": "/ðə lɑːst strɔː/",
+      "meaning_vi": "giọt nước tràn ly",
+      "example_sentence": "Losing his keys was the last straw after a bad day.",
+      "phase_order": 3,
+      "theme": "Idioms",
+      "example_vi": "Làm mất chìa khóa chính là giọt nước tràn ly sau một ngày tồi tệ."
+    },
+    {
+      "word": "make progress",
+      "ipa": "/meɪk ˈprəʊɡres/",
+      "meaning_vi": "đạt tiến bộ",
+      "example_sentence": "She is making great progress in English.",
+      "phase_order": 3,
+      "theme": "Collocations",
+      "example_vi": "Cô ấy đang đạt được tiến bộ lớn trong môn tiếng Anh."
+    },
+    {
+      "word": "take a break",
+      "ipa": "/teɪk ə breɪk/",
+      "meaning_vi": "nghỉ giải lao",
+      "example_sentence": "Let's take a break for ten minutes.",
+      "phase_order": 3,
+      "theme": "Collocations",
+      "example_vi": "Chúng ta hãy nghỉ giải lao mười phút nhé."
+    },
+    {
+      "word": "keep in touch",
+      "ipa": "/kiːp ɪn tʌtʃ/",
+      "meaning_vi": "giữ liên lạc",
+      "example_sentence": "We promised to keep in touch after graduation.",
+      "phase_order": 3,
+      "theme": "Collocations",
+      "example_vi": "Chúng tôi hứa sẽ giữ liên lạc sau khi tốt nghiệp."
+    },
+    {
+      "word": "make an effort",
+      "ipa": "/meɪk ən ˈefət/",
+      "meaning_vi": "nỗ lực",
+      "example_sentence": "You need to make an effort to improve.",
+      "phase_order": 3,
+      "theme": "Collocations",
+      "example_vi": "Bạn cần phải nỗ lực để tiến bộ hơn."
+    },
+    {
+      "word": "have a chance",
+      "ipa": "/hæv ə tʃɑːns/",
+      "meaning_vi": "có cơ hội",
+      "example_sentence": "Everyone has a chance to join the contest.",
+      "phase_order": 3,
+      "theme": "Collocations",
+      "example_vi": "Ai cũng có cơ hội tham gia cuộc thi."
+    },
+    {
+      "word": "proud of",
+      "ipa": "/praʊd ɒv/",
+      "meaning_vi": "tự hào về",
+      "example_sentence": "My parents are proud of my results.",
+      "phase_order": 3,
+      "theme": "Prepositions",
+      "example_vi": "Bố mẹ tôi rất tự hào về kết quả học tập của tôi."
+    },
+    {
+      "word": "worried about",
+      "ipa": "/ˈwʌrid əˈbaʊt/",
+      "meaning_vi": "lo lắng về",
+      "example_sentence": "She is worried about the final exam.",
+      "phase_order": 3,
+      "theme": "Prepositions",
+      "example_vi": "Cô ấy đang lo lắng về kỳ thi cuối kỳ."
+    },
+    {
+      "word": "responsible for",
+      "ipa": "/rɪˈspɒnsəbl fɔː(r)/",
+      "meaning_vi": "chịu trách nhiệm về",
+      "example_sentence": "Each student is responsible for their own work.",
+      "phase_order": 3,
+      "theme": "Prepositions",
+      "example_vi": "Mỗi học sinh phải chịu trách nhiệm về bài làm của chính mình."
+    },
+    {
+      "word": "similar to",
+      "ipa": "/ˈsɪmələ tuː/",
+      "meaning_vi": "tương tự với",
+      "example_sentence": "Her opinion is similar to mine.",
+      "phase_order": 3,
+      "theme": "Prepositions",
+      "example_vi": "Ý kiến của cô ấy tương tự với ý kiến của tôi."
+    },
+    {
+      "word": "different from",
+      "ipa": "/ˈdɪfrənt frɒm/",
+      "meaning_vi": "khác với",
+      "example_sentence": "This book is different from the one I read before.",
+      "phase_order": 3,
+      "theme": "Prepositions",
+      "example_vi": "Cuốn sách này khác với cuốn tôi đã đọc trước đây."
+    },
+    {
+      "word": "huge",
+      "ipa": "/hjuːdʒ/",
+      "meaning_vi": "to lớn (đồng nghĩa: big)",
+      "example_sentence": "They live in a huge house.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Họ sống trong một ngôi nhà rất to lớn."
+    },
+    {
+      "word": "tiny",
+      "ipa": "/ˈtaɪni/",
+      "meaning_vi": "nhỏ xíu (đồng nghĩa: small)",
+      "example_sentence": "The kitten is very tiny.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Chú mèo con rất nhỏ xíu."
+    },
+    {
+      "word": "simple",
+      "ipa": "/ˈsɪmpl/",
+      "meaning_vi": "đơn giản (đồng nghĩa: easy)",
+      "example_sentence": "The instructions are simple to follow.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Các hướng dẫn này rất đơn giản để làm theo."
+    },
+    {
+      "word": "expensive",
+      "ipa": "/ɪkˈspensɪv/",
+      "meaning_vi": "đắt (trái nghĩa: cheap)",
+      "example_sentence": "This phone is too expensive for me.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Chiếc điện thoại này quá đắt đối với tôi."
+    },
+    {
+      "word": "difficult",
+      "ipa": "/ˈdɪfɪkəlt/",
+      "meaning_vi": "khó (trái nghĩa: easy)",
+      "example_sentence": "The last question was very difficult.",
+      "phase_order": 3,
+      "theme": "Synonyms & Antonyms",
+      "example_vi": "Câu hỏi cuối cùng rất khó."
+    },
+    {
+      "word": "journey",
+      "ipa": "/ˈdʒɜːni/",
+      "meaning_vi": "hành trình, chuyến đi",
+      "example_sentence": "The journey to the countryside took three hours.",
+      "phase_order": 4,
+      "theme": "Travel",
+      "example_vi": "Chuyến đi về miền quê mất ba tiếng đồng hồ."
+    },
+    {
+      "word": "accommodation",
+      "ipa": "/əˌkɒməˈdeɪʃn/",
+      "meaning_vi": "chỗ ở",
+      "example_sentence": "We booked our accommodation online.",
+      "phase_order": 4,
+      "theme": "Travel",
+      "example_vi": "Chúng tôi đã đặt chỗ ở qua mạng."
+    },
+    {
+      "word": "destination",
+      "ipa": "/ˌdestɪˈneɪʃn/",
+      "meaning_vi": "điểm đến",
+      "example_sentence": "Da Nang is a popular travel destination.",
+      "phase_order": 4,
+      "theme": "Travel",
+      "example_vi": "Đà Nẵng là một điểm đến du lịch nổi tiếng."
+    },
+    {
+      "word": "souvenir",
+      "ipa": "/ˌsuːvəˈnɪə(r)/",
+      "meaning_vi": "quà lưu niệm",
+      "example_sentence": "I bought a souvenir for my mother.",
+      "phase_order": 4,
+      "theme": "Travel",
+      "example_vi": "Tôi đã mua một món quà lưu niệm cho mẹ."
+    },
+    {
+      "word": "itinerary",
+      "ipa": "/aɪˈtɪnərəri/",
+      "meaning_vi": "lịch trình",
+      "example_sentence": "Our itinerary includes three cities.",
+      "phase_order": 4,
+      "theme": "Travel",
+      "example_vi": "Lịch trình của chúng tôi bao gồm ba thành phố."
+    },
+    {
+      "word": "career",
+      "ipa": "/kəˈrɪə(r)/",
+      "meaning_vi": "sự nghiệp",
+      "example_sentence": "She wants to build a career in medicine.",
+      "phase_order": 4,
+      "theme": "Work & Career",
+      "example_vi": "Cô ấy muốn xây dựng sự nghiệp trong ngành y."
+    },
+    {
+      "word": "employer",
+      "ipa": "/ɪmˈplɔɪə(r)/",
+      "meaning_vi": "người sử dụng lao động",
+      "example_sentence": "A good employer treats workers fairly.",
+      "phase_order": 4,
+      "theme": "Work & Career",
+      "example_vi": "Một người sử dụng lao động tốt luôn đối xử công bằng với nhân viên."
+    },
+    {
+      "word": "qualification",
+      "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+      "meaning_vi": "bằng cấp",
+      "example_sentence": "You need a good qualification for this job.",
+      "phase_order": 4,
+      "theme": "Work & Career",
+      "example_vi": "Bạn cần có bằng cấp tốt cho công việc này."
+    },
+    {
+      "word": "experience",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "meaning_vi": "kinh nghiệm",
+      "example_sentence": "He has a lot of experience in teaching.",
+      "phase_order": 4,
+      "theme": "Work & Career",
+      "example_vi": "Anh ấy có rất nhiều kinh nghiệm trong việc giảng dạy."
+    },
+    {
+      "word": "promotion",
+      "ipa": "/prəˈməʊʃn/",
+      "meaning_vi": "sự thăng chức",
+      "example_sentence": "She got a promotion last month.",
+      "phase_order": 4,
+      "theme": "Work & Career",
+      "example_vi": "Cô ấy đã được thăng chức vào tháng trước."
+    },
+    {
+      "word": "budget",
+      "ipa": "/ˈbʌdʒɪt/",
+      "meaning_vi": "ngân sách",
+      "example_sentence": "We need to plan our budget carefully.",
+      "phase_order": 4,
+      "theme": "Shopping & Money",
+      "example_vi": "Chúng ta cần lên kế hoạch ngân sách một cách cẩn thận."
+    },
+    {
+      "word": "discount",
+      "ipa": "/ˈdɪskaʊnt/",
+      "meaning_vi": "giảm giá",
+      "example_sentence": "The shop offers a 20% discount today.",
+      "phase_order": 4,
+      "theme": "Shopping & Money",
+      "example_vi": "Cửa hàng giảm giá 20% hôm nay."
+    },
+    {
+      "word": "afford",
+      "ipa": "/əˈfɔːd/",
+      "meaning_vi": "có đủ khả năng chi trả",
+      "example_sentence": "I can't afford a new laptop right now.",
+      "phase_order": 4,
+      "theme": "Shopping & Money",
+      "example_vi": "Hiện tại tôi không đủ khả năng mua một chiếc laptop mới."
+    },
+    {
+      "word": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "meaning_vi": "hóa đơn, biên lai",
+      "example_sentence": "Please keep your receipt for the refund.",
+      "phase_order": 4,
+      "theme": "Shopping & Money",
+      "example_vi": "Vui lòng giữ lại hóa đơn để được hoàn tiền."
+    },
+    {
+      "word": "currency",
+      "ipa": "/ˈkʌrənsi/",
+      "meaning_vi": "đơn vị tiền tệ",
+      "example_sentence": "The currency of Japan is the yen.",
+      "phase_order": 4,
+      "theme": "Shopping & Money",
+      "example_vi": "Đơn vị tiền tệ của Nhật Bản là đồng yên."
+    },
+    {
+      "word": "temperature",
+      "ipa": "/ˈtemprətʃə(r)/",
+      "meaning_vi": "nhiệt độ",
+      "example_sentence": "The temperature dropped suddenly last night.",
+      "phase_order": 4,
+      "theme": "Weather & Nature",
+      "example_vi": "Nhiệt độ đã giảm đột ngột vào tối qua."
+    },
+    {
+      "word": "humid",
+      "ipa": "/ˈhjuːmɪd/",
+      "meaning_vi": "ẩm ướt",
+      "example_sentence": "Summer here is hot and humid.",
+      "phase_order": 4,
+      "theme": "Weather & Nature",
+      "example_vi": "Mùa hè ở đây nóng và ẩm."
+    },
+    {
+      "word": "flood",
+      "ipa": "/flʌd/",
+      "meaning_vi": "lũ lụt",
+      "example_sentence": "Heavy rain caused a flood in the city.",
+      "phase_order": 4,
+      "theme": "Weather & Nature",
+      "example_vi": "Mưa lớn đã gây ra lũ lụt trong thành phố."
+    },
+    {
+      "word": "climate",
+      "ipa": "/ˈklaɪmət/",
+      "meaning_vi": "khí hậu",
+      "example_sentence": "Vietnam has a tropical climate.",
+      "phase_order": 4,
+      "theme": "Weather & Nature",
+      "example_vi": "Việt Nam có khí hậu nhiệt đới."
+    },
+    {
+      "word": "natural disaster",
+      "ipa": "/ˈnætʃrəl dɪˈzɑːstə(r)/",
+      "meaning_vi": "thiên tai",
+      "example_sentence": "Storms are a common natural disaster in this region.",
+      "phase_order": 4,
+      "theme": "Weather & Nature",
+      "example_vi": "Bão là một loại thiên tai phổ biến ở khu vực này."
+    },
+    {
+      "word": "broadcast",
+      "ipa": "/ˈbrɔːdkɑːst/",
+      "meaning_vi": "phát sóng",
+      "example_sentence": "The match will be broadcast live tonight.",
+      "phase_order": 4,
+      "theme": "Communication & Media",
+      "example_vi": "Trận đấu sẽ được phát sóng trực tiếp vào tối nay."
+    },
+    {
+      "word": "advertisement",
+      "ipa": "/ədˈvɜːtɪsmənt/",
+      "meaning_vi": "quảng cáo",
+      "example_sentence": "I saw an interesting advertisement on TV.",
+      "phase_order": 4,
+      "theme": "Communication & Media",
+      "example_vi": "Tôi đã xem một quảng cáo thú vị trên tivi."
+    },
+    {
+      "word": "headline",
+      "ipa": "/ˈhedlaɪn/",
+      "meaning_vi": "tiêu đề (báo)",
+      "example_sentence": "The headline caught everyone's attention.",
+      "phase_order": 4,
+      "theme": "Communication & Media",
+      "example_vi": "Tiêu đề bài báo đã thu hút sự chú ý của mọi người."
+    },
+    {
+      "word": "social media",
+      "ipa": "/ˈsəʊʃl ˈmiːdiə/",
+      "meaning_vi": "mạng xã hội",
+      "example_sentence": "Many teenagers spend hours on social media.",
+      "phase_order": 4,
+      "theme": "Communication & Media",
+      "example_vi": "Rất nhiều thanh thiếu niên dành hàng giờ trên mạng xã hội."
+    },
+    {
+      "word": "interview",
+      "ipa": "/ˈɪntəvjuː/",
+      "meaning_vi": "phỏng vấn",
+      "example_sentence": "She had a job interview yesterday.",
+      "phase_order": 4,
+      "theme": "Communication & Media",
+      "example_vi": "Cô ấy đã có một buổi phỏng vấn xin việc vào hôm qua."
+    },
+    {
+      "word": "essential",
+      "ipa": "/ɪˈsenʃl/",
+      "meaning_vi": "cần thiết",
+      "example_sentence": "Water is essential for life.",
+      "phase_order": 1,
+      "theme": "General",
+      "example_vi": "Nước rất cần thiết cho sự sống."
+    },
+    {
+      "word": "borrow",
+      "ipa": "/ˈbɒrəʊ/",
+      "meaning_vi": "mượn",
+      "example_sentence": "Can I borrow your pen?",
+      "phase_order": 1,
+      "theme": "General",
+      "example_vi": "Tôi có thể mượn bút của bạn được không?"
+    },
+    {
+      "word": "lend",
+      "ipa": "/lend/",
+      "meaning_vi": "cho mượn",
+      "example_sentence": "I will lend you my notes.",
+      "phase_order": 1,
+      "theme": "General",
+      "example_vi": "Tôi sẽ cho bạn mượn vở ghi chép của mình."
+    },
+    {
+      "word": "repair",
+      "ipa": "/rɪˈpeə(r)/",
+      "meaning_vi": "sửa chữa",
+      "example_sentence": "He can repair bicycles.",
+      "phase_order": 1,
+      "theme": "General",
+      "example_vi": "Anh ấy có thể sửa xe đạp."
+    },
+    {
+      "word": "agree",
+      "ipa": "/əˈɡriː/",
+      "meaning_vi": "đồng ý",
+      "example_sentence": "I agree with you completely.",
+      "phase_order": 1,
+      "theme": "General",
+      "example_vi": "Tôi hoàn toàn đồng ý với bạn."
+    },
+    {
+      "word": "common",
+      "ipa": "/ˈkɒmən/",
+      "meaning_vi": "phổ biến",
+      "example_sentence": "English is a common language.",
+      "phase_order": 2,
+      "theme": "General",
+      "example_vi": "Tiếng Anh là một ngôn ngữ phổ biến."
+    },
+    {
+      "word": "advice",
+      "ipa": "/ədˈvaɪs/",
+      "meaning_vi": "lời khuyên",
+      "example_sentence": "Thank you for your advice.",
+      "phase_order": 2,
+      "theme": "General",
+      "example_vi": "Cảm ơn bạn vì lời khuyên hữu ích."
+    },
+    {
+      "word": "opinion",
+      "ipa": "/əˈpɪnjən/",
+      "meaning_vi": "ý kiến",
+      "example_sentence": "What is your opinion on this matter?",
+      "phase_order": 2,
+      "theme": "General",
+      "example_vi": "Quan điểm của bạn về vấn đề này là gì?"
+    },
+    {
+      "word": "solution",
+      "ipa": "/səˈluːʃn/",
+      "meaning_vi": "giải pháp",
+      "example_sentence": "We need to find a solution quickly.",
+      "phase_order": 2,
+      "theme": "General",
+      "example_vi": "Chúng ta cần tìm ra giải pháp nhanh chóng."
+    },
+    {
+      "word": "challenge",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "meaning_vi": "thử thách",
+      "example_sentence": "It was a difficult challenge.",
+      "phase_order": 2,
+      "theme": "General",
+      "example_vi": "Đó là một thử thách khó khăn."
+    },
+    {
+      "word": "traffic jam",
+      "ipa": "/ˈtræfɪk dʒæm/",
+      "meaning_vi": "tắc đường",
+      "example_sentence": "There is a traffic jam on the way to school.",
+      "phase_order": 3,
+      "theme": "Daily Life",
+      "example_vi": "Trên đường đến trường đang bị tắc đường."
+    },
+    {
+      "word": "chore",
+      "ipa": "/tʃɔː(r)/",
+      "meaning_vi": "việc nhà",
+      "example_sentence": "Washing the dishes is my least favorite chore.",
+      "phase_order": 3,
+      "theme": "Daily Life",
+      "example_vi": "Rửa bát là công việc nhà tôi ghét nhất."
+    },
+    {
+      "word": "convenience store",
+      "ipa": "/kənˈviːniəns stɔː(r)/",
+      "meaning_vi": "cửa hàng tiện lợi",
+      "example_sentence": "I bought a drink at the convenience store.",
+      "phase_order": 3,
+      "theme": "Daily Life",
+      "example_vi": "Tôi đã mua một món đồ uống ở cửa hàng tiện lợi."
+    },
+    {
+      "word": "reliable",
+      "ipa": "/rɪˈlaɪəbl/",
+      "meaning_vi": "đáng tin cậy",
+      "example_sentence": "He is a reliable friend.",
+      "phase_order": 3,
+      "theme": "General",
+      "example_vi": "Anh ấy là một người bạn đáng tin cậy."
+    },
+    {
+      "word": "achieve",
+      "ipa": "/əˈtʃiːv/",
+      "meaning_vi": "đạt được",
+      "example_sentence": "She wants to achieve her dream of becoming a doctor.",
+      "phase_order": 3,
+      "theme": "General",
+      "example_vi": "Cô ấy muốn đạt được ước mơ trở thành bác sĩ."
+    },
+    {
+      "word": "suggest",
+      "ipa": "/səˈdʒest/",
+      "meaning_vi": "đề nghị, gợi ý",
+      "example_sentence": "I suggest we study together.",
+      "phase_order": 4,
+      "theme": "Communication",
+      "example_vi": "Tôi gợi ý chúng ta nên học cùng nhau."
+    },
+    {
+      "word": "recommend",
+      "ipa": "/ˌrekəˈmend/",
+      "meaning_vi": "giới thiệu, khuyên dùng",
+      "example_sentence": "She recommended a good book to me.",
+      "phase_order": 4,
+      "theme": "Communication",
+      "example_vi": "Cô ấy đã giới thiệu cho tôi một cuốn sách hay."
+    },
+    {
+      "word": "apologize",
+      "ipa": "/əˈpɒlədʒaɪz/",
+      "meaning_vi": "xin lỗi",
+      "example_sentence": "You should apologize for being late.",
+      "phase_order": 4,
+      "theme": "Communication",
+      "example_vi": "Bạn nên xin lỗi vì đã đến muộn."
+    },
+    {
+      "word": "persuade",
+      "ipa": "/pəˈsweɪd/",
+      "meaning_vi": "thuyết phục",
+      "example_sentence": "Can you persuade him to join us?",
+      "phase_order": 4,
+      "theme": "Communication",
+      "example_vi": "Bạn có thể thuyết phục anh ấy tham gia cùng chúng tôi không?"
+    },
+    {
+      "word": "debate",
+      "ipa": "/dɪˈbeɪt/",
+      "meaning_vi": "tranh luận",
+      "example_sentence": "Students participated in a debate about climate change.",
+      "phase_order": 4,
+      "theme": "Communication",
+      "example_vi": "Các học sinh đã tham gia một cuộc tranh luận về biến đổi khí hậu."
     }
   ]
 }

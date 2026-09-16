@@ -35,7 +35,7 @@ export default function DashboardPage() {
     doneTopics: 0,
     learningTopics: 0,
     roadmapPercentage: 0,
-    totalVocab: 50,
+    totalVocab: 120,
     dueTodayVocab: 0,
     masteredVocab: 0,
     learningVocab: 0,
