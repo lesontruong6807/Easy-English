@@ -22,8 +22,13 @@ interface RichTheoryRendererProps {
 export const RichTheoryRenderer: React.FC<RichTheoryRendererProps> = ({ content }) => {
   // Clean up any remaining LaTeX arrow syntax to proper unicode arrows
   const sanitizedContent = content
-    .replace(/\$\\rightarrow\$/g, "→")
-    .replace(/\\rightarrow/g, "→");
+    .replace(/\$\s*\\?rightarrow\s*\$/gi, "→")
+    .replace(/\$\s*\\?to\s*\$/gi, "→")
+    .replace(/\$\s*→\s*\$/g, "→")
+    .replace(/\\rightarrow/gi, "→")
+    .replace(/\$\s*\\?leftrightarrow\s*\$/gi, "↔")
+    .replace(/\$\s*↔\s*\$/g, "↔")
+    .replace(/\$\s*([→↔])\s*\$/g, "$1");
 
   return (
     <div className="theory-content max-w-none text-[#332e29] dark:text-[#ded7cc] text-sm sm:text-base leading-relaxed">
