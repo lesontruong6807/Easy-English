@@ -29,6 +29,9 @@ const enrichedPhases = phasesData.map(p => {
       if (!t.examples || t.examples.length !== 3) {
         throw new Error(`Topic ${t.title} does not have 3 examples`);
       }
+      if (!t.quiz || t.quiz.length !== 3) {
+        throw new Error(`Topic ${t.title} does not have 3 quiz questions`);
+      }
       return {
         order_index: t.order_index,
         title: t.title,
@@ -37,6 +40,7 @@ const enrichedPhases = phasesData.map(p => {
         book2_p1_ref: t.book2_p1_ref || null,
         book2_p2_ref: t.book2_p2_ref || null,
         examples: t.examples,
+        quiz: t.quiz,
       };
     }),
   };

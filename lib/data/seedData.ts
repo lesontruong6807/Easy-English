@@ -25,6 +25,7 @@ rawTopics.phases.forEach((p) => {
         order_index: idx + 1,
         content,
       })),
+      quiz: (t as any).quiz || [],
     };
     phaseTopics.push(topicItem);
     INITIAL_TOPICS.push(topicItem);

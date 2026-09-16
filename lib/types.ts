@@ -23,6 +23,14 @@ export interface TopicExample {
   content: string;
 }
 
+export interface TopicQuizItem {
+  id?: number;
+  question: string;
+  options: string[];
+  correct_index: number;
+  explanation: string;
+}
+
 export interface Topic {
   id: number;
   phase_id: number;
@@ -33,6 +41,7 @@ export interface Topic {
   book2_p1_ref?: string | null;
   book2_p2_ref?: string | null;
   examples?: TopicExample[];
+  quiz?: TopicQuizItem[];
 }
 
 export type TopicProgressStatus = "not_started" | "learning" | "done";

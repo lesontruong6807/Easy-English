@@ -8,54 +8,66 @@ module.exports = [
     book2_p2_ref: "Phần II, Chuyên đề 15, tr.213-220",
     theory_md: `## 🌟 1. Bản chất: Đảo ngữ là gì?
 
-Đảo ngữ là biện pháp tu từ bằng cách **đảo TRỢ ĐỘNG TỪ lên trước Chủ ngữ** (giống hệt như cách đặt câu hỏi), nhằm mục đích **nhấn mạnh** cảm xúc hoặc sự đặc biệt của hành động.
+Đảo ngữ là biện pháp tu từ bằng cách **đảo TRỢ ĐỘNG TỪ lên trước Chủ ngữ** (giống hệt cách đặt câu hỏi), nhằm mục đích **nhấn mạnh** cảm xúc.
 - *Câu bình thường:* I have never seen such a beautiful view.
-- *Câu đảo ngữ:* **Never have I seen** such a beautiful view! (Chưa bao giờ trong đời tôi lại thấy cảnh đẹp như thế!).
+- *Câu đảo ngữ:* **Never have I seen** such a beautiful view! (Chưa bao giờ tôi thấy cảnh đẹp như thế!).
 
 ---
 
 ## 📊 2. Bảng 5 cấu trúc đảo ngữ "chắc chắn gặp" trong đề thi
 
-| Dạng đảo ngữ | Cấu trúc công thức | Ví dụ minh họa |
-| :--- | :--- | :--- |
-| **Đứng đầu bằng từ Phủ định** *(Never, Rarely, Seldom, Little, Hardly)* | **Từ phủ định + Trợ động từ + S + V** | *Rarely **does he come** to class late.* |
-| **Vừa mới... thì...** *(No sooner... than)* | **No sooner + HAD + S + V3 + THAN + S + V2/ed** | *No sooner **had I arrived** home **than** it rained.* |
-| **Vừa mới... thì...** *(Hardly... when)* | **Hardly / Scarcely + HAD + S + V3 + WHEN + S + V2/ed** | *Hardly **had she closed** her eyes **when** the phone rang.* |
-| **Không những... mà còn...** | **Not only + Trợ động từ + S + V, but S also V** | *Not only **is she beautiful**, but she is also smart.* |
-| **Chỉ sau khi / Chỉ khi...** | **Only when / Only after + S + V, Trợ động từ + S + V** | *Only when you grow up **will you understand**.* |
+| Dạng đảo ngữ | Cấu trúc công thức |
+| :--- | :--- |
+| **Đứng đầu bằng từ Phủ định** *(Never, Rarely, Seldom, Hardly)* | **Từ phủ định + Trợ động từ + S + V** |
+| **Vừa mới... thì...** *(No sooner)* | **No sooner + HAD + S + V3 + THAN + S + V2/ed** |
+| **Vừa mới... thì...** *(Hardly)* | **Hardly / Scarcely + HAD + S + V3 + WHEN + S + V2/ed** |
+| **Không những... mà còn...** | **Not only + Trợ động từ + S + V, but S also V** |
+| **Chỉ sau khi / Chỉ khi...** | **Only when / Only after + S + V, Trợ động từ + S + V** |
+
+---
+
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
+
+* **Ví dụ 1:** *Never have I witnessed such courage.* $\\rightarrow$ Từ phủ định "Never" đứng đầu câu, trợ động từ "have" đảo lên trước chủ ngữ "I".
+* **Ví dụ 2:** *No sooner had the bell rung than the students rushed out.* $\\rightarrow$ Vừa mới rung chuông thì học sinh ùa ra: *No sooner had S V3 than S V2/ed*.
+* **Ví dụ 3:** *Had you told me earlier, I could have helped you.* $\\rightarrow$ Đảo ngữ câu điều kiện loại 3 (bỏ If, đảo *Had* lên trước chủ ngữ).
 
 ---
 
 > 💡 **THẦN CHÚ "NO SOONER ĐI VỚI THAN - HARDLY ĐI VỚI WHEN":**
-> Rất nhiều bạn đi thi ghép nhầm *No sooner... when*.
-> 👉 **MẸO NHỚ:** Chữ **No sooner** có đuôi so sánh hơn "-er" $\\rightarrow$ so sánh hơn thì phải đi với **THAN**!
+> Chữ **No sooner** có đuôi so sánh hơn "-er" $\\rightarrow$ so sánh hơn thì phải đi với **THAN**!
 
 ---
 
-## 💡 3. Đảo ngữ câu điều kiện (Bỏ IF)
+## 💡 4. Đảo ngữ câu điều kiện (Bỏ IF)
 
-| Loại | Công thức đảo ngữ (BỎ IF) | Ví dụ biến đổi |
-| :--- | :--- | :--- |
-| **Loại 1** | **Should + S + (not) + V-bare, S + will + V** | *If you need help $\\rightarrow$ **Should you need** help...* |
-| **Loại 2** | **Were + S + (to V), S + would + V** | *If I were rich $\\rightarrow$ **Were I rich**...* <br> *If I knew $\\rightarrow$ **Were I to know**...* |
-| **Loại 3** | **Had + S + (not) + V3, S + would have + V3** | *If she had studied $\\rightarrow$ **Had she studied**...* |
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "No sooner ______ the house than it started to rain heavily."
-> A. had he left &nbsp;&nbsp;&nbsp;&nbsp; B. he had left &nbsp;&nbsp;&nbsp;&nbsp; C. did he leave &nbsp;&nbsp;&nbsp;&nbsp; D. he left
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: A**
-> Cấu trúc: *No sooner + HAD + S + V3 + than...* $\\rightarrow$ Bắt buộc phải đảo trợ động từ *had* lên trước chủ ngữ *he*: **had he left**.
-> </details>`,
+- **Loại 1:** *Should + S + V-bare, S + will + V*
+- **Loại 2:** *Were + S + (to V), S + would + V*
+- **Loại 3:** *Had + S + V3, S + would have + V3*`,
     examples: [
       "Never have I witnessed such courage. (Đảo ngữ từ phủ định: Never + have + S + V3)",
       "No sooner had the bell rung than the students rushed out. (No sooner... than)",
       "Had you told me earlier, I could have helped you. (Đảo ngữ điều kiện loại 3)"
+    ],
+    quiz: [
+      {
+        question: "No sooner ______ the house than it started to rain heavily.",
+        options: ["had he left", "he had left", "did he leave", "he left"],
+        correct_index: 0,
+        explanation: "Cấu trúc đảo ngữ: No sooner + HAD + S + V3 + than... → Bắt buộc phải đảo trợ động từ had lên trước chủ ngữ he: had he left."
+      },
+      {
+        question: "Hardly had the teacher arrived ______ the lesson began.",
+        options: ["than", "when", "that", "after"],
+        correct_index: 1,
+        explanation: "Cấu trúc: Hardly had + S + V3 + WHEN + S + V2/ed (Hardly luôn đi với WHEN, còn No sooner mới đi với THAN)."
+      },
+      {
+        question: "______ you need any further assistance, please do not hesitate to contact us.",
+        options: ["Should", "Had", "Were", "If should"],
+        correct_index: 0,
+        explanation: "Đảo ngữ câu điều kiện loại 1 (bỏ If): Should + S + V-bare (Should you need = If you need)."
+      }
     ]
   },
   {
@@ -66,51 +78,56 @@ module.exports = [
     book2_p2_ref: "Phần II, Chuyên đề 16, tr.221-226",
     theory_md: `## 🌟 1. Bản chất câu chẻ: "Chính là... người mà/cái mà"
 
-Câu chẻ (Cleft Sentence) dùng để **nhấn mạnh một đối tượng cụ thể** trong câu (nhấn mạnh Chủ ngữ, Tân ngữ, hoặc Trạng từ chỉ nơi chốn/thời gian).
-Ví dụ câu gốc: *"My brother bought this phone yesterday."* (Anh tôi đã mua chiếc điện thoại này hôm qua).
-- Muốn nhấn mạnh anh tôi: **Chính là anh tôi** đã mua...
-- Muốn nhấn mạnh chiếc điện thoại: **Chính là chiếc điện thoại này** mà anh tôi đã mua...
-- Muốn nhấn mạnh hôm qua: **Chính là ngày hôm qua** mà anh tôi mua...
-
----
-
-## 📊 2. Công thức câu chẻ vạn năng
-
+Câu chẻ (Cleft Sentence) dùng để **nhấn mạnh một đối tượng cụ thể** trong câu.
 > 💡 **CÔNG THỨC VÀNG:**
 > **IT + IS / WAS + [Thành phần cần nhấn mạnh] + THAT / WHO + S + V...**
-> - Dùng **IS** khi câu ở hiện tại.
-> - Dùng **WAS** khi câu ở quá khứ.
-
-| Thành phần nhấn mạnh | Cách viết câu chẻ | Ví dụ minh họa |
-| :--- | :--- | :--- |
-| **Nhấn mạnh Chủ ngữ (S)** | *It is/was + S (người) + **THAT / WHO** + V...* | *It was **my brother who/that** bought this phone.* |
-| **Nhấn mạnh Tân ngữ (O)** | *It is/was + O (vật/người) + **THAT** + S + V...* | *It was **this phone that** my brother bought.* |
-| **Nhấn mạnh Trạng từ (Nơi chốn/Thời gian)** | *It is/was + Trạng từ + **THAT** + S + V...* | *It was **yesterday that** my brother bought this phone.* |
 
 ---
 
-> ⚠️ **CẠM BẪY ĐỀ THI: CÂU BỊ ĐỘNG CỦA CÂU CHẺ:**
-> Khi thành phần nhấn mạnh là **TÂN NGỮ BỊ TÁC ĐỘNG**:
-> *It was the cat that **was rescued** by the firefighter.* (Chính là con mèo đã **được cứu** bởi người lính cứu hỏa).
-> Hãy chú ý xem đối tượng tự làm hay bị làm để chọn chủ động hay bị động!
+## 📊 2. Bảng phân loại thành phần nhấn mạnh
+
+| Thành phần nhấn mạnh | Cách viết câu chẻ |
+| :--- | :--- |
+| **Nhấn mạnh Chủ ngữ (S)** | *It is/was + S (người) + **THAT / WHO** + V...* |
+| **Nhấn mạnh Tân ngữ (O)** | *It is/was + O (vật/người) + **THAT** + S + V...* |
+| **Nhấn mạnh Trạng từ (Nơi chốn/Thời gian)** | *It is/was + Trạng từ + **THAT** + S + V...* |
 
 ---
 
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "It was in Paris ______ they first met each other."
-> A. which &nbsp;&nbsp;&nbsp;&nbsp; B. where &nbsp;&nbsp;&nbsp;&nbsp; C. that &nbsp;&nbsp;&nbsp;&nbsp; D. when
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: C**
-> Rất nhiều bạn thấy "in Paris" là nơi chốn liền vội vàng chọn WHERE. Đây là **bẫy câu chẻ** kinh điển!
-> Công thức câu chẻ: *It was + [Trạng từ nơi chốn] + **THAT** + S + V* $\\rightarrow$ Bắt buộc dùng **THAT**, không dùng Where!
-> </details>`,
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
+
+* **Ví dụ 1:** *It is my mother who always supports me.* $\\rightarrow$ Nhấn mạnh chủ ngữ chỉ người: Chính là mẹ tôi, người luôn ủng hộ tôi.
+* **Ví dụ 2:** *It was English that I found most challenging.* $\\rightarrow$ Nhấn mạnh tân ngữ chỉ vật: Chính là môn tiếng Anh mà tôi thấy thử thách nhất.
+* **Ví dụ 3:** *It was in this small town that he was born.* $\\rightarrow$ Nhấn mạnh trạng từ nơi chốn: Bắt buộc dùng **THAT**, không dùng *where*.
+
+---
+
+> ⚠️ **CẠM BẪY: NHẤN MẠNH NƠI CHỐN DÙNG THAT, KHÔNG DÙNG WHERE:**
+> Rất nhiều bạn thấy nơi chốn như *in Paris, in Hanoi* liền chọn WHERE $\\rightarrow$ **SAI**. Công thức câu chẻ luôn luôn dùng **THAT**!`,
     examples: [
       "It is my mother who always supports me. (Nhấn mạnh chủ ngữ chỉ người)",
       "It was English that I found most challenging. (Nhấn mạnh tân ngữ)",
       "It was in this small town that he was born. (Nhấn mạnh trạng từ nơi chốn - dùng that, không dùng where)"
+    ],
+    quiz: [
+      {
+        question: "It was in Paris ______ they first met each other.",
+        options: ["which", "where", "that", "when"],
+        correct_index: 2,
+        explanation: "Cấu trúc câu chẻ nhấn mạnh: It was + [Trạng từ nơi chốn] + THAT + S + V. Bắt buộc dùng THAT, không được dùng Where!"
+      },
+      {
+        question: "It was my best friend ______ helped me overcome those difficult days.",
+        options: ["whom", "who", "which", "whose"],
+        correct_index: 1,
+        explanation: "Nhấn mạnh chủ ngữ chỉ người (my best friend) thực hiện hành động 'helped' → dùng who (hoặc that)."
+      },
+      {
+        question: "It was the red car ______ was damaged in the accident.",
+        options: ["that", "whom", "who", "where"],
+        correct_index: 0,
+        explanation: "Nhấn mạnh vật (the red car) trong câu chẻ → dùng that."
+      }
     ]
   },
   {
@@ -119,10 +136,9 @@ Ví dụ câu gốc: *"My brother bought this phone yesterday."* (Anh tôi đã 
     book1_ref: "Chuyên đề 15, Phần 1-4, tr.276-290",
     book2_p1_ref: "Phần I, Chuyên đề 16, tr.91-96",
     book2_p2_ref: "Phần II, Chuyên đề 17, tr.227-234",
-    theory_md: `## 🌟 1. Bản chất rút gọn mệnh đề: Làm câu văn ngắn gọn, súc tích
+    theory_md: `## 🌟 1. Bản chất: Làm câu văn ngắn gọn, súc tích
 
-Trong tiếng Anh, việc lặp lại từ hoặc dùng quá nhiều mệnh đề rườm rà khiến câu văn nặng nề. Rút gọn mệnh đề giúp biến một mệnh đề phụ dài dòng thành một **Cụm phân từ (Participle)** gọn gàng.
-Có 2 dạng rút gọn chính:
+Rút gọn mệnh đề biến một mệnh đề phụ dài dòng thành một **Cụm phân từ (Participle)** gọn gàng:
 1. Rút gọn **Mệnh đề quan hệ**.
 2. Rút gọn **2 mệnh đề có CÙNG CHỦ NGỮ**.
 
@@ -132,38 +148,49 @@ Có 2 dạng rút gọn chính:
 
 | Thể của động từ | Cách rút gọn | Ví dụ gốc $\\rightarrow$ Rút gọn |
 | :--- | :--- | :--- |
-| **Chủ động** | Bỏ đại từ quan hệ và To Be, đưa động từ về **V-ING** | *The man **who is standing** there $\\rightarrow$ The man **standing** there.* |
-| **Bị động** | Bỏ đại từ quan hệ và To Be, giữ lại **V3/ED** | *The cars **which were made** in Japan $\\rightarrow$ The cars **made** in Japan.* |
-| **Có từ số thứ tự:** *the first, the second, the last, the only, so sánh nhất* | Rút gọn thành **TO V** (hoặc **TO BE V3** nếu bị động) | *He is the first man **who stepped** on the moon $\\rightarrow$ He is the first man **to step** on the moon.* |
+| **Chủ động** | Bỏ đại từ & to be $\\rightarrow$ **V-ING** | *The man who is standing $\\rightarrow$ The man **standing**.* |
+| **Bị động** | Bỏ đại từ & to be $\\rightarrow$ **V3/ED** | *The car which was made $\\rightarrow$ The car **made**.* |
+| **Có số thứ tự:** *the first, the second, the only, the best* | Rút gọn thành **TO V** | *The first man who walked $\\rightarrow$ The first man **to walk**.* |
 
 ---
 
-## 💡 3. Rút gọn 2 mệnh đề CÙNG CHỦ NGỮ (Trọng tâm đề thi THPTQG)
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-Khi 2 hành động xảy ra do **CÙNG MỘT NGƯỜI/VẬT** thực hiện:
-- **Chủ động:** Dùng **V-ing**:
-  *Seeing the police, the thief ran away.* (Nhìn thấy cảnh sát, tên trộm bỏ chạy).
-- **Bị động:** Dùng **V3/ed** (hoặc Being V3):
-  *Attacked by the dog, the boy cried loudly.* (Bị chó tấn công, cậu bé khóc thét).
-- **Hành động xảy ra và XONG XUÔI TRƯỚC một hành động khác:** Dùng **HAVING + V3**:
-  *Having finished all his homework, he went to bed.* (Sau khi đã làm xong hết bài tập, cậu ấy mới đi ngủ).
+* **Ví dụ 1:** *The boy playing the guitar is my cousin.* $\\rightarrow$ Rút gọn từ câu chủ động: *The boy who is playing...* $\\rightarrow$ *playing*.
+* **Ví dụ 2:** *The book written by Nam Cao is famous.* $\\rightarrow$ Rút gọn từ câu bị động: *The book which was written...* $\\rightarrow$ *written*.
+* **Ví dụ 3:** *Having passed the exam, she felt relieved.* $\\rightarrow$ Rút gọn 2 mệnh đề cùng chủ ngữ, hành động "đỗ kỳ thi" xảy ra xong xuôi trước nên dùng *Having + V3*.
 
 ---
 
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "______ all the tickets for the concert, they went home happily."
-> A. Selling &nbsp;&nbsp;&nbsp;&nbsp; B. Sold &nbsp;&nbsp;&nbsp;&nbsp; C. Having sold &nbsp;&nbsp;&nbsp;&nbsp; D. To sell
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: C**
-> Việc "bán hết vé" đã hoàn thành xong xuôi rồi họ mới "vui vẻ đi về nhà" $\\rightarrow$ Rút gọn mệnh đề hoàn thành chủ động bằng cấu trúc **Having + V3** (*Having sold*).
-> </details>`,
+## 💡 4. Rút gọn 2 mệnh đề CÙNG CHỦ NGỮ
+
+- **Chủ động:** Dùng **V-ing** (*Seeing the police, the thief ran away*).
+- **Bị động:** Dùng **V3/ed** (*Attacked by the dog, he cried*).
+- **Hoàn thành trước một việc khác:** Dùng **HAVING + V3** (*Having finished homework, he went to bed*).`,
     examples: [
       "The boy playing the guitar is my cousin. (Rút gọn chủ động: who is playing → playing)",
       "The book written by Nam Cao is famous. (Rút gọn bị động: which was written → written)",
       "Having passed the exam, she felt very relieved. (Having + V3 nhấn mạnh việc hoàn thành trước)"
+    ],
+    quiz: [
+      {
+        question: "______ all the tickets for the concert, they went home happily.",
+        options: ["Selling", "Sold", "Having sold", "To sell"],
+        correct_index: 2,
+        explanation: "Hành động 'bán hết vé' đã xảy ra và hoàn thành xong xuôi trước khi họ 'đi về nhà' → rút gọn hoàn thành chủ động bằng Having + V3 (Having sold)."
+      },
+      {
+        question: "The girl ______ next to the window is the most intelligent student in my class.",
+        options: ["sits", "sitting", "sat", "to sit"],
+        correct_index: 1,
+        explanation: "Rút gọn mệnh đề quan hệ chủ động (who sits / who is sitting) → đưa về V-ing: sitting."
+      },
+      {
+        question: "Neil Armstrong was the first human ______ on the surface of the moon.",
+        options: ["stepping", "stepped", "to step", "steps"],
+        correct_index: 2,
+        explanation: "Có cụm từ chỉ thứ tự 'the first' → rút gọn mệnh đề quan hệ thành To V (to step)."
+      }
     ]
   },
   {
@@ -172,52 +199,57 @@ Khi 2 hành động xảy ra do **CÙNG MỘT NGƯỜI/VẬT** thực hiện:
     book1_ref: "Chuyên đề 16, Phần 1-4, tr.291-305",
     book2_p1_ref: "Phần I, Chuyên đề 17, tr.97-102",
     book2_p2_ref: "Phần II, Chuyên đề 18, tr.235-242",
-    theory_md: `## 🌟 1. Bản chất câu hỏi đuôi (Tag Questions)
+    theory_md: `## 🌟 1. Bản chất câu hỏi đuôi: Quy tắc Âm - Dương
 
-Câu hỏi đuôi là một câu hỏi ngắn gắn ở cuối câu trần thuật, dùng để **xác nhận lại thông tin** xem có đúng hay không ("phải không?", "đúng không?").
-> 💡 **QUY TẮC ĐỐI XỨNG CỐT LÕI (ÂM - DƯƠNG):**
+> 💡 **QUY TẮC ĐỐI XỨNG CỐT LÕI:**
 > - Vế trước **KHẲNG ĐỊNH (+)** $\\rightarrow$ Đuôi **PHỦ ĐỊNH (-)**.
 > - Vế trước **PHỦ ĐỊNH (-)** $\\rightarrow$ Đuôi **KHẲNG ĐỊNH (+)**.
-> - *Ví dụ:* You are a student, **aren't you**? / He doesn't smoke, **does he**?
 
 ---
 
 ## 📊 2. Bảng 7 trường hợp đặc biệt "gây lú" nhất đề thi
 
-| Vế trước xuất hiện | Đuôi tương ứng bắt buộc | Ví dụ minh họa |
-| :--- | :--- | :--- |
-| **I am...** | $\\rightarrow$ **aren't I?** (Không có amn't I) | *I am late, **aren't I**?* |
-| **Let's + V...** (rủ rê cùng làm) | $\\rightarrow$ **shall we?** | *Let's go for a picnic, **shall we**?* |
-| **Câu mệnh lệnh:** *Open the door! / Don't do that!* | $\\rightarrow$ **will you?** | *Close the window, **will you**?* |
-| **Chủ ngữ là:** *Everyone, Everybody, Someone, Nobody* | Đại từ thay thế ở đuôi là **THEY** | *Everyone loves music, **don't they**?* |
-| **Chủ ngữ là:** *Everything, Something, Nothing* | Đại từ thay thế ở đuôi là **IT** | *Nothing was lost, **was it**?* |
-| **Có từ bán phủ định:** *never, seldom, rarely, hardly, no one* | Vế trước coi là **PHỦ ĐỊNH** $\\rightarrow$ Đuôi phải là **KHẲNG ĐỊNH** | *He never drinks wine, **does he**?* |
-| **I think + S + V...** | Đuôi chia theo **MỆNH ĐỀ PHỤ PHÍA SAU** | *I think she will come, **won't she**?* |
+| Vế trước xuất hiện | Đuôi tương ứng bắt buộc |
+| :--- | :--- |
+| **I am...** | $\\rightarrow$ **aren't I?** |
+| **Let's + V...** (rủ rê) | $\\rightarrow$ **shall we?** |
+| **Câu mệnh lệnh:** *Open the door!* | $\\rightarrow$ **will you?** |
+| **Chủ ngữ là:** *Everyone, Nobody, Somebody* | Đại từ thay thế ở đuôi là **THEY** |
+| **Chủ ngữ là:** *Everything, Nothing* | Đại từ thay thế ở đuôi là **IT** |
+| **Có từ bán phủ định:** *never, rarely, seldom, hardly* | Đuôi phải ở dạng **KHẲNG ĐỊNH (+)** |
+| **I think + S + V...** | Đuôi chia theo **MỆNH ĐỀ PHỤ PHÍA SAU** |
 
 ---
 
-> ⚠️ **CẠM BẪY KHI CHỦ NGỮ LÀ NOBODY / NOTHING:**
-> Vì *Nobody, Nothing* bản thân đã mang nghĩa phủ định (Không có ai / Không có cái gì), nên đuôi **KHÔNG ĐƯỢC DÙNG DẠNG NOT** nữa!
-> - *Nobody came to the party, **did they**?* (ĐÚNG)
-> - ❌ *Nobody came to the party, didn't they?* (SAI)
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "She rarely goes to the gym, ______?"
-> A. doesn't she &nbsp;&nbsp;&nbsp;&nbsp; B. does she &nbsp;&nbsp;&nbsp;&nbsp; C. isn't she &nbsp;&nbsp;&nbsp;&nbsp; D. is she
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: B**
-> Trong câu có từ **rarely** (hiếm khi) $\\rightarrow$ Đây là từ bán phủ định, câu mang nghĩa phủ định.
-> Vì vậy phần đuôi bắt buộc phải ở dạng **Khẳng định** $\\rightarrow$ mượn trợ động từ hiện tại đơn cho ngôi "she" là **does she**!
-> </details>`,
+* **Ví dụ 1:** *I am right, aren't I?* $\\rightarrow$ Không có dạng "amn't I", bắt buộc dùng *aren't I*.
+* **Ví dụ 2:** *Let's play football, shall we?* $\\rightarrow$ Lời rủ rê *Let's* luôn có đuôi là *shall we*.
+* **Ví dụ 3:** *Nobody came to the party, did they?* $\\rightarrow$ *Nobody* mang nghĩa phủ định nên đuôi phải là khẳng định *did they*.`,
     examples: [
       "I am right, aren't I? (I am chuyển thành aren't I)",
       "Let's play football, shall we? (Let's luôn đi với shall we)",
       "Nobody knows the answer, do they? (Nobody đổi thành they, đuôi khẳng định)"
+    ],
+    quiz: [
+      {
+        question: "She rarely goes to the gym on weekdays, ______?",
+        options: ["doesn't she", "does she", "isn't she", "is she"],
+        correct_index: 1,
+        explanation: "Trong câu có từ bán phủ định 'rarely' (hiếm khi) nên vế trước mang nghĩa phủ định → phần đuôi phải ở dạng khẳng định: does she?"
+      },
+      {
+        question: "I am supposed to attend the meeting tomorrow, ______?",
+        options: ["am not I", "amn't I", "aren't I", "don't I"],
+        correct_index: 2,
+        explanation: "Với chủ ngữ 'I am', câu hỏi đuôi đặc biệt luôn luôn là aren't I?"
+      },
+      {
+        question: "Let's go out for dinner tonight, ______?",
+        options: ["will you", "shall we", "do we", "don't we"],
+        correct_index: 1,
+        explanation: "Câu rủ rê bắt đầu bằng 'Let's' luôn có câu hỏi đuôi là shall we?"
+      }
     ]
   },
   {
@@ -226,163 +258,176 @@ Câu hỏi đuôi là một câu hỏi ngắn gắn ở cuối câu trần thu�
     book1_ref: "Chuyên đề 17, Phần 1-6, tr.306-325",
     book2_p1_ref: "Phần I, Chuyên đề 18, tr.103-110",
     book2_p2_ref: "Phần II, Chuyên đề 19, tr.243-252",
-    theory_md: `## 🌟 1. Phrasal Verb là gì? Tại sao người mất gốc hay sợ?
+    theory_md: `## 🌟 1. Phrasal Verb là gì?
 
-**Phrasal Verb = Động từ (Verb) + Giới từ/Tiểu từ (Preposition/Particle)**.
-Điều oái oăm là: Khi ghép thêm giới từ, nghĩa của nó **hoàn toàn biến đổi**, không thể dịch chay từng từ được!
-- *Look* = Nhìn
-- *Look for* = **Tìm kiếm**
-- *Look after* = **Chăm sóc**
-- *Look up* = **Tra cứu** (từ điển)
-- *Look down on* = **Khinh thường** ai đó
+**Phrasal Verb = Động từ (Verb) + Giới từ/Tiểu từ (Particle)**.
+Khi ghép thêm giới từ, nghĩa của nó hoàn toàn biến đổi!
+- *Look* = Nhìn $\\rightarrow$ *Look for* = Tìm kiếm $\\rightarrow$ *Look after* = Chăm sóc $\\rightarrow$ *Look up* = Tra từ điển.
 
 ---
 
-## 📊 2. Top 15 Phrasal Verbs "tần suất xuất hiện cao nhất" trong đề thi
+## 📊 2. Top 10 Phrasal Verbs hay thi nhất
 
-| Cụm động từ | Ý nghĩa tiếng Việt | Ví dụ dễ nhớ |
-| :--- | :--- | :--- |
-| **Give up** | Từ bỏ (thói quen, hy vọng) | *Never **give up** your dreams!* |
-| **Turn on / Turn off** | Bật / Tắt (thiết bị) | *Please **turn off** the lights before leaving.* |
-| **Turn down** | 1. Vặn nhỏ lại <br> 2. **Từ chối** (lời mời, đề nghị) | *She **turned down** his job offer.* (Từ chối) |
-| **Put off** | **Trì hoãn** (= postpone / delay) | *Never **put off** until tomorrow what you can do today.* |
-| **Put on** | Mặc quần áo, đeo kính | *He **put on** his coat and left.* |
-| **Take off** | 1. Cất cánh (máy bay) <br> 2. Cởi đồ | *The plane **took off** on time.* |
-| **Go off** | 1. Đổ chuông (báo thức) <br> 2. Phát nổ (bom) <br> 3. Hỏng (thức ăn) | *My alarm clock **goes off** at 6 AM.* |
-| **Look after** | Chăm sóc (= take care of) | *She stays home to **look after** her sick cat.* |
-| **Come across** | Tình cờ bắt gặp / tìm thấy | *I **came across** an old photo yesterday.* |
-| **Break down** | Hỏng hóc (máy móc, xe cộ) | *My motorbike **broke down** on the way home.* |
+| Cụm động từ | Ý nghĩa tiếng Việt |
+| :--- | :--- |
+| **Give up** | Từ bỏ |
+| **Turn down** | 1. Vặn nhỏ <br> 2. **Từ chối** (lời mời) |
+| **Put off** | **Trì hoãn** (= postpone) |
+| **Take off** | 1. Cất cánh <br> 2. Cởi đồ |
+| **Go off** | 1. Đổ chuông báo thức <br> 2. Phát nổ |
+| **Look after** | Chăm sóc (= take care of) |
+| **Break down** | Hỏng hóc (xe cộ, máy móc) |
 
 ---
 
-> 💡 **CHIẾN THUẬT HỌC PHRASAL VERBS KHÔNG BỊ QUÊN:**
-> Học theo **GIỚI TỪ** (Ý nghĩa của tiểu từ):
-> - **OFF** thường mang nghĩa **RỜI ĐI, NGẮT, TẮT**: *turn off* (tắt), *take off* (rời mặt đất), *put off* (đẩy lùi thời gian), *cut off* (cắt đứt liên lạc).
-> - **UP** thường mang nghĩa **TĂNG LÊN, KẾT THÚC HOÀN TOÀN**: *speed up* (tăng tốc), *eat up* (ăn sạch), *use up* (dùng cạn kiệt), *give up* (buông tay dứt điểm).
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
+
+* **Ví dụ 1:** *She decided to give up smoking.* $\\rightarrow$ *Give up* mang nghĩa từ bỏ một thói quen.
+* **Ví dụ 2:** *The plane took off smoothly.* $\\rightarrow$ *Take off* dùng cho máy bay mang nghĩa cất cánh rời mặt đất.
+* **Ví dụ 3:** *My alarm didn't go off this morning.* $\\rightarrow$ *Go off* dùng cho đồng hồ báo thức mang nghĩa reo chuông.
 
 ---
 
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "The meeting was ______ until next Monday because the director was sick."
-> A. turned on &nbsp;&nbsp;&nbsp;&nbsp; B. put off &nbsp;&nbsp;&nbsp;&nbsp; C. taken off &nbsp;&nbsp;&nbsp;&nbsp; D. given up
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: B**
-> Dựa vào ngữ cảnh: Cuộc họp bị **hoãn lại** đến thứ Hai tuần sau vì giám đốc ốm $\\rightarrow$ cụm từ mang nghĩa hoãn lại là **put off** (= postpone).
-> </details>`,
+> 💡 **CHIẾN THUẬT HỌC THEO TIỂU TỪ:**
+> - **OFF:** Rời đi, ngắt, tắt (*turn off, take off, put off*).
+> - **UP:** Tăng lên, dứt điểm hoàn toàn (*give up, use up, speed up*).`,
     examples: [
       "She decided to give up smoking. (Give up = từ bỏ)",
       "The plane took off smoothly despite the rain. (Take off = cất cánh)",
       "My alarm didn't go off this morning, so I was late. (Go off = reo chuông)"
+    ],
+    quiz: [
+      {
+        question: "The meeting was ______ until next Monday because the director was sick.",
+        options: ["turned on", "put off", "taken off", "given up"],
+        correct_index: 1,
+        explanation: "Dựa vào ngữ cảnh: Cuộc họp bị 'hoãn lại' đến thứ Hai tuần sau → put off (= postpone: hoãn lại)."
+      },
+      {
+        question: "She had to ______ his wedding invitation because she was traveling abroad.",
+        options: ["turn down", "take off", "look after", "break down"],
+        correct_index: 0,
+        explanation: "Turn down mang nghĩa là từ chối (lời mời, đề nghị) = refuse / reject."
+      },
+      {
+        question: "My car suddenly ______ on the highway, so I had to call for help.",
+        options: ["broke down", "went off", "put off", "gave up"],
+        correct_index: 0,
+        explanation: "Break down mang nghĩa là bị hỏng hóc (dành cho phương tiện, máy móc xe cộ)."
+      }
     ]
   },
   {
     order_index: 6,
-    title: "Collocations & Idioms (Cụm từ cố định & Thành ngữ)",
+    title: "Collocations & Idioms",
     book1_ref: "Chuyên đề 18, Phần 1-5, tr.326-345",
     book2_p1_ref: "Phần I, Chuyên đề 19, tr.111-120",
     book2_p2_ref: "Phần II, Chuyên đề 20, tr.253-264",
     theory_md: `## 🌟 1. Collocation & Idiom là gì?
 
-- **Collocation (Cụm từ đi cùng nhau):** Là những từ luôn tự nhiên "kết đôi" với nhau theo thói quen của người bản xứ. Ví dụ: Người Việt nói "uống thuốc" chứ không nói "ăn thuốc". Tiếng Anh cũng vậy: Phải nói là **take medicine** chứ KHÔNG nói *eat medicine* hay *drink medicine*.
-- **Idiom (Thành ngữ):** Là cụm từ có nghĩa bóng hoàn toàn khác với nghĩa đen từng từ (ví dụ: *piece of cake* không phải là miếng bánh, mà là "dễ ợt").
+- **Collocation:** Cụm từ luôn đi liền với nhau theo thói quen bản xứ (*make a decision, do homework*).
+- **Idiom:** Thành ngữ mang nghĩa bóng (*a piece of cake = rất dễ dàng*).
 
 ---
 
-## 📊 2. Top Collocations hay gặp nhất đề thi THPTQG
+## 📊 2. Top Collocations & Idioms hay thi nhất
 
-| Cụm Collocation chuẩn | Nghĩa tiếng Việt | Lỗi sai người Việt hay dính |
+| Cụm từ | Nghĩa | Lưu ý |
 | :--- | :--- | :--- |
 | **Make a decision** | Ra quyết định | ❌ *do a decision* |
 | **Make a mistake** | Mắc sai lầm | ❌ *do a mistake* |
-| **Make an effort / attempt** | Nỗ lực, cố gắng | ❌ *take an effort* |
-| **Do homework / housework** | Làm bài tập / việc nhà | ❌ *make homework* |
-| **Do research / business** | Làm nghiên cứu / kinh doanh | ❌ *make research* |
+| **Do homework / research** | Làm bài tập / nghiên cứu | ❌ *make homework* |
 | **Pay attention to** | Chú ý đến | ❌ *give attention* |
-| **Catch a cold** | Bị cảm lạnh | ❌ *take a cold* |
-| **Heavy rain / traffic** | Mưa to / Giao thông tắc nghẽn | ❌ *strong rain / big traffic* |
+| **A piece of cake** | Rất dễ dàng | Thành ngữ |
+| **Under the weather** | Mệt mỏi, ốm nhẹ | Thành ngữ |
+| **Cost an arm and a leg** | Cực kỳ đắt đỏ | Thành ngữ |
 
 ---
 
-## 💡 3. Các Idioms kinh điển đề thi hay hỏi
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-- **A piece of cake:** Rất dễ dàng, dễ như ăn kẹo (*The test was a piece of cake*).
-- **Cost an arm and a leg:** Cực kỳ đắt đỏ, tốn cả gia tài (*That diamond ring costs an arm and a leg*).
-- **Once in a blue moon:** Hiếm khi, năm thì mười họa mới xảy ra.
-- **Raining cats and dogs:** Mưa như trút nước (*It is raining cats and dogs*).
-- **Under the weather:** Cảm thấy mệt mỏi, khó ở trong người (*I am feeling a bit under the weather today*).
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "Students should pay ______ to what the teacher is explaining in class."
-> A. notice &nbsp;&nbsp;&nbsp;&nbsp; B. care &nbsp;&nbsp;&nbsp;&nbsp; C. attention &nbsp;&nbsp;&nbsp;&nbsp; D. sight
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: C**
-> Cụm từ cố định (Collocation): **pay attention to** mang nghĩa là "chú ý, tập trung vào điều gì".
-> </details>`,
+* **Ví dụ 1:** *She made a difficult decision.* $\\rightarrow$ Dùng động từ *make* đi với *decision*.
+* **Ví dụ 2:** *Don't worry, the exam is a piece of cake!* $\\rightarrow$ *A piece of cake* là thành ngữ chỉ việc cực kỳ dễ.
+* **Ví dụ 3:** *I am feeling a bit under the weather today.* $\\rightarrow$ *Under the weather* nghĩa là cảm thấy trong người không được khỏe.`,
     examples: [
       "She made a difficult decision to leave her hometown. (Make a decision = ra quyết định)",
       "Don't worry, the interview is a piece of cake! (A piece of cake = rất dễ)",
       "I only see him once in a blue moon. (Once in a blue moon = hiếm khi)"
+    ],
+    quiz: [
+      {
+        question: "Students should pay ______ to what the teacher is explaining in class.",
+        options: ["notice", "care", "attention", "sight"],
+        correct_index: 2,
+        explanation: "Collocation cố định: pay attention to something (chú ý, tập trung vào điều gì)."
+      },
+      {
+        question: "I couldn't sleep well last night, so I feel a bit ______ today.",
+        options: ["under the weather", "a piece of cake", "on cloud nine", "once in a blue moon"],
+        correct_index: 0,
+        explanation: "Under the weather = cảm thấy mệt mỏi, khó chịu trong người."
+      },
+      {
+        question: "Every evening, my sister spends an hour ______ her homework.",
+        options: ["making", "doing", "taking", "getting"],
+        correct_index: 1,
+        explanation: "Collocation chuẩn: do homework (làm bài tập về nhà), không dùng make homework."
+      }
     ]
   },
   {
     order_index: 7,
-    title: "Giới từ (Prepositions: In, On, At & Giới từ đi kèm)",
+    title: "Giới từ (Prepositions: In, On, At)",
     book1_ref: "Chuyên đề 19, Phần 1-4, tr.346-360",
     book2_p1_ref: "Phần I, Chuyên đề 21, tr.121-128",
     book2_p2_ref: "Phần II, Chuyên đề 21, tr.265-274",
-    theory_md: `## 🌟 1. Bản chất hình tam giác ngược: IN - ON - AT
+    theory_md: `## 🌟 1. Hình tam giác ngược IN - ON - AT
 
-Để không bao giờ nhầm lẫn giữa **IN, ON, AT**, hãy tưởng tượng một **hình tam giác ngược**:
-- **Đáy tam giác (Ở TRÊN CÙNG - RỘNG LỚN NHẤT): Dùng IN**
-- **Thân tam giác (Ở GIỮA - CỤ THỂ VỪA PHẢI): Dùng ON**
-- **Đỉnh tam giác (Ở DƯỚI CÙNG - CHÍNH XÁC NHẤT, NHỎ NHẤT): Dùng AT**
-
----
-
-## 📊 2. Bảng quy tắc IN - ON - AT theo Thời gian và Nơi chốn
-
-| Giới từ | Thời gian (Time) | Nơi chốn (Place) |
-| :---: | :--- | :--- |
-| **IN** *(Quy mô lớn, chung chung)* | - Thế kỷ, Thập kỷ: *in the 21st century* <br> - Năm, Mùa, Tháng: *in 2024, in summer, in May* <br> - Buổi trong ngày: *in the morning, in the afternoon* | - Quốc gia, Thành phố: *in Vietnam, in Hanoi* <br> - Không gian kín: *in a room, in a box, in a car* |
-| **ON** *(Quy mô vừa, bề mặt)* | - Ngày trong tuần: *on Monday, on Friday* <br> - Ngày tháng cụ thể: *on May 15th, on Christmas Day* <br> - Cuối tuần: *on the weekend* | - Tên đường: *on Tran Phu Street* <br> - Bề mặt: *on the table, on the wall, on the floor* <br> - Phương tiện công cộng lớn: *on the bus, on the train, on a plane* |
-| **AT** *(Điểm chính xác, cụ thể nhất)* | - Giờ giấc chính xác: *at 6 o'clock, at 7:30 PM* <br> - Thời điểm đặc biệt: *at noon, at midnight, at night* | - Địa chỉ nhà có số: *at 123 Nguyen Trai Street* <br> - Địa điểm cụ thể: *at school, at home, at the airport, at the station* |
+- **IN (Đáy trên - Rộng lớn nhất):** Thế kỷ, năm, tháng, mùa, quốc gia, thành phố (*in 2024, in Hanoi*).
+- **ON (Ở giữa - Cụ thể vừa phải):** Ngày trong tuần, ngày tháng, tên đường, bề mặt (*on Monday, on May 15th, on the table*).
+- **AT (Đỉnh dưới - Chính xác nhất):** Giờ giấc, địa chỉ có số nhà, địa điểm cụ thể (*at 7 AM, at 123 Nguyen Trai St, at home*).
 
 ---
 
-## 💡 3. Các giới từ đi kèm Tính từ hay thi nhất
+## 💬 2. Ví dụ minh họa & Phân tích chi tiết
 
-- **Interested in:** hứng thú với cái gì
-- **Good at / Bad at:** giỏi / dở về cái gì
-- **Famous for:** nổi tiếng vì cái gì
-- **Afraid of:** sợ hãi cái gì
-- **Proud of:** tự hào về cái gì
-- **Responsible for:** chịu trách nhiệm cho cái gì
+* **Ví dụ 1:** *We usually have lunch at 12:00 PM.* $\\rightarrow$ Đi với giờ giấc chính xác dùng *at*.
+* **Ví dụ 2:** *She was born on Monday, June 1st.* $\\rightarrow$ Có ngày cụ thể trong tuần hoặc ngày trong tháng dùng *on*.
+* **Ví dụ 3:** *He is very good at playing chess.* $\\rightarrow$ Tính từ đi kèm giới từ: *good at* (giỏi về cái gì).
 
 ---
 
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "He was born ______ October 10th, 2005 ______ Hanoi."
-> A. in / at &nbsp;&nbsp;&nbsp;&nbsp; B. on / in &nbsp;&nbsp;&nbsp;&nbsp; C. at / on &nbsp;&nbsp;&nbsp;&nbsp; D. on / at
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: B**
-> - "October 10th" có **ngày cụ thể** $\\rightarrow$ dùng **ON**.
-> - "Hanoi" là **thành phố lớn** $\\rightarrow$ dùng **IN**.
-> </details>`,
+## 💡 3. Các giới từ đi kèm Tính từ thông dụng
+
+- **good at / bad at:** giỏi / dở về
+- **interested in:** thích thú với
+- **famous for:** nổi tiếng vì
+- **afraid of:** sợ hãi
+- **proud of:** tự hào về`,
     examples: [
       "We usually have lunch at 12:00 PM. (At đi với giờ giấc cụ thể)",
       "She was born on Monday, June 1st. (On đi với ngày trong tuần / ngày tháng)",
       "He is very good at playing chess. (Good at = giỏi về việc gì)"
+    ],
+    quiz: [
+      {
+        question: "He was born ______ October 10th, 2005 ______ Hanoi.",
+        options: ["in / at", "on / in", "at / on", "on / at"],
+        correct_index: 1,
+        explanation: "Có ngày tháng cụ thể (October 10th) dùng ON. Nơi chốn là thành phố lớn (Hanoi) dùng IN → on / in."
+      },
+      {
+        question: "My younger brother is very interested ______ learning foreign languages.",
+        options: ["on", "at", "in", "about"],
+        correct_index: 2,
+        explanation: "Cụm tính từ cố định: interested in something (hứng thú, yêu thích điều gì)."
+      },
+      {
+        question: "The train will arrive ______ 8:30 PM sharp.",
+        options: ["at", "on", "in", "by"],
+        correct_index: 0,
+        explanation: "Giờ giấc chính xác (8:30 PM) luôn đi với giới từ AT."
+      }
     ]
   },
   {
@@ -393,48 +438,47 @@ Câu hỏi đuôi là một câu hỏi ngắn gắn ở cuối câu trần thu�
     book2_p2_ref: "Phần II, Chuyên đề 22-23, tr.275-290",
     theory_md: `## 🌟 1. Bản chất dạng bài Đồng nghĩa (CLOSEST) & Trái nghĩa (OPPOSITE)
 
-Trong đề thi THPTQG có **4 câu từ vựng** gồm:
-- 2 câu tìm từ **ĐỒNG NGHĨA (CLOSEST in meaning)**.
-- 2 câu tìm từ **TRÁI NGHĨA (OPPOSITE in meaning)**.
-Nhiều bạn biết nghĩa của từ nhưng vẫn mất điểm cay đắng vì: **ĐỀ BẢO TÌM TRÁI NGHĨA NHƯNG QUEN TAY LẠI CHỌN TỪ ĐỒNG NGHĨA!**
+Trong đề thi THPTQG có **4 câu từ vựng**:
+- 2 câu **ĐỒNG NGHĨA (CLOSEST)**.
+- 2 câu **TRÁI NGHĨA (OPPOSITE)**.
+Cảnh báo: Đề yêu cầu tìm TRÁI NGHĨA nhưng người học hay chọn nhầm từ ĐỒNG NGHĨA vì quen tay!
 
 ---
 
-## 💡 2. Chiến thuật đoán nghĩa từ trong ngữ cảnh (Context Clues)
+## 💬 2. Ví dụ minh họa & Phân tích chi tiết
 
-Khi gặp từ mới hoàn toàn mà bạn chưa từng học, **ĐỪNG HOẢNG SỢ**! Hãy áp dụng 3 mẹo suy luận sau:
-1. **Dựa vào từ nối tương phản:** Thấy câu có *but, however, although, while* $\\rightarrow$ nghĩa của từ mới sẽ **TRÁI NGƯỢC** với vế còn lại.
-   - *Although the test was **arduous**, all students passed easily.* (Dễ dàng qua $\\rightarrow$ arduous ắt hẳn nghĩa là gian nan/khó khăn).
-2. **Dựa vào từ nối tương đương:** Thấy có *and, so, also, or* $\\rightarrow$ nghĩa từ mới **TƯƠNG TỰ** từ bên cạnh.
-3. **Cảm nhận sắc thái Tốt (+) hay Xấu (-):** Xác định xem từ đó mang hàm ý tích cực hay tiêu cực để loại trừ 2 phương án sai ngay lập tức!
+* **Ví dụ 1:** *Generous (hào phóng) $\\leftrightarrow$ Mean (keo kiệt, bủn xỉn)* $\\rightarrow$ Cặp từ trái nghĩa kinh điển.
+* **Ví dụ 2:** *Intelligent (= smart / clever)* $\\rightarrow$ Các từ đồng nghĩa mang nghĩa thông minh.
+* **Ví dụ 3:** *Although the task was arduous, we finished it easily.* $\\rightarrow$ Dựa vào từ nối "although" và vế "easily", ta đoán được *arduous* nghĩa là khó khăn gian nan.
 
 ---
 
-> ⚠️ **CẠM BẪY SỐ 1: BẪY "OPPOSITE":**
-> Trong 4 phương án của bài tìm từ TRÁI NGHĨA:
-> Người ra đề **LUÔN LUÔN ĐỂ TỪ ĐỒNG NGHĨA Ở PHƯƠNG ÁN A HOẶC B** để đánh lừa bạn!
-> 👉 **MẸO LÀM BÀI:** Đọc đề thấy chữ **OPPOSITE**, hãy lấy bút **KHOANH TRÒN VÀ GẠCH CHÂN CHỮ OPPOSITE** thật to trên đề để tự nhắc nhở mình: *"Phải chọn từ ngược nghĩa!"*.
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** Mark the letter A, B, C, or D that is **OPPOSITE** in meaning to the underlined word:
-> "He is very **generous**; he always donates money to charity and helps the poor."
-> A. kind &nbsp;&nbsp;&nbsp;&nbsp; B. mean &nbsp;&nbsp;&nbsp;&nbsp; C. helpful &nbsp;&nbsp;&nbsp;&nbsp; D. wealthy
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: B**
-> - **generous** = hào phóng, rộng lượng.
-> - Đề yêu cầu tìm từ **TRÁI NGHĨA (OPPOSITE)**!
-> - A. kind (tốt bụng - đồng nghĩa), C. helpful (hay giúp đỡ - đồng nghĩa).
-> - **B. mean** = keo kiệt, bủn xỉn $\\rightarrow$ Chính là từ TRÁI NGHĨA cần tìm!
-> </details>`,
+> ⚠️ **BẪY SỐ 1: BẪY "OPPOSITE":**
+> Thấy chữ **OPPOSITE**, hãy lấy bút khoanh tròn chữ này trên đề để nhắc mình chọn từ NGƯỢC NGHĨA!`,
     examples: [
       "Generous (hào phóng) is opposite to Mean (keo kiệt).",
       "She is very intelligent (= smart / clever: đồng nghĩa).",
       "Always read the instruction carefully: CLOSEST (đồng nghĩa) vs OPPOSITE (trái nghĩa)."
+    ],
+    quiz: [
+      {
+        question: "Mark the letter A, B, C, or D that is OPPOSITE in meaning: 'He is very generous; he always donates money to the poor.'",
+        options: ["kind", "mean", "helpful", "wealthy"],
+        correct_index: 1,
+        explanation: "Generous = hào phóng. Đề yêu cầu tìm từ TRÁI NGHĨA (OPPOSITE) → chọn mean (keo kiệt, bủn xỉn)."
+      },
+      {
+        question: "Mark the letter that is CLOSEST in meaning: 'The teacher praised him for his outstanding performance.'",
+        options: ["terrible", "excellent", "poor", "ordinary"],
+        correct_index: 1,
+        explanation: "Outstanding = xuất sắc, nổi bật. Đề yêu cầu tìm từ ĐỒNG NGHĨA (CLOSEST) → chọn excellent."
+      },
+      {
+        question: "Mark the letter that is OPPOSITE in meaning: 'The price of smartphones has increased rapidly.'",
+        options: ["decreased", "raised", "soared", "expanded"],
+        correct_index: 0,
+        explanation: "Increase = tăng lên. Từ TRÁI NGHĨA là decrease = giảm xuống."
+      }
     ]
   }
 ];

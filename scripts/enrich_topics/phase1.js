@@ -25,10 +25,18 @@ Tại sao lại có 3 cách đọc?
 
 ---
 
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết từng trường hợp
+
+* **Ví dụ 1:** *watched* /wɒtʃt/ $\\rightarrow$ Động từ gốc là *watch*, kết thúc bằng âm bật hơi /tʃ/ (âm vô thanh, cổ họng không rung), do đó đuôi -ed phát âm là **/t/**.
+* **Ví dụ 2:** *wanted* /ˈwɒntɪd/ $\\rightarrow$ Động từ gốc là *want*, kết thúc bằng chữ "t" (âm /t/), do đó đuôi -ed bắt buộc phát âm là **/ɪd/**.
+* **Ví dụ 3:** *played* /pleɪd/ $\\rightarrow$ Động từ gốc là *play*, kết thúc bằng nguyên âm đôi /eɪ/ (nguyên âm luôn rung cổ họng), do đó đuôi -ed phát âm là **/d/**.
+
+---
+
 > 💡 **THẦN CHÚ HACK NÃO NHỚ TRONG 5 GIÂY:**
 > 1. Đọc là **/ɪd/**: Nhớ câu **"Tiền - Đô"** (T - D). Cứ thấy tận cùng bằng **T** hoặc **D** là đọc **/ɪd/** ngay!
 > 2. Đọc là **/t/**: Nhớ câu thần chú bất hủ **"Chính Phủ Phát Sách Không Cho Thuê"** (tương ứng với các âm: **ch, p, f/gh/ph, s/x/ce, k, ch, th**).
-> 3. Đọc là **/d/**: Các từ còn lại không thuộc 2 nhóm trên!
+> 3. Đọc là **/d/**: Toàn bộ các từ còn lại không thuộc 2 nhóm trên!
 
 ---
 
@@ -40,26 +48,31 @@ Tại sao lại có 3 cách đọc?
 > - *sacred* /ˈseɪkrɪd/ (thiêng liêng)
 > - *crooked* /ˈkrʊkɪd/ (cong queo)
 > - *hatred* /ˈheɪtrɪd/ (lòng căm thù - danh từ)
-> 👉 *Gặp các từ này trong bài trắc nghiệm phát âm thì khoanh ngay **/ɪd/** nhé!*
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN TẠI CHỖ:**
-> **Câu 1:** Chọn từ có phần gạch chân phát âm khác:
-> A. invited &nbsp;&nbsp;&nbsp;&nbsp; B. attended &nbsp;&nbsp;&nbsp;&nbsp; C. started &nbsp;&nbsp;&nbsp;&nbsp; D. liked
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: D**
-> - **invite**, **attend**, **start** đều tận cùng bằng âm /t/ hoặc /d/ (Tiền - Đô) nên khi thêm -ed đọc là **/ɪd/**.
-> - **like** tận cùng là âm /k/ (vô thanh - "Không") nên đuôi -ed đọc là **/t/**.
-> Do đó đáp án D phát âm khác 3 từ còn lại!
-> </details>`,
+> 👉 *Gặp các từ này trong bài trắc nghiệm phát âm thì khoanh ngay **/ɪd/** nhé!*`,
     examples: [
       "watched /wɒtʃt/ → đọc /t/ vì tận cùng là âm 'ch' vô thanh (Chính phủ...)",
       "wanted /ˈwɒntɪd/ → đọc /ɪd/ vì tận cùng là âm 't' (Tiền - Đô)",
       "played /pleɪd/ → đọc /d/ vì tận cùng là nguyên âm hữu thanh 'ay'"
+    ],
+    quiz: [
+      {
+        question: "Chọn từ có phần gạch chân -ed phát âm khác với các từ còn lại:",
+        options: ["invited", "attended", "started", "liked"],
+        correct_index: 3,
+        explanation: "invited, attended, started đều kết thúc bằng âm /t/ hoặc /d/ ('Tiền - Đô') nên đuôi -ed đọc là /ɪd/. Riêng liked kết thúc bằng âm /k/ (vô thanh) nên đuôi -ed đọc là /t/."
+      },
+      {
+        question: "Chọn từ có đuôi -ed được phát âm là /t/:",
+        options: ["played", "stopped", "cleaned", "opened"],
+        correct_index: 1,
+        explanation: "stopped kết thúc bằng âm /p/ ('Phát' trong 'Chính Phủ Phát Sách Không Cho Thuê') nên đuôi -ed đọc là /t/. Các từ còn lại tận cùng bằng âm hữu thanh nên đọc là /d/."
+      },
+      {
+        question: "Từ nào sau đây là TÍNH TỪ ĐẶC BIỆT có đuôi -ed phát âm là /ɪd/?",
+        options: ["looked", "naked", "worked", "helped"],
+        correct_index: 1,
+        explanation: "naked /ˈneɪkɪd/ là tính từ đặc biệt bắt buộc phát âm là /ɪd/. Các từ looked, worked, helped đều có đuôi -ed phát âm là /t/ theo quy tắc âm vô thanh."
+      }
     ]
   },
   {
@@ -84,36 +97,49 @@ Khi thêm **-s** hoặc **-es** vào danh từ số nhiều (ví dụ: *cats, bo
 
 ---
 
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
+
+* **Ví dụ 1:** *books* /bʊks/ $\\rightarrow$ Từ gốc *book* kết thúc bằng âm /k/ (âm vô thanh - "Kiến" trong "Thời Phong Kiến..."), nên đuôi -s đọc là **/s/**.
+* **Ví dụ 2:** *watches* /ˈwɒtʃɪz/ $\\rightarrow$ Từ gốc *watch* kết thúc bằng âm rít /tʃ/, bản thân đã xì gió nên khi thêm -es phải chèn âm /ɪ/ vào giữa thành **/ɪz/** để phát âm được.
+* **Ví dụ 3:** *plays* /pleɪz/ $\\rightarrow$ Từ gốc *play* kết thúc bằng nguyên âm /eɪ/ hữu thanh, nên đuôi -s đọc là **/z/**.
+
+---
+
 > 💡 **CÂU THẦN CHÚ "BẤT BẠI" DÀNH CHO HỌC SINH:**
-> 1. Đọc là **/ɪz/**: Nhớ câu **"Sáu Chạy Xe Sh Zui Zẻ"** (tương ứng chữ cái cuối: **s, ch, x, sh, z, ge/ce**). Vì bản thân các từ này đã có âm xì, muốn thêm 's' vào thì phải chèn âm /ɪ/ vào giữa thành /ɪz/ mới phát âm được!
+> 1. Đọc là **/ɪz/**: Nhớ câu **"Sáu Chạy Xe Sh Zui Zẻ"** (tương ứng chữ cái cuối: **s, ch, x, sh, z, ge/ce**).
 > 2. Đọc là **/s/**: Nhớ câu **"Thời Phong Kiến Phương Tây"** (tương ứng các âm: **/θ/ (th), /p/, /k/, /f/ (gh/ph), /t/**).
 > 3. Đọc là **/z/**: Toàn bộ các trường hợp còn lại!
 
 ---
 
 > ⚠️ **CẠM BẪY ĐỀ THI HAY GẶP:**
-> - Chữ cái tận cùng là **-gh** hay **-ph** nhưng phát âm là **/f/** (như *laughs* /lɑːfs/, *photographs* /ˈfəʊtəɡrɑːfs/) → đuôi 's' phát âm là **/s/**.
-> - Chữ cái tận cùng là **-ce**, **-se** như *places*, *houses*, *promises* → phát âm đuôi là **/ɪz/** (âm rít).
-> - Từ *clothes* (quần áo) phát âm là /kləʊðz/ hoặc /kləʊz/ (âm **/z/**, không đọc là /ɪz/).
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** Chọn từ có đuôi -s được phát âm là **/s/**:
-> A. tables &nbsp;&nbsp;&nbsp;&nbsp; B. books &nbsp;&nbsp;&nbsp;&nbsp; C. watches &nbsp;&nbsp;&nbsp;&nbsp; D. oranges
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: B**
-> - **book** kết thúc bằng âm /k/ ("Kiến" trong "Thời Phong Kiến Phương Tây") → đọc là **/s/**.
-> - **tables** kết thúc bằng âm /l/ (hữu thanh) → đọc là **/z/**.
-> - **watches** và **oranges** kết thúc bằng âm rít → đọc là **/ɪz/**.
-> </details>`,
+> - Chữ cái tận cùng là **-gh** hay **-ph** nhưng phát âm là **/f/** (như *laughs* /lɑːfs/, *photographs* /ˈfəʊtəɡrɑːfs/) $\\rightarrow$ đuôi 's' phát âm là **/s/**.
+> - Chữ cái tận cùng là **-ce**, **-se** như *places*, *houses*, *promises* $\\rightarrow$ phát âm đuôi là **/ɪz/**.
+> - Từ *clothes* (quần áo) phát âm là /kləʊðz/ hoặc /kləʊz/ (âm **/z/**, không đọc là /ɪz/).`,
     examples: [
       "books /bʊks/ → đọc /s/ vì kết thúc là âm /k/ (Thời phong kiến...)",
       "watches /ˈwɒtʃɪz/ → đọc /ɪz/ vì kết thúc là âm /tʃ/ (Sáu chạy xe sh...)",
       "plays /pleɪz/ → đọc /z/ vì kết thúc là nguyên âm /eɪ/ hữu thanh"
+    ],
+    quiz: [
+      {
+        question: "Chọn từ có đuôi -s được phát âm là /s/:",
+        options: ["tables", "books", "watches", "oranges"],
+        correct_index: 1,
+        explanation: "book kết thúc bằng âm /k/ ('Kiến' trong 'Thời Phong Kiến Phương Tây') nên đuôi -s đọc là /s/. Tables đọc là /z/, watches và oranges đọc là /ɪz/."
+      },
+      {
+        question: "Từ nào sau đây có đuôi -es phát âm là /ɪz/?",
+        options: ["boxes", "pens", "cats", "doors"],
+        correct_index: 0,
+        explanation: "box kết thúc bằng chữ 'x' (âm /ks/ - âm rít trong 'Sáu Chạy Xe Sh Zui Zẻ') nên khi thêm -es đọc là /ɪz/. Pens và doors đọc là /z/, cats đọc là /s/."
+      },
+      {
+        question: "Chọn từ có phần gạch chân phát âm khác: laughs, stops, coughs, bags",
+        options: ["laughs", "stops", "coughs", "bags"],
+        correct_index: 3,
+        explanation: "laughs và coughs có đuôi 'gh' phát âm là /f/, stop kết thúc bằng /p/ → cả 3 từ đều đọc đuôi -s là /s/. Riêng bags kết thúc bằng âm /g/ hữu thanh nên đuôi -s đọc là /z/."
+      }
     ]
   },
   {
@@ -134,10 +160,18 @@ Tiếng Anh không giống tiếng Việt; cùng một chữ viết có thể ph
 
 | Chữ viết gạch chân | Các cách phát âm có thể gặp | Ví dụ từ vựng đề hay ra |
 | :--- | :--- | :--- |
-| **ch** | 1. **/tʃ/** (phổ biến nhất) <br> 2. **/k/** (từ mượn Hy Lạp) <br> 3. **/ʃ/** (từ mượn tiếng Pháp) | - *chair, children, cheap* (/tʃ/) <br> - *chemistry, stomach, ache, school, choir* (/k/) <br> - *machine, chef, champagne* (/ʃ/) |
+| **ch** | 1. **/tʃ/** (phổ biến) <br> 2. **/k/** (gốc Hy Lạp) <br> 3. **/ʃ/** (gốc Pháp) | - *chair, children, cheap* (/tʃ/) <br> - *chemistry, stomach, ache, school, choir* (/k/) <br> - *machine, chef, champagne* (/ʃ/) |
 | **ea** | 1. **/iː/** (i dài) <br> 2. **/e/** (e ngắn) <br> 3. **/eɪ/** (âm êi) | - *meat, tea, seat, peace* (/iː/) <br> - *bread, head, dead, health, feather* (/e/) <br> - *break, steak, great* (/eɪ/) |
 | **oo** | 1. **/ʊ/** (u ngắn) <br> 2. **/uː/** (u dài) <br> 3. **/ʌ/** (âm á) | - *book, look, foot, cook* (/ʊ/) <br> - *food, moon, cool, choose* (/uː/) <br> - *blood, flood* (/ʌ/ - bẫy cực mạnh!) |
-| **th** | 1. **/θ/** (th thè lưỡi không rung) <br> 2. **/ð/** (th thè lưỡi RUNG) | - *think, thank, breath, healthy, path* (/θ/) <br> - *this, that, there, mother, breathe* (/ð/) |
+| **th** | 1. **/θ/** (thè lưỡi không rung) <br> 2. **/ð/** (thè lưỡi RUNG) | - *think, thank, breath, healthy, path* (/θ/) <br> - *this, that, there, mother, breathe* (/ð/) |
+
+---
+
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
+
+* **Ví dụ 1:** *chemistry* /ˈkemɪstri/ vs *chair* /tʃeə/ $\\rightarrow$ Cùng viết là "ch" nhưng *chemistry* là từ mượn Hy Lạp nên đọc là **/k/**, trong khi *chair* đọc là **/tʃ/**.
+* **Ví dụ 2:** *blood* /blʌd/ vs *book* /bʊk/ $\\rightarrow$ Đa số chữ "oo" đọc là /uː/ hoặc /ʊ/, nhưng *blood* (máu) và *flood* (lũ lụt) lại đọc là âm **/ʌ/** (như chữ 'á' tiếng Việt).
+* **Ví dụ 3:** *climb* /klaɪm/ $\\rightarrow$ Chữ "b" đứng sau "m" ở cuối từ là **âm câm**, hoàn toàn không phát âm ra tiếng.
 
 ---
 
@@ -145,34 +179,40 @@ Tiếng Anh không giống tiếng Việt; cùng một chữ viết có thể ph
 > 1. Không cần biết phát âm cả 4 từ! Bạn chỉ cần chắc chắn phát âm của **3 từ**, so sánh xem 2 từ nào giống nhau thì từ thứ 3 khác biệt chính là đáp án.
 > 2. Chú ý các từ "quen mắt nhưng đọc lạ":
 >    - *stomach* đọc là /ˈstʌmək/ (đuôi là /k/, không đọc là "stơ-mát-ch").
->    - *blood* (máu) và *flood* (lũ lụt) đọc là âm /ʌ/ ("blắt", "flắt"), KHÔNG đọc là /uː/.
+>    - *blood* (máu) và *flood* (lũ lụt) đọc là âm /ʌ/ ("blắt", "flắt").
 
 ---
 
 > ⚠️ **CẠM BẪY ÂM CÂM (SILENT LETTERS):**
-> Đề thi rất thích gài chữ viết xuất hiện nhưng phát âm là CÂM (không đọc ra tiếng):
-> - **Chữ b câm:** *climb* /klaɪm/, *doubt* /daʊt/, *debt* /det/, *plumber* /ˈplʌmə/ (người sửa ống nước).
+> Đề thi rất thích gài chữ viết xuất hiện nhưng phát âm là CÂM:
+> - **Chữ b câm:** *climb* /klaɪm/, *doubt* /daʊt/, *debt* /det/, *plumber* /ˈplʌmə/.
 > - **Chữ k câm:** *knife* /naɪf/, *know* /nəʊ/, *knee* /niː/.
 > - **Chữ h câm:** *hour* /ˈaʊə/, *honest* /ˈɒnɪst/, *honor* /ˈɒnə/.
-> - **Chữ p câm:** *psychology* /saɪˈkɒlədʒi/ (tâm lý học), *receipt* /rɪˈsiːt/ (hóa đơn).
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** Chọn từ có phần gạch chân phát âm khác với 3 từ còn lại:
-> A. head &nbsp;&nbsp;&nbsp;&nbsp; B. bread &nbsp;&nbsp;&nbsp;&nbsp; C. great &nbsp;&nbsp;&nbsp;&nbsp; D. heavy
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: C**
-> - **head** /hed/, **bread** /bred/, **heavy** /ˈhevi/ đều có phần "ea" phát âm là **/e/**.
-> - **great** /ɡreɪt/ có phần "ea" phát âm là **/eɪ/**.
-> </details>`,
+> - **Chữ p câm:** *psychology* /saɪˈkɒlədʒi/, *receipt* /rɪˈsiːt/.`,
     examples: [
       "blood /blʌd/ vs book /bʊk/ → blood là bẫy âm /ʌ/ cực hay gặp",
       "chemistry /ˈkemɪstri/ vs chair /tʃeə/ → chữ 'ch' phát âm là /k/",
       "doubt /daʊt/ → chữ 'b' là âm câm hoàn toàn không phát âm"
+    ],
+    quiz: [
+      {
+        question: "Chọn từ có phần gạch chân phát âm khác: head, bread, great, heavy",
+        options: ["head", "bread", "great", "heavy"],
+        correct_index: 2,
+        explanation: "head /hed/, bread /bred/, heavy /ˈhevi/ đều có nhóm 'ea' đọc là /e/. Riêng great /ɡreɪt/ đọc là /eɪ/."
+      },
+      {
+        question: "Chọn từ có phần gạch chân phát âm khác: chemistry, stomach, school, teacher",
+        options: ["chemistry", "stomach", "school", "teacher"],
+        correct_index: 3,
+        explanation: "chemistry, stomach, school đều có 'ch' phát âm là /k/. Riêng teacher phát âm là /tʃ/."
+      },
+      {
+        question: "Từ nào sau đây có chữ cái 'h' là âm câm (không phát âm)?",
+        options: ["house", "honest", "heavy", "history"],
+        correct_index: 1,
+        explanation: "honest /ˈɒnɪst/ có chữ 'h' câm hoàn toàn, đọc bắt đầu bằng nguyên âm 'o' (an honest man). Các từ còn lại chữ 'h' đều được phát âm."
+      }
     ]
   },
   {
@@ -183,10 +223,10 @@ Tiếng Anh không giống tiếng Việt; cùng một chữ viết có thể ph
     book2_p2_ref: "Phần II, Chuyên đề 1, tr.141-146",
     theory_md: `## 🌟 1. Trọng âm là gì và tại sao tiếng Anh phải có trọng âm?
 
-Trong tiếng Việt, mỗi từ có thanh điệu (sắc, huyền, hỏi, ngã, nặng). Tiếng Anh KHÔNG có dấu như tiếng Việt, nhưng thay vào đó nó dùng **TRỌNG ÂM (STRESS)**.
+Trong tiếng Việt, mỗi từ có thanh điệu (sắc, huyền, hỏi, ngã, nặng). Tiếng Anh KHÔNG có dấu, nhưng thay vào đó nó dùng **TRỌNG ÂM (STRESS)**.
 - Âm nào có trọng âm sẽ được đọc: **TO HƠN - CAO HƠN - DÀI HƠN**.
 - Các âm còn lại đọc nhẹ, lướt và thường biến thành âm ngắn /ə/ hoặc /ɪ/.
-Trong đề thi THPTQG luôn có **2 câu trọng âm** (1 câu từ 2 âm tiết, 1 câu từ 3 âm tiết) — đây là 0.4 điểm rất dễ lấy nếu thuộc quy tắc!
+Trong đề thi THPTQG luôn có **2 câu trọng âm** (1 câu từ 2 âm tiết, 1 câu từ 3 âm tiết).
 
 ---
 
@@ -199,48 +239,50 @@ Trong đề thi THPTQG luôn có **2 câu trọng âm** (1 câu từ 2 âm tiế
 
 ---
 
-## 📊 3. Quy tắc trọng âm theo đuôi (Hậu tố - Ăn điểm tuyệt đối)
+## 📊 3. Quy tắc trọng âm theo đuôi (Hậu tố)
 
-### Nhóm 1: Trọng âm rơi vào CHÍNH NÓ (Đuôi nặng)
-Cứ nhìn thấy từ tận cùng bằng các đuôi này thì đánh trọng âm ngay vào chính nó:
-- **-ee:** *train'ee, refug'ee, volunt'eer* (-eer)
-- **-ese:** *Vietnam'ese, Japan'ese, Chin'ese*
-- **-ique, -esque:** *un'ique, pictur'esque*
+- **Nhóm rơi vào CHÍNH NÓ:** *-ee, -eer, -ese, -ique* (*volunt'eer, Japan'ese, un'ique*).
+- **Nhóm rơi vào ÂM TIẾT NGAY TRƯỚC NÓ:** *-tion, -sion, -ic, -ious, -ity* (*edu'cation, his'toric, de'licious, a'bility*).
+- **Nhóm dịch về ÂM THỨ 3 TỪ CUỐI LÊN:** *-ate, -y, -ise/-ize, -cy, -phy, -gy* (*'calculate, pho'tography, tech'nology*).
 
-### Nhóm 2: Trọng âm rơi vào ÂM TIẾT NGAY TRƯỚC NÓ
-- **-tion, -sion:** *edu'cation, de'cision, pol'lution*
-- **-ic, -ical:** *his'toric, 'economic, fan'tastic*
-- **-ious, -eous:** *de'licious, 'anxious, cou'rageous*
-- **-ity, -ety:** *a'bility, so'ciety, activ'ity*
+---
 
-### Nhóm 3: Trọng âm dịch chuyển về ÂM THỨ 3 TỪ CUỐI LÊN
-Áp dụng cho các từ tận cùng bằng: **-ate, -y, -ise/-ize, -cy, -phy, -gy**:
-- *'calculate, com'municate, pho'tography, tech'nology, de'mocracy*
+## 💬 4. Ví dụ minh họa & Phân tích chi tiết
+
+* **Ví dụ 1:** *'present* (danh từ: món quà) $\\rightarrow$ Danh từ 2 âm tiết nhấn âm 1. Nhưng *pre'sent* (động từ: thuyết trình) $\\rightarrow$ Động từ 2 âm tiết nhấn âm 2.
+* **Ví dụ 2:** *edu'cation* $\\rightarrow$ Đuôi *-tion* kéo trọng âm về âm tiết ngay trước nó là âm "ca".
+* **Ví dụ 3:** *engi'neer* $\\rightarrow$ Hậu tố *-eer* nhận luôn trọng âm trên chính đuôi.
 
 ---
 
 > 💡 **THẦN CHÚ VÀNG: NẮM NGUYÊN TẮC ÂM YẾU /ə/**
 > Trọng âm **KHÔNG BAO GIỜ** rơi vào âm /ə/ (âm "ơ" ngắn) hoặc /i/ ngắn.
-> - Ví dụ: từ *mother* /ˈmʌðər/ → âm 2 là /ə/ nên trọng âm chắc chắn rơi vào âm 1.
-> - Từ *contain* /kənˈteɪn/ → âm 1 là /kən/ (chứa /ə/) nên trọng âm phải nhảy sang âm 2.
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** Chọn từ có vị trí trọng âm khác:
-> A. decide &nbsp;&nbsp;&nbsp;&nbsp; B. provide &nbsp;&nbsp;&nbsp;&nbsp; C. listen &nbsp;&nbsp;&nbsp;&nbsp; D. repeat
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: C**
-> - **decide**, **provide**, **repeat** đều là động từ 2 âm tiết trọng âm rơi vào **âm 2**.
-> - **listen** /ˈlɪs.ən/ là động từ có âm thứ 2 là /ən/ (âm yếu /ə/) nên trọng âm rơi vào **âm 1**!
-> </details>`,
+> - *mother* /ˈmʌðər/ $\\rightarrow$ âm 2 là /ə/ nên trọng âm chắc chắn rơi vào âm 1.
+> - *contain* /kənˈteɪn/ $\\rightarrow$ âm 1 là /kən/ (chứa /ə/) nên trọng âm phải nhảy sang âm 2.`,
     examples: [
       "'present (danh từ: món quà) vs pre'sent (động từ: thuyết trình) → trọng âm đổi nghĩa",
       "edu'cation → đuôi -tion kéo trọng âm về ngay trước nó (âm 'ca')",
       "Japan'ese → đuôi -ese nhận luôn trọng âm trên chính đuôi"
+    ],
+    quiz: [
+      {
+        question: "Chọn từ có vị trí trọng âm khác: decide, provide, listen, repeat",
+        options: ["decide", "provide", "listen", "repeat"],
+        correct_index: 2,
+        explanation: "decide, provide, repeat là động từ 2 âm tiết trọng âm rơi vào âm 2. Riêng listen /ˈlɪs.ən/ có âm 2 là âm yếu /ə/ nên trọng âm rơi vào âm 1."
+      },
+      {
+        question: "Từ nào sau đây có trọng âm rơi vào âm tiết thứ 1?",
+        options: ["arrive", "forget", "doctor", "enjoy"],
+        correct_index: 2,
+        explanation: "doctor là danh từ 2 âm tiết trọng âm rơi vào âm 1. Arrive, forget, enjoy là các động từ 2 âm tiết trọng âm rơi vào âm 2."
+      },
+      {
+        question: "Chọn từ có trọng âm rơi vào chính hậu tố của nó:",
+        options: ["education", "Japanese", "historic", "ability"],
+        correct_index: 1,
+        explanation: "Hậu tố -ese luôn nhận trọng âm vào chính nó (Japan'ese). Education và historic nhấn âm ngay trước hậu tố, ability nhấn âm thứ 3 từ cuối lên."
+      }
     ]
   },
   {
@@ -251,67 +293,69 @@ Cứ nhìn thấy từ tận cùng bằng các đuôi này thì đánh trọng �
     book2_p2_ref: "Phần II, Chuyên đề 13, tr.195-198",
     theory_md: `## 🌟 1. Bản chất danh từ & đại từ trong câu tiếng Anh
 
-- **Danh từ (Noun - N):** Là từ chỉ người, sự vật, địa điểm, khái niệm (ví dụ: *teacher, car, happiness*). Đóng vai trò làm Chủ ngữ (S) hoặc Tân ngữ (O) trong câu.
-- **Đại từ (Pronoun):** Là từ sinh ra để **"thay thế"** cho danh từ, giúp câu văn không bị lặp lại từ một cách ngớ ngẩn.
-  *(Ví dụ: Thay vì nói "Nam đi học. Nam quên vở của Nam", ta dùng "Nam đi học. Cậu ấy (He) quên vở của mình (His)".)*
+- **Danh từ (Noun - N):** Là từ chỉ người, sự vật, địa điểm, khái niệm (*teacher, car, happiness*). Đóng vai trò làm Chủ ngữ (S) hoặc Tân ngữ (O).
+- **Đại từ (Pronoun):** Là từ sinh ra để **"thay thế"** cho danh từ, giúp câu văn không bị lặp từ.
+  *(Ví dụ: "Nam đi học. Cậu ấy (He) quên vở của mình (His)".)*
 
 ---
 
-## 📊 2. Danh từ đếm được vs Không đếm được (Khái niệm sống còn)
+## 📊 2. Danh từ đếm được vs Không đếm được
 
 | Tiêu chí | Danh từ ĐẾM ĐƯỢC (Countable) | Danh từ KHÔNG ĐẾM ĐƯỢC (Uncountable) |
 | :--- | :--- | :--- |
-| **Bản chất** | Đếm được bằng số 1, 2, 3... cái/chiếc | Không đếm trực tiếp được (chất lỏng, khí, hạt nhỏ, khái niệm trừu tượng) |
+| **Bản chất** | Đếm được bằng số 1, 2, 3... cái | Không đếm trực tiếp được (chất lỏng, khí, khái niệm trừu tượng) |
 | **Số ít** | Dùng được với **a/an** (*a cat, an apple*) | **KHÔNG** dùng a/an (*không nói a water, an advice*) |
 | **Số nhiều** | Thêm **-s/-es** (*cats, apples*) | **KHÔNG BAO GIỜ** thêm -s/-es (*water, money, information*) |
-| **Chia động từ** | Đi với động từ số ít hoặc số nhiều | **LUÔN LUÔN** đi với động từ số ít (V-s/-es, is, was) |
-
-> ⚠️ **CẠM BẪY ĐỀ THI: CÁC TỪ HAY BỊ TƯỞNG NHẦM LÀ ĐẾM ĐƯỢC:**
-> Trong tiếng Việt ta đếm được "một lời khuyên, một tin tức, một thông tin", nhưng trong tiếng Anh chúng là **DANH TỪ KHÔNG ĐẾM ĐƯỢC**:
-> - *advice* (lời khuyên)
-> - *news* (tin tức - dù có chữ 's' nhưng là số ít!)
-> - *information* (thông tin)
-> - *furniture* (đồ đạc nội thất)
-> - *baggage / luggage* (hành lý)
-> 👉 Muốn đếm phải dùng cụm: *a piece of advice* (một lời khuyên).
+| **Chia động từ**| Động từ số ít hoặc số nhiều | **LUÔN LUÔN** đi với động từ số ít (V-s/-es, is, was) |
 
 ---
 
-## 📊 3. Bảng hệ thống Đại từ tiếng Anh (Bắt buộc phải thuộc)
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-| Đại từ nhân xưng (Chủ ngữ - S) | Đại từ tân ngữ (Đứng sau V/Giới từ) | Tính từ sở hữu (+ Danh từ) | Đại từ sở hữu (Đứng 1 mình) | Đại từ phản thân (Chính ai đó) |
-| :---: | :---: | :---: | :---: | :---: |
-| **I** (tôi) | **me** | **my** + N | **mine** | **myself** |
-| **You** (bạn) | **you** | **your** + N | **yours** | **yourself / yourselves** |
-| **He** (anh ấy) | **him** | **his** + N | **his** | **himself** |
-| **She** (cô ấy) | **her** | **her** + N | **hers** | **herself** |
-| **It** (nó) | **it** | **its** + N | **its** | **itself** |
-| **We** (chúng tôi) | **us** | **our** + N | **ours** | **ourselves** |
-| **They** (họ) | **them** | **their** + N | **theirs** | **themselves** |
+* **Ví dụ 1:** *Lan is smart. She studies hard.* $\\rightarrow$ "She" là đại từ nhân xưng chủ ngữ thay thế cho danh từ "Lan" đứng trước để tránh lặp từ.
+* **Ví dụ 2:** *This book is mine, not yours.* $\\rightarrow$ "mine" là đại từ sở hữu (= my book), đứng độc lập một mình mà không cần danh từ đi sau.
+* **Ví dụ 3:** *The news was very surprising to everyone.* $\\rightarrow$ "News" (tin tức) dù có đuôi 's' nhưng là danh từ không đếm được, động từ phải chia số ít là *was*.
 
 ---
 
 > 💡 **MẸO PHÂN BIỆT NHANH TÍNH TỪ SỞ HỮU VS ĐẠI TỪ SỞ HỮU:**
-> - **Tính từ sở hữu** (*my, your, his, her, their*) như "đứa trẻ sơ sinh" — **luôn cần mẹ đi kèm** (tức là luôn phải có 1 Danh từ đứng sau: *my phone, her car*).
-> - **Đại từ sở hữu** (*mine, yours, hers, theirs*) như "người trưởng thành" — **đứng độc lập 1 mình**, thay thế cho cả cụm (Tính từ sở hữu + N).
+> - **Tính từ sở hữu** (*my, your, his, her, their*) luôn cần **Danh từ đi kèm** (*my phone, her car*).
+> - **Đại từ sở hữu** (*mine, yours, hers, theirs*) đứng **ĐỘC LẬP 1 MÌNH**, thay thế cho cả cụm (Tính từ sở hữu + N).
 >   *Ví dụ:* "Your car is red, but **mine** ( = my car) is blue."
 
 ---
 
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** Điền từ thích hợp vào chỗ trống: "The news about the accident ______ very shocking."
-> A. were &nbsp;&nbsp;&nbsp;&nbsp; B. are &nbsp;&nbsp;&nbsp;&nbsp; C. was &nbsp;&nbsp;&nbsp;&nbsp; D. have been
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: C**
-> **News** (tin tức) là danh từ không đếm được dù có đuôi 's' ở cuối! Vì vậy động từ theo sau phải chia ở số ít (**was**).
-> </details>`,
+> ⚠️ **CẠM BẪY ĐỀ THI: CÁC TỪ HAY BỊ TƯỞNG NHẦM LÀ ĐẾM ĐƯỢC:**
+> Trong tiếng Việt ta đếm được "một lời khuyên, một tin tức", nhưng trong tiếng Anh chúng là **DANH TỪ KHÔNG ĐẾM ĐƯỢC**:
+> - *advice* (lời khuyên)
+> - *news* (tin tức - có 's' nhưng là số ít!)
+> - *information* (thông tin)
+> - *furniture* (đồ đạc nội thất)
+> - *baggage / luggage* (hành lý)`,
     examples: [
       "Lan is intelligent. She (đại từ chủ ngữ) always helps me (đại từ tân ngữ).",
       "This is your laptop, and that one is mine (= my laptop - đại từ sở hữu).",
       "The news was (số ít) very surprising to everyone."
+    ],
+    quiz: [
+      {
+        question: "The news about the accident ______ very shocking to all of us.",
+        options: ["were", "are", "was", "have been"],
+        correct_index: 2,
+        explanation: "News (tin tức) là danh từ không đếm được dù có chữ 's' ở cuối. Vì vậy động từ to be phải chia ở số ít quá khứ là was."
+      },
+      {
+        question: "This umbrella is yours, but where is ______?",
+        options: ["my", "mine", "me", "myself"],
+        correct_index: 1,
+        explanation: "Chỗ trống đứng độc lập ở cuối câu để thay thế cho cụm 'my umbrella' → bắt buộc dùng Đại từ sở hữu là mine."
+      },
+      {
+        question: "Could you please give me some ______ on how to learn English vocabulary?",
+        options: ["advices", "advice", "an advice", "advise"],
+        correct_index: 1,
+        explanation: "Advice (lời khuyên) là danh từ không đếm được, không thêm -s và không đi với mạo từ 'an'. 'Advise' là động từ."
+      }
     ]
   },
   {
@@ -322,8 +366,8 @@ Cứ nhìn thấy từ tận cùng bằng các đuôi này thì đánh trọng �
     book2_p2_ref: "Phần II, các chuyên đề liên quan đến danh từ/lượng từ",
     theory_md: `## 🌟 1. Bản chất lượng từ (Quantifiers)
 
-Lượng từ là những từ dùng để chỉ **số lượng ít hay nhiều** của người hoặc vật (ví dụ: *nhiều, một ít, một vài, tất cả, không có gì*).
-Người mất gốc thường mất điểm ở phần này vì không phân biệt được từ nào đi với **danh từ đếm được**, từ nào đi với **danh từ không đếm được**.
+Lượng từ là những từ dùng để chỉ **số lượng ít hay nhiều** của người hoặc vật (*nhiều, một ít, một vài, tất cả*).
+Người mất gốc cần nhớ nguyên tắc cốt lõi: Phân biệt từ nào đi với **danh từ đếm được**, từ nào đi với **danh từ không đếm được**.
 
 ---
 
@@ -332,49 +376,47 @@ Người mất gốc thường mất điểm ở phần này vì không phân bi
 | Ý nghĩa | Đi với Danh từ đếm được số nhiều | Đi với Danh từ KHÔNG đếm được | Đi được với CẢ HAI |
 | :--- | :--- | :--- | :--- |
 | **Nhiều** | **Many** (*many students*) | **Much** (*much time*) | **A lot of / Lots of / Plenty of** |
-| **Một ít, một vài** | **A few** (*a few books*) | **A little** (*a little money*) | **Some** (câu khẳng định) / **Any** (phủ định, nghi vấn) |
+| **Một ít, một vài** | **A few** (*a few books*) | **A little** (*a little money*) | **Some** (khẳng định) / **Any** (phủ định, nghi vấn) |
 | **Hầu như không có** | **Few** (*few friends*) | **Little** (*little water*) | **Hardly any** |
 | **Mỗi / Mọi** | **Every / Each** (+ N số ít) | ❌ Không dùng | **All** (+ N số nhiều hoặc N không đếm được) |
 
 ---
 
-## 💡 3. Tuyệt chiêu phân biệt: A FEW vs FEW và A LITTLE vs LITTLE
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-Đây là bẫy câu hỏi thường xuyên xuất hiện trong đề thi THPTQG:
-
-| Cặp từ | Có chữ "A" (A few / A little) | KHÔNG có "A" (Few / Little) |
-| :--- | :--- | :--- |
-| **Nghĩa** | **Một ít, một vài (Đủ dùng, mang nghĩa TÍCH CỰC)** | **Rất ít, hầu như không có (Thiếu thốn, mang nghĩa TIÊU CỰC)** |
-| **Ví dụ** | - *I have **a few friends**, so we often hang out.* (Tôi có vài người bạn, đủ vui) <br> - *I have **a little money**, enough for coffee.* (Còn ít tiền, đủ uống cà phê) | - *He has **few friends**, so he is very lonely.* (Gần như không có bạn, nên rất cô đơn) <br> - *I have **little money**, I can't buy food.* (Hết tiền rồi, không mua nổi cơm) |
-
-> 💡 **THẦN CHÚ NHỚ NHANH:**
-> - **CÓ "A" là CÒN** (còn đủ dùng - vui vẻ 😊)
-> - **MẤT "A" là MẤT** (mất sạch, hầu như không còn - buồn bã 😢)
+* **Ví dụ 1:** *I have a few questions to ask.* $\\rightarrow$ "questions" là danh từ đếm được số nhiều, "a few" nghĩa là có một vài câu hỏi (đủ dùng, tích cực).
+* **Ví dụ 2:** *He has little patience with children.* $\\rightarrow$ "patience" (sự kiên nhẫn) là danh từ không đếm được, "little" không có 'a' nghĩa là hầu như không có (tiêu cực).
+* **Ví dụ 3:** *Would you like some coffee?* $\\rightarrow$ Mặc dù là câu hỏi nhưng đây là lời mời lịch sự nên dùng *some* thay vì *any*.
 
 ---
 
-> ⚠️ **LƯU Ý ĐẶC BIỆT VỚI SOME VÀ ANY:**
-> - **SOME** dùng trong câu **Khẳng định** (*I have some books.*) hoặc **Lời mời/đề nghị lịch sự**:
->   *Would you like **some** tea?* (Mời uống trà - dùng SOME chứ không dùng ANY).
-> - **ANY** dùng trong câu **Phủ định** (*I don't have any money.*) hoặc **Nghi vấn** (*Do you have any questions?*).
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "Don't worry, we still have ______ time left before the train leaves."
-> A. few &nbsp;&nbsp;&nbsp;&nbsp; B. a few &nbsp;&nbsp;&nbsp;&nbsp; C. little &nbsp;&nbsp;&nbsp;&nbsp; D. a little
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: D**
-> - **time** (thời gian) là danh từ không đếm được → loại A và B (chỉ đi với N đếm được).
-> - Vế đầu bảo "Đừng lo" (Don't worry) tức là thời gian **vẫn còn đủ** mang nghĩa tích cực → chọn **a little** (CÓ 'A' LÀ CÒN ĐỦ).
-> </details>`,
+> 💡 **TUYỆT CHIÊU PHÂN BIỆT: CÓ 'A' LÀ CÒN - MẤT 'A' LÀ MẤT:**
+> - **A few / A little (CÓ 'A'):** Một ít, một vài $\\rightarrow$ **VẪN CÒN ĐỦ DÙNG (Tích cực 😊)**.
+> - **Few / Little (MẤT 'A'):** Rất ít $\\rightarrow$ **HẦU NHƯ HẾT SẠCH, THIẾU THỐN (Tiêu cực 😢)**.`,
     examples: [
       "I have a few questions to ask the teacher. (Một vài câu hỏi - đếm được)",
       "He has little patience with children. (Hầu như không có kiên nhẫn - không đếm được)",
       "Would you like some coffee? (Lời mời lịch sự dùng 'some')"
+    ],
+    quiz: [
+      {
+        question: "Don't worry, we still have ______ time left before the train leaves.",
+        options: ["few", "a few", "little", "a little"],
+        correct_index: 3,
+        explanation: "Time (thời gian) là danh từ không đếm được → loại few/a few. Vế trước có 'Don't worry' (Đừng lo) nghĩa là thời gian vẫn còn đủ dùng → chọn a little (Có 'A' là còn đủ)."
+      },
+      {
+        question: "He is very lonely because he has ______ friends in this new city.",
+        options: ["few", "a few", "little", "a little"],
+        correct_index: 0,
+        explanation: "Friends là danh từ đếm được số nhiều. Câu mang nghĩa tiêu cực 'rất cô đơn' (hầu như không có bạn) → chọn few (Mất 'A' là thiếu thốn)."
+      },
+      {
+        question: "Would you like ______ tea or coffee?",
+        options: ["any", "some", "many", "few"],
+        correct_index: 1,
+        explanation: "Trong câu hỏi đưa ra lời mời hoặc đề nghị lịch sự (Would you like...), ta dùng some chứ không dùng any."
+      }
     ]
   },
   {
@@ -385,34 +427,28 @@ Người mất gốc thường mất điểm ở phần này vì không phân bi
     book2_p2_ref: "Phần II, Chuyên đề 24, tr.237-242",
     theory_md: `## 🌟 1. Bản chất: Cỗ máy sản xuất từ vựng của tiếng Anh
 
-Bạn không cần học thuộc vẹt 10.000 từ vựng riêng lẻ! Chỉ cần biết **gốc từ (root)** kết hợp với **Tiền tố (Prefix)** và **Hậu tố (Suffix)**, bạn có thể đoán nghĩa và dạng từ của hàng ngàn từ mới:
-- **Tiền tố (Prefix):** Thêm vào **ĐẦU** từ $\\rightarrow$ Thay đổi **NGHĨA** của từ (thường tạo từ trái nghĩa).
+Chỉ cần biết **gốc từ (root)** kết hợp với **Tiền tố (Prefix)** và **Hậu tố (Suffix)**, bạn có thể đoán nghĩa và dạng từ của hàng ngàn từ mới:
+- **Tiền tố (Prefix):** Thêm vào **ĐẦU** từ $\\rightarrow$ Thay đổi **NGHĨA** của từ (tạo từ trái nghĩa).
 - **Hậu tố (Suffix):** Thêm vào **CUỐI** từ $\\rightarrow$ Thay đổi **TỪ LOẠI** (biến Động từ thành Danh từ, Tính từ thành Trạng từ).
 
 ---
 
-## 📊 2. Các Tiền tố phủ định phổ biến nhất (Mang nghĩa KHÔNG)
+## 📊 2. Bảng Tiền tố & Hậu tố cốt lõi
 
-| Tiền tố | Quy tắc ghép âm | Ví dụ minh họa |
+| Thành phần | Các đuôi/đầu phổ biến | Ví dụ minh họa |
 | :--- | :--- | :--- |
-| **un-** | Ghép rộng rãi nhất | *happy $\\rightarrow$ unhappy* (bất hạnh), *fair $\\rightarrow$ unfair* (bất công) |
-| **im-** | Thường đứng trước từ bắt đầu bằng **m, p** (Mẹo: **Mẹ Phải**) | *possible $\\rightarrow$ impossible* (bất khả thi), *patient $\\rightarrow$ impatient* (mất kiên nhẫn) |
-| **in-** | Đứng trước từ gốc Latinh | *correct $\\rightarrow$ incorrect* (sai), *dependent $\\rightarrow$ independent* (độc lập) |
-| **il-** | Đứng trước từ bắt đầu bằng **l** | *legal $\\rightarrow$ illegal* (bất hợp pháp), *logical $\\rightarrow$ illogical* (phi logic) |
-| **ir-** | Đứng trước từ bắt đầu bằng **r** | *regular $\\rightarrow$ irregular* (bất quy tắc), *responsible $\\rightarrow$ irresponsible* (vô trách nhiệm) |
-| **dis-** | Mang nghĩa không hoặc đảo ngược | *agree $\\rightarrow$ disagree* (không đồng ý), *appear $\\rightarrow$ disappear* (biến mất) |
-| **mis-** | Mang nghĩa nhầm, sai | *understand $\\rightarrow$ misunderstand* (hiểu lầm), *lead $\\rightarrow$ mislead* (dẫn dắt sai) |
+| **Tiền tố phủ định** | *un-, im-, in-, dis-, mis-, ir-* | *unhappy, impossible, disagree, mislead, irregular* |
+| **Hậu tố Danh từ** | *-tion, -sion, -ment, -ness, -ity, -ance* | *development, pollution, kindness, ability, importance* |
+| **Hậu tố Tính từ** | *-ful, -less, -ous, -ive, -able, -al* | *careful, careless, dangerous, active, comfortable* |
+| **Hậu tố Trạng từ** | *-ly* (= Tính từ + ly) | *quickly, carefully, fluently* |
 
 ---
 
-## 📊 3. Các Hậu tố nhận diện từ loại (Ăn điểm bài Cấu tạo từ)
+## 💬 3. Ví dụ minh họa & Phân tích chi tiết
 
-| Hậu tố | Từ loại tạo thành | Ví dụ minh họa |
-| :--- | :--- | :--- |
-| **-tion, -sion, -ment, -ness, -ity, -ance, -ence** | **Danh từ (Noun)** | *development, pollution, kindness, ability, importance* |
-| **-ful, -less, -ous, -ive, -able, -al, -ic** | **Tính từ (Adjective)** | *careful, careless, dangerous, active, comfortable, natural* |
-| **-ly** | **Trạng từ (Adverb)** = Adj + ly | *quick $\\rightarrow$ quickly, careful $\\rightarrow$ carefully* |
-| **-ize / -ise, -en, -ify** | **Động từ (Verb)** | *short $\\rightarrow$ shorten (rút ngắn), modern $\\rightarrow$ modernize (hiện đại hóa)* |
+* **Ví dụ 1:** *happy (adj: vui vẻ) $\\rightarrow$ unhappy (adj: buồn) $\\rightarrow$ happiness (n: niềm hạnh phúc)*. Thêm tiền tố *un-* đổi nghĩa; thêm hậu tố *-ness* đổi thành danh từ.
+* **Ví dụ 2:** *care $\\rightarrow$ careful (cẩn thận) $\\rightarrow$ careless (bất cẩn)*. Đuôi *-ful* là có, đuôi *-less* là không có.
+* **Ví dụ 3:** *friendly* (thân thiện) $\\rightarrow$ Đây là **Tính từ** (Danh từ friend + ly), KHÔNG phải trạng từ!
 
 ---
 
@@ -422,36 +458,35 @@ Bạn không cần học thuộc vẹt 10.000 từ vựng riêng lẻ! Chỉ c�
 
 ---
 
-> ⚠️ **CẠM BẪY ĐUÔI -LY KHÔNG PHẢI LÚC NÀO CŨNG LÀ TRẠNG TỪ:**
-> Đề thi rất hay bẫy các **TÍNH TỪ CÓ ĐUÔI -LY** (được tạo bởi Danh từ + ly):
-> - *friendly* (thân thiện - Tính từ, không phải trạng từ!)
+> ⚠️ **CẠM BẪY ĐUÔI -LY LÀ TÍNH TỪ:**
+> - *friendly* (thân thiện - Tính từ!)
 > - *lovely* (đáng yêu)
 > - *costly* (đắt đỏ)
-> - *lonely* (cô đơn)
-> - *silly* (ngốc nghếch)
-> 👉 *Muốn dùng trạng từ của friendly phải nói: "in a friendly manner/way".*
-
----
-
-> 🎯 **THỬ THÁCH THỰC CHIẾN:**
-> **Câu hỏi:** "It is ______ to drive when you are feeling extremely sleepy."
-> A. danger &nbsp;&nbsp;&nbsp;&nbsp; B. dangerous &nbsp;&nbsp;&nbsp;&nbsp; C. dangerously &nbsp;&nbsp;&nbsp;&nbsp; D. endanger
->
-> <details>
-> <summary>👉 Bấm xem đáp án & giải thích chi tiết</summary>
->
-> **Đáp án đúng: B**
-> Cấu trúc: *It is + Adj + to V* (Thật là thế nào khi làm gì).
-> Ta cần một **Tính từ**. Nhìn vào các hậu tố:
-> - **danger** (n)
-> - **dangerous** (-ous là đuôi Tính từ $\\rightarrow$ CHỌN)
-> - **dangerously** (-ly là Trạng từ)
-> - **endanger** (en- là Tiền tố tạo Động từ).
-> </details>`,
+> - *lonely* (cô đơn)`,
     examples: [
       "happy (adj) → unhappy (adj trái nghĩa) → happiness (danh từ)",
       "care (v) → careful (adj cẩn thận) → careless (adj bất cẩn) → carefully (adv)",
       "friendly is an adjective, NOT an adverb (He gave us a friendly smile)"
+    ],
+    quiz: [
+      {
+        question: "It is ______ to drive when you are feeling extremely sleepy.",
+        options: ["danger", "dangerous", "dangerously", "endanger"],
+        correct_index: 1,
+        explanation: "Cấu trúc: It is + Adj + to V. Đuôi -ous là đuôi của Tính từ → dangerous (nguy hiểm)."
+      },
+      {
+        question: "He was very ______ and made a lot of careless mistakes in the test.",
+        options: ["careful", "careless", "care", "caring"],
+        correct_index: 1,
+        explanation: "Vế sau có 'made a lot of mistakes' (phạm nhiều lỗi) chứng tỏ tính cách bất cẩn → chọn careless (-less mang nghĩa thiếu cẩn thận)."
+      },
+      {
+        question: "Từ nào sau đây là TÍNH TỪ (Adjective) dù có đuôi -ly?",
+        options: ["quickly", "badly", "friendly", "happily"],
+        correct_index: 2,
+        explanation: "Friendly (thân thiện) được tạo từ Danh từ 'friend' + ly = Tính từ. Các từ còn lại đều là Trạng từ (Tính từ + ly)."
+      }
     ]
   }
 ];

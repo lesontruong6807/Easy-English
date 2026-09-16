@@ -48,7 +48,7 @@ export const Sidebar: React.FC = () => {
   ];
 
   return (
-    <aside className="hidden md:flex flex-col w-64 shrink-0 border-r border-slate-200/80 dark:border-slate-800/80 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md p-4 min-h-[calc(100vh-4rem)]">
+    <aside className="hidden md:flex flex-col w-64 shrink-0 border-r border-[#e8e0d0] dark:border-[#36332e] bg-[#f7f4ec]/80 dark:bg-[#181715]/80 backdrop-blur-md p-4 min-h-[calc(100vh-4rem)]">
       <div className="space-y-1">
         <div className="px-3 py-2 text-[11px] font-bold uppercase tracking-wider text-slate-400">
           Chương trình học

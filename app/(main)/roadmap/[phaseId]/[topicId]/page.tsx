@@ -11,9 +11,9 @@ import {
   getCurrentUser,
 } from "@/lib/data/store";
 import { Topic, Phase, TopicProgressStatus } from "@/lib/types";
-import { ExampleBlock } from "@/components/roadmap/ExampleBlock";
 import { BookReferenceBox } from "@/components/roadmap/BookReferenceBox";
 import { RichTheoryRenderer } from "@/components/roadmap/RichTheoryRenderer";
+import { InteractiveQuizSection } from "@/components/roadmap/InteractiveQuizSection";
 import {
   ArrowLeft,
   CheckCircle2,
@@ -65,8 +65,8 @@ export default function TopicDetailPage() {
   if (!topic) {
     return (
       <div className="text-center py-16">
-        <p className="text-slate-500">Không tìm thấy chủ đề học.</p>
-        <Link href={`/roadmap/${phaseId}`} className="text-indigo-600 font-bold mt-2 inline-block">
+        <p className="text-[#70685e] dark:text-[#9e968b]">Không tìm thấy chủ đề học.</p>
+        <Link href={`/roadmap/${phaseId}`} className="text-emerald-700 dark:text-emerald-400 font-bold mt-2 inline-block">
           Quay lại giai đoạn
         </Link>
       </div>
@@ -88,14 +88,14 @@ export default function TopicDetailPage() {
       <div className="flex items-center justify-between gap-4">
         <Link
           href={`/roadmap/${phaseId}`}
-          className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors"
+          className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#70685e] hover:text-[#2d2926] dark:text-[#9e968b] dark:hover:text-white transition-colors"
         >
           <ArrowLeft size={16} />
           <span>Quay lại Giai đoạn {phase?.order_index || phaseId}</span>
         </Link>
 
         {isSaved && (
-          <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 dark:text-emerald-400 animate-fade-in">
+          <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-700 dark:text-emerald-400 animate-fade-in">
             <Sparkles size={14} />
             <span>Đã lưu trạng thái!</span>
           </span>
@@ -103,31 +103,31 @@ export default function TopicDetailPage() {
       </div>
 
       {/* Header Container */}
-      <div className="rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/80 p-6 sm:p-8 shadow-sm">
+      <div className="rounded-3xl bg-[#fdfbf7] dark:bg-[#201e1c] border border-[#e8e0d0] dark:border-[#36332e] p-6 sm:p-8 shadow-xs">
         <div className="flex flex-wrap items-center gap-2 mb-3">
-          <span className="text-xs font-bold px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/60">
+          <span className="text-xs font-bold px-3 py-1 rounded-full bg-[#f2ebd9] dark:bg-[#2b2723] text-[#54493b] dark:text-[#d4c9b8] border border-[#e0d6c1] dark:border-[#3d3731]">
             Chủ đề #{topic.order_index}
           </span>
-          <span className="text-xs text-slate-400">|</span>
-          <span className="text-xs font-medium text-slate-500 dark:text-slate-400">
+          <span className="text-xs text-[#b0a494]">|</span>
+          <span className="text-xs font-medium text-[#70685e] dark:text-[#9e968b]">
             {phase?.title}
           </span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-6">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-[#2d2926] dark:text-[#e8e2d8] tracking-tight mb-6">
           {topic.title}
         </h1>
 
         {/* Status Action Buttons */}
-        <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-slate-100 dark:border-slate-800">
+        <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-[#ede5d6] dark:border-[#2d2a26]">
           <button
             type="button"
             onClick={() => handleUpdateStatus("learning")}
             className={cn(
               "flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs font-bold border transition-all active:scale-95",
               status === "learning"
-                ? "bg-amber-500 text-white border-amber-500 shadow-sm"
-                : "bg-amber-50 dark:bg-amber-950/30 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-900/50 hover:bg-amber-100"
+                ? "bg-[#b45309] text-white border-[#b45309] shadow-xs"
+                : "bg-[#fdf8eb] dark:bg-[#2a241b] text-[#854d0e] dark:text-[#fde047] border-[#eedaa2] dark:border-[#5c491e] hover:bg-[#faf3de]"
             )}
           >
             <Clock size={16} />
@@ -140,8 +140,8 @@ export default function TopicDetailPage() {
             className={cn(
               "flex items-center gap-2 px-5 py-2.5 rounded-2xl text-xs font-bold border transition-all active:scale-95",
               status === "done"
-                ? "bg-emerald-600 text-white border-emerald-600 shadow-md shadow-emerald-600/25"
-                : "bg-emerald-50 dark:bg-emerald-950/30 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-900/50 hover:bg-emerald-100"
+                ? "bg-emerald-700 dark:bg-emerald-600 text-white border-emerald-700 shadow-xs"
+                : "bg-[#f0f7f3] dark:bg-[#1a2620] text-[#166534] dark:text-[#86efac] border-[#b8ded0] dark:border-[#274f3d] hover:bg-[#e6f2eb]"
             )}
           >
             <CheckCircle2 size={16} />
@@ -149,24 +149,24 @@ export default function TopicDetailPage() {
           </button>
 
           {status === "not_started" && (
-            <span className="text-xs text-slate-400 italic ml-auto">
+            <span className="text-xs text-[#8c8274] dark:text-[#8f887c] italic ml-auto">
               Chưa học chủ đề này
             </span>
           )}
         </div>
       </div>
 
-      {/* Theory Markdown Content */}
-      <div className="rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/80 p-6 sm:p-8 shadow-sm">
-        <div className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4 pb-2 border-b border-slate-100 dark:border-slate-800">
-          Lý thuyết cốt lõi & Quy tắc ngữ pháp
+      {/* Theory Markdown Content (Includes Section 3 Examples before Section 4 Mnemonics) */}
+      <div className="rounded-3xl bg-[#fdfbf7] dark:bg-[#201e1c] border border-[#e8e0d0] dark:border-[#36332e] p-6 sm:p-8 shadow-xs">
+        <div className="text-xs font-bold uppercase tracking-wider text-[#8c8274] dark:text-[#8f887c] mb-4 pb-2 border-b border-[#ede5d6] dark:border-[#2d2a26]">
+          Lý thuyết cốt lõi & Phân tích ví dụ
         </div>
 
         <RichTheoryRenderer content={topic.theory_md} />
       </div>
 
-      {/* 3 Illustrative Examples */}
-      <ExampleBlock examples={topic.examples} />
+      {/* Interactive 3-Question Quick Quiz */}
+      <InteractiveQuizSection quiz={topic.quiz} />
 
       {/* Book Reference Box (Quyển 1 & Quyển 2) */}
       <BookReferenceBox
@@ -176,12 +176,12 @@ export default function TopicDetailPage() {
       />
 
       {/* Bottom Sticky-like Action & Next/Prev Navigation */}
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-slate-200/80 dark:border-slate-800/80">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#ede5d6] dark:border-[#2d2a26]">
         <div>
           {prevTopic ? (
             <Link
               href={`/roadmap/${phaseId}/${prevTopic.id}`}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-50 transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-[#fdfbf7] dark:bg-[#201e1c] border border-[#e8e0d0] dark:border-[#36332e] text-xs font-bold text-[#4a4237] dark:text-[#d6cebf] hover:bg-[#f5efe3] transition-colors"
             >
               <ChevronLeft size={16} />
               <span>Chủ đề trước: #{prevTopic.order_index}</span>
@@ -194,7 +194,7 @@ export default function TopicDetailPage() {
         <button
           type="button"
           onClick={() => handleUpdateStatus("done")}
-          className="w-full sm:w-auto px-6 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md shadow-emerald-600/25 active:scale-95 transition-all flex items-center justify-center gap-2"
+          className="w-full sm:w-auto px-6 py-3 rounded-2xl bg-emerald-700 hover:bg-emerald-800 dark:bg-emerald-600 text-white font-bold text-sm shadow-xs active:scale-95 transition-all flex items-center justify-center gap-2"
         >
           <CheckCircle2 size={18} />
           <span>Tôi đã làm xong bài tập, hoàn thành!</span>
@@ -204,7 +204,7 @@ export default function TopicDetailPage() {
           {nextTopic ? (
             <Link
               href={`/roadmap/${phaseId}/${nextTopic.id}`}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-900/60 text-xs font-bold text-indigo-700 dark:text-indigo-400 hover:bg-indigo-100 transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-[#f2ebd9] dark:bg-[#2b2723] border border-[#e0d6c1] dark:border-[#3d3731] text-xs font-bold text-[#54493b] dark:text-[#d4c9b8] hover:bg-[#eae0ca] transition-colors"
             >
               <span>Chủ đề tiếp theo: #{nextTopic.order_index}</span>
               <ChevronRight size={16} />

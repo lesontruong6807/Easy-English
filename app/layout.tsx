@@ -22,8 +22,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0f172a" },
+    { media: "(prefers-color-scheme: light)", color: "#f7f4ec" },
+    { media: "(prefers-color-scheme: dark)", color: "#181715" },
   ],
   width: "device-width",
   initialScale: 1,
@@ -47,10 +47,10 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Easy English" />
-        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
-        <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#f7f4ec" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#181715" media="(prefers-color-scheme: dark)" />
       </head>
-      <body className={`${inter.className} min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased selection:bg-indigo-500 selection:text-white`}>
+      <body className={`${inter.className} min-h-screen bg-[#f7f4ec] dark:bg-[#181715] text-[#2d2926] dark:text-[#e6dfd3] antialiased selection:bg-[#435585] selection:text-white`}>
         {children}
       </body>
     </html>
