@@ -3,8 +3,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import {
   getTopicById,
   getPhaseById,
@@ -15,6 +13,7 @@ import {
 import { Topic, Phase, TopicProgressStatus } from "@/lib/types";
 import { ExampleBlock } from "@/components/roadmap/ExampleBlock";
 import { BookReferenceBox } from "@/components/roadmap/BookReferenceBox";
+import { RichTheoryRenderer } from "@/components/roadmap/RichTheoryRenderer";
 import {
   ArrowLeft,
   CheckCircle2,
@@ -163,11 +162,7 @@ export default function TopicDetailPage() {
           Lý thuyết cốt lõi & Quy tắc ngữ pháp
         </div>
 
-        <div className="prose prose-slate dark:prose-invert max-w-none text-slate-800 dark:text-slate-200 text-sm sm:text-base leading-relaxed space-y-4">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>
-            {topic.theory_md}
-          </ReactMarkdown>
-        </div>
+        <RichTheoryRenderer content={topic.theory_md} />
       </div>
 
       {/* 3 Illustrative Examples */}
